@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculadora de tempo | Slides4All</title>
+<meta name="description" content="Guia prático para preparar slides e apresentar trabalhos técnicos, com galeria de exemplos reais em PDF e PPTX.">
+<link rel="stylesheet" href="../../assets/css/site.css">
+  <link rel="alternate" hreflang="pt" href="../../pt/tempo/">
+  <link rel="alternate" hreflang="en" href="../../en/timing/">
+  <link rel="alternate" hreflang="es" href="../../es/tiempo/">
+  <link rel="alternate" hreflang="x-default" href="../../pt/tempo/">
+</head>
+<body>
+<a class="skip" href="#main">Ir para o conteúdo</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../"><span class="brand-name">Slides4All</span><span class="brand-tagline">Como fazer uma ótima apresentação</span></a>
+    <nav class="site-nav" aria-label="Menu"><ul><li><a href="../slides/">Fazer os slides</a></li><li><a href="../apresentar/">Apresentar</a></li><li><a href="../erros/">Erros comuns</a></li><li><a href="../checklist/">Checklist</a></li><li><a href="../tempo/" aria-current="page">Tempo</a></li><li><a href="../galeria/">Galeria</a></li><li><a href="../templates/">Templates</a></li></ul></nav>
+    <nav class="lang" aria-label="Idioma"><a href="../../pt/tempo/" lang="pt" aria-current="true">Português</a><a href="../../en/timing/" lang="en">English</a><a href="../../es/tiempo/" lang="es">Español</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+<h1>Calculadora de tempo</h1>
+<p class="lead">Informe a duração do seu slot e veja quanto tempo cabe em cada parte da apresentação, além da margem que você tem para errar.</p>
+<form class="timing" id="timingForm" autocomplete="off">
+<label class="timing-label" for="timingInput">Duração da apresentação, em minutos</label>
+<input type="number" id="timingInput" min="1" max="180" step="1" value="20" inputmode="numeric">
+<div class="timing-quick"><span>Slots comuns</span>
+<button type="button" class="btn quick" data-min="15">15</button><button type="button" class="btn quick" data-min="20">20</button><button type="button" class="btn quick" data-min="25">25</button><button type="button" class="btn quick" data-min="30">30</button>
+</div></form>
+<section class="block"><h2>Divisão sugerida</h2>
+<table class="timing-table"><tbody><tr><th scope="row">Fundamentação</th><td class="pct">30%</td><td class="val" data-part="foundation">-</td></tr><tr><th scope="row">Objetivo e problema</th><td class="pct">15%</td><td class="val" data-part="problem">-</td></tr><tr><th scope="row">Contribuição e resultados</th><td class="pct">45%</td><td class="val" data-part="contribution">-</td></tr><tr><th scope="row">Considerações e agradecimentos</th><td class="pct">10%</td><td class="val" data-part="closing">-</td></tr></tbody></table></section>
+<section class="block"><h2>Quantos slides</h2>
+<p class="timing-big"><span id="timingSlides">-</span></p>
+<p class="intro">Um slide por minuto é uma boa regra de bolso, mais precisa em apresentações curtas do que em longas.</p></section>
+<section class="block"><h2>Margem de tempo</h2><ul class="rules">
+<li>Meta nos ensaios: terminar dentro de <strong id="timingTol5">-</strong></li>
+<li>Limite absoluto: nunca passar de <strong id="timingTol10">-</strong></li>
+</ul></section>
+<div hidden id="timingStrings" data-min="min" data-sec="s" data-around="aproximadamente" data-oftotal="do tempo total"></div>
+<aside class="note"><p>Se você ficar dois minutos ou mais em um mesmo slide, ele provavelmente tem conteúdo demais e deveria virar dois ou três slides.</p></aside>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Material de livre uso, derivado das sugestões para apresentações do SBSeg 2024.</p>
+    <p><a href="../creditos/">Créditos e autores</a></p>
+  </div>
+</footer>
+<script src="../../assets/js/timing.js" defer></script>
+<script src="../../assets/js/lang.js" defer></script>
+</body>
+</html>

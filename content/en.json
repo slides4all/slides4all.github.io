@@ -1,0 +1,628 @@
+{
+  "lang": "en",
+  "locale": "en",
+  "site": {
+    "name": "Slides4All",
+    "tagline": "How to give a great talk",
+    "description": "A practical guide to building slides and presenting technical work, with a gallery of real examples in PDF and PPTX."
+  },
+  "nav": {
+    "home": "Home",
+    "slides": "Building slides",
+    "presenting": "Presenting",
+    "mistakes": "Common mistakes",
+    "checklist": "Checklist",
+    "timing": "Timing",
+    "gallery": "Gallery",
+    "templates": "Templates",
+    "credits": "Credits"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "language": "Language",
+    "menu": "Menu",
+    "slidesCount": "slides",
+    "download": "Download",
+    "openIn": "Open in",
+    "backToTop": "Back to top",
+    "wrong": "Not like this",
+    "right": "Like this",
+    "why": "Why"
+  },
+  "pages": {
+    "home": {
+      "title": "How to give a great talk",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "A talk exists so that the audience understands your argument and follows your reasoning. If they did not, the talk failed, no matter how good the work behind it was."
+        },
+        {
+          "type": "prose",
+          "paragraphs": [
+            "This site collects what works in practice: how to build the slides, how to rehearse, how to use the time you were given, and how to review everything before sending it. Every recommendation came out of real reviews of accepted conference talks, and almost all of them began as a mistake that kept repeating.",
+            "There is no theory here. There is a set of decisions that improve almost anyone's talk, a gallery of complete examples to copy and adapt, and a checklist to run before you send your slides."
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "kicker": "My slides are ready",
+              "title": "Run the checklist",
+              "text": "{{checklistCount}} concrete items in eight groups. Tick what is done and see what is missing.",
+              "page": "checklist"
+            },
+            {
+              "kicker": "I am starting now",
+              "title": "How to build the slides",
+              "text": "Type, figures, text, visuals, consistency and tables, ordered by how much each one actually matters.",
+              "page": "slides"
+            },
+            {
+              "kicker": "Show me how others did it",
+              "title": "Gallery of examples",
+              "text": "40 complete talks in PDF and PPTX, free to copy and adapt.",
+              "page": "gallery"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "If you only have five minutes",
+          "intro": "These five decisions solve most of the problems that show up in reviews.",
+          "items": [
+            "Make the type bigger. It is by far the most common problem. Assume a large, full room.",
+            "Open your slides on a phone, 50 cm from your eyes. Whatever you cannot read, the audience cannot either.",
+            "When space runs out, cut content. Never shrink the type.",
+            "White background, black text. No gray, no color behind text.",
+            "Rehearse five times, standing and out loud. The delivery only flows from the fifth run onward."
+          ]
+        },
+        {
+          "type": "note",
+          "text": "This site follows the rules it teaches: white background, large type, little color and no ornament. It passes the phone test too."
+        },
+        {
+          "type": "prose",
+          "heading": "Where this material comes from",
+          "paragraphs": [
+            "The starting point was the presentation guidance page of SBSeg 2024, a Brazilian security and privacy symposium, written by a group of researchers for the authors of accepted papers. To that were added the review notes, the summary of suggestions and the checklist produced in 2026 out of dozens of talks reviewed one by one.",
+            "The content is free to use. Copy it, adapt it, translate it and reuse it."
+          ]
+        }
+      ]
+    },
+    "slides": {
+      "title": "How to build the slides",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Slides support what you say. They are not the paper projected on a wall. Everything here serves one goal: the person at the back of the room has to be able to read and understand."
+        },
+        {
+          "type": "section",
+          "heading": "1. Type size and legibility",
+          "intro": "By far the most common problem in every review. If you only fix one thing, fix this one.",
+          "items": [
+            "Use 24pt or larger for slide content, including text inside images and tables.",
+            "Use 32pt or larger for slide titles.",
+            "Run the phone test: open the deck on your phone, about 50 cm from your eyes. If you had to strain, the type is too small.",
+            "Always assume a large, crowded room. The people at the back need to follow too.",
+            "When the content does not fit at a large size, cut the content. Never shrink the type to make it fit.",
+            "Prefer fewer items, shorter phrases and more slides over one dense slide in small type.",
+            "Do not leave large empty areas: it usually means the type or the figure could be bigger."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "2. Figures and charts",
+          "intro": "The top priority is that the figure can be seen, not that the template's framing survives.",
+          "items": [
+            "Figures and charts should take up as much of the slide as possible.",
+            "Complex figures can and should use the entire slide, including 100% of it, covering the title and the footer.",
+            "Present complex figures progressively, across several slides, one step at a time.",
+            "If a figure shows an architecture, a set of steps or a flow and you will discuss each part, give each part its own slide.",
+            "Every experiment has a pipeline or a flowchart. Show that figure: it explains the approach better than any list.",
+            "Prefer vector or high-resolution images, such as SVG, PDF or a large PNG.",
+            "Screenshots of regions of a screen are the worst option. If zooming in shows blur or blocky artifacts, replace the image.",
+            "Remove decorative figures. If you have to choose between keeping a secondary figure and enlarging the type, enlarge the type.",
+            "Use rectangles, circles and arrows to highlight the part you are explaining at that moment."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "3. Text",
+          "intro": "A slide is not prose. Every extra line competes for attention with what you are saying.",
+          "items": [
+            "Prefer short, direct items that act as a guide for your delivery.",
+            "Do not transcribe sentences or paragraphs from the paper onto the slide.",
+            "Avoid complete sentences with subject, verb, object and complements. That is for papers, not for slides.",
+            "Never put a block of text next to a chart. It clutters the slide and gets in the way of reading the figure.",
+            "Avoid strong claims without evidence, such as proven, guaranteed or irrefutable. Is there a formal mathematical proof? If not, change the word.",
+            "Keep one language throughout. Do not mix, as in writing feature with HIGH variância.",
+            "Remove decorative numbers from boxes and use that space to highlight the keywords."
+          ]
+        },
+        {
+          "type": "example",
+          "heading": "The headline technique",
+          "intro": "The simplest way to carry content across is to write like a newspaper headline, and leave the full explanation to your voice.",
+          "before": {
+            "label": "Sentence from a paper",
+            "text": "The new XPTO system developed in this work achieved performance that exceeded the best version in the literature by 30%."
+          },
+          "after": {
+            "label": "Slide headline",
+            "text": "XPTO: 30% faster than the state of the art"
+          }
+        },
+        {
+          "type": "section",
+          "heading": "4. Visuals",
+          "intro": "The rule is always the same: anything that does not help understanding gets in the way.",
+          "items": [
+            "White background, black text. Always avoid gray or colored backgrounds: white helps legibility.",
+            "Do not put colored backgrounds behind text, not even in boxes or panels. If the background color is close to the text color, the damage is worse.",
+            "Do not overdo colors, except when you need to tell data series apart in a chart.",
+            "Use color schemes with good contrast.",
+            "Check the edges of every box and callout: text must not touch or overflow the margin.",
+            "Enlarge the logos on the first slide. They are usually far too small to be recognized.",
+            "Number your slides. It helps the audience take notes and aim their questions, and it helps you track your time.",
+            "A title on every slide is recommended but not mandatory: sometimes enlarging the image is worth more than adding a title."
+          ]
+        },
+        {
+          "type": "links",
+          "heading": "Reading on color and contrast",
+          "items": [
+            {"label": "Choosing colors for your presentation slides", "url": "https://www.thinkoutsidetheslide.com/choosing-colors-for-your-presentation-slides/"},
+            {"label": "Psychology of color in PowerPoint presentations", "url": "https://presentationteam.com/psychology-of-color-in-powerpoint-presentations/"},
+            {"label": "How to choose a color scheme", "url": "https://visme.co/blog/how-to-choose-a-color-scheme/"}
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "5. Consistency",
+          "intro": "Visual consistency has to hold from the first slide to the last. These questions catch nearly every slip.",
+          "items": [
+            "Why is one term abbreviated while another of the same kind is not?",
+            "Why is one label in one language and another in a different one?",
+            "Why is one font larger than another for elements at the same level?",
+            "Why do the same elements use different colors on different slides?",
+            "Why is there a difference in alignment, spacing, size or style between equivalent elements?"
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "6. Tables and related work",
+          "intro": "A table copied from the paper almost never works on a slide. It has to be rebuilt.",
+          "items": [
+            "Rebuild the table for the slide instead of copying the one from the paper.",
+            "Use large type in the table body, not only in the header.",
+            "Check the header: an awkward line break in a column title is the most common defect.",
+            "You rarely need the whole table. Show only the most relevant data.",
+            "You rarely need every table from the paper. Explaining the important numbers well beats rushing through all of them.",
+            "Reveal the table progressively, highlighting the row or column you are explaining."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "The related work table",
+          "intro": "It is not there to list papers. It is there to make the gap your work fills obvious.",
+          "items": [
+            "Make clear what is missing, or what the limitations of previous work are.",
+            "Choose the columns from your own focus: if you evaluate balancing techniques, the table has to show which techniques each work used and on what kind of data.",
+            "If the table appears early in the talk, right after the problem and the challenges, a better title is what exists and what is missing.",
+            "Do not spend much time on related work."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "The shape of the talk",
+          "intro": "The content has to fit the time, and your contribution is what the audience came for.",
+          "items": [
+            "Focus on the problem, the challenges, the solution and the results.",
+            "Long context is rarely relevant and loses the audience halfway through.",
+            "Do not spend time justifying the research. Just state the problem being solved, clearly.",
+            "Try breaking the mold: instead of opening with an outline slide, open with strong motivation or with the problem. The talk becomes far more engaging.",
+            "Prepare backup slides after the closing slide, answering the questions you expect. You never show them during the talk, but they rescue the discussion."
+          ]
+        },
+        {
+          "type": "note",
+          "text": "How many slides? One slide per minute is a useful rule of thumb, more accurate for short talks than for long ones. A text-heavy slide eats more time and drains the audience."
+        }
+      ]
+    },
+    "presenting": {
+      "title": "How to present",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Presenting your work means making the audience understand your argument. They do not have to agree. They do have to understand."
+        },
+        {
+          "type": "section",
+          "heading": "Rehearse, at least five times",
+          "intro": "Rehearsing is not reading the slides silently. It is standing up, speaking out loud and running a clock.",
+          "items": [
+            "Experience shows that only from the fifth or sixth run does the delivery become fluent, well organized and free of repetition.",
+            "Rehearsing fixes the content in memory, calms you down and builds a logical, natural sequence.",
+            "If you can, record audio or video of your rehearsals and listen back later. You will notice things you missed while recording."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "The audience can tell when there was no rehearsal",
+          "intro": "It is not about talent. The signs are always the same.",
+          "items": [
+            "The speaker stumbles and keeps pausing to work out what to say next.",
+            "They repeat what they already said, having found a better way to explain something that should already be clear.",
+            "They fail to deliver the most important message within the time.",
+            "They get cut off before finishing, for running over.",
+            "They run out of time for questions and discussion, which are among the greatest benefits of presenting."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "During the talk",
+          "items": [
+            "Look at the audience. The talk is not for the screen, the laptop, the floor or the ceiling.",
+            "If you are shy, move your gaze across the room, or fix a point at the back, slightly above people's heads.",
+            "Do not read the slides. It signals lack of preparation immediately, and if you rehearsed you will not need to: seeing the slide brings the content back.",
+            "Equally, do not talk about a pile of things that are not on the slide. People get lost when they cannot find visual support for what they are hearing.",
+            "The balance: the slide carries the essentials, your voice adds the fuller sentences.",
+            "If you spend two minutes or more on one slide, it probably has too much on it and should become two or three.",
+            "It is tiring to sit through a talk where the slide almost never changes."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "The time belongs to the event, not to you",
+          "intro": "Respect, respect and respect the time you were allotted.",
+          "items": [
+            "In rehearsal, aim to land within 5% of your allotted time, over or under, not counting questions.",
+            "Never go past 10% on the day. You can lose the right to finish.",
+            "Running over forces the session chair to cut you off, and shows disregard for the rules, the organizers and the audience.",
+            "Finishing far too early is also bad: it wastes valuable time you were given and suggests you had nothing to explain.",
+            "If you are unsure how long your slot is, ask the chair of your track or of the event."
+          ]
+        },
+        {
+          "type": "callout",
+          "heading": "Suggested split of the time",
+          "text": "Your contribution is usually in the final part of the paper, and it deserves the largest share.",
+          "items": [
+            "30% for background",
+            "15% for the goal and the problem",
+            "45% for your contribution, with results, limitations and discussion",
+            "10% for closing remarks, future work and acknowledgements"
+          ],
+          "linkPage": "timing",
+          "linkLabel": "Work it out for my slot"
+        },
+        {
+          "type": "section",
+          "heading": "Before you call it done",
+          "items": [
+            "Review the content with your co-authors at least twice.",
+            "Iterate on the slides several times. Like good writing, a good talk takes cycles of refinement.",
+            "Ask someone who did not work on the deck to review it, on a phone.",
+            "Run the whole checklist, slide by slide."
+          ],
+          "linkPage": "checklist",
+          "linkLabel": "Open the checklist"
+        }
+      ]
+    },
+    "mistakes": {
+      "title": "Common mistakes",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "These are the problems that come up most often in reviews, with the wrong and the fixed version side by side. The examples were recreated from scratch: no deck from the gallery is used here as a negative case."
+        }
+      ],
+      "mistakes": [
+        {
+          "id": "fonte-pequena",
+          "title": "Small type in the body",
+          "why": "By far the most common problem. In a large room, the people at the back simply do not read it. The phone test at 50 cm catches this in seconds.",
+          "fix": "Go up to 24pt or more. If it does not fit, cut items, never the type size.",
+          "wrong": {"kind": "bullets", "variant": "small-type", "title": "Experimental evaluation", "items": ["The experiment was carried out across four distinct scenarios, with 167 runs in total, varying the number of nodes and the arrival rate", "Three reference configurations described in the recent literature on the topic were compared", "Results show a consistent gain across every scenario evaluated, most notably in scenario C", "The limitations observed are discussed in the following section"]},
+          "right": {"kind": "bullets", "variant": "big-type", "title": "Experimental evaluation", "items": ["167 runs, 4 scenarios", "Consistent gain in all of them", "Scenario C: largest effect"]}
+        },
+        {
+          "id": "fundo-cinza",
+          "title": "Gray or colored background",
+          "why": "A colored background cuts contrast and tires the eyes. When the background is close to the text color the damage is severe, and projectors vary far more than your screen does.",
+          "fix": "White background, black text. Save color for highlighting one number.",
+          "wrong": {"kind": "bullets", "variant": "gray-bg", "title": "Proposed solution", "items": ["Four-stage pipeline", "Automatic rule validation", "Runtime containment"]},
+          "right": {"kind": "bullets", "variant": "big-type", "title": "Proposed solution", "items": ["Four-stage pipeline", "Automatic rule validation", "Runtime containment"]}
+        },
+        {
+          "id": "texto-ao-lado-do-grafico",
+          "title": "A block of text beside the chart",
+          "why": "The audience tries to read the text and look at the chart at the same time, and does neither. The chart gets squeezed on top of that.",
+          "fix": "One large chart alone on the slide. The text becomes your voice, or a slide of its own.",
+          "wrong": {"kind": "chart-text", "variant": "cramped", "title": "Results", "items": ["The blue curve is the baseline configuration", "The orange curve is the proposed configuration", "The average gain observed was 30% across the whole range", "Behaviour stays stable from the midpoint onward"]},
+          "right": {"kind": "chart-only", "variant": "big-type", "title": "Proposal beats the baseline across the range"}
+        },
+        {
+          "id": "figura-pequena",
+          "title": "A small figure with space to spare",
+          "why": "Leftover white space almost always means the figure could be larger. Slide space is precious and it is being wasted.",
+          "fix": "Scale the figure to the edge of the slide. If it is complex, let it take 100%, over the title and the footer.",
+          "wrong": {"kind": "figure", "variant": "tiny-figure", "title": "System architecture"},
+          "right": {"kind": "figure", "variant": "full-figure", "title": ""}
+        },
+        {
+          "id": "figura-complexa",
+          "title": "A complex figure on a single slide",
+          "why": "While you explain step 1, half the room is already trying to decode step 4. You lose their attention exactly where it matters most.",
+          "fix": "Break it across slides, one step at a time, adding content with each slide.",
+          "wrong": {"kind": "steps", "variant": "all-at-once", "title": "Pipeline", "steps": ["Collection", "Extraction", "Validation", "Containment"]},
+          "right": {"kind": "steps", "variant": "progressive", "title": "Pipeline, step 2 of 4", "steps": ["Collection", "Extraction", "Validation", "Containment"], "active": 2}
+        },
+        {
+          "id": "numeros-decorativos",
+          "title": "Decorative numbers in boxes",
+          "why": "The big number takes the best space in the box and says nothing. Anyone reading can already see there are three contributions.",
+          "fix": "Drop the number and use the space for the keyword of each contribution, in larger type.",
+          "wrong": {"kind": "boxes", "variant": "numbered", "title": "Contributions", "boxes": [{"n": "01", "text": "Reproducible pipeline for data collection and extraction"}, {"n": "02", "text": "Automatic validation of the generated rules"}, {"n": "03", "text": "Evaluation across four distinct scenarios"}]},
+          "right": {"kind": "boxes", "variant": "keyword", "title": "Contributions", "boxes": [{"key": "Pipeline", "text": "reproducible collection and extraction"}, {"key": "Validation", "text": "automatic, on the generated rules"}, {"key": "Evaluation", "text": "four distinct scenarios"}]}
+        },
+        {
+          "id": "texto-vazando",
+          "title": "Text touching or overflowing the edge",
+          "why": "It looks visibly careless and, on a projector, the last line sometimes disappears entirely. It is the kind of detail an audience notices before the content.",
+          "fix": "Give the text room inside the box and check every edge, one by one.",
+          "wrong": {"kind": "box-text", "variant": "overflow", "text": "The rule is tested against legitimate traffic before going into production, and the outcome of that check feeds the next iteration of the agent"},
+          "right": {"kind": "box-text", "variant": "padded", "text": "The rule is tested against legitimate traffic before going live"}
+        },
+        {
+          "id": "idiomas-misturados",
+          "title": "Two languages mixed together",
+          "why": "Switching language mid-phrase stalls the reader. It is usually accidental, which reads as carelessness.",
+          "fix": "Pick one language and hold it from the first slide to the last, including chart and table labels.",
+          "wrong": {"kind": "bullets", "variant": "mixed-lang", "title": "Feature selection", "items": ["Feature com ALTA variância", "Threshold definido empirically", "Accuracy média por run"]},
+          "right": {"kind": "bullets", "variant": "big-type", "title": "Feature selection", "items": ["Feature with high variance", "Empirically defined threshold", "Mean accuracy per run"]}
+        },
+        {
+          "id": "abreviacao-inconsistente",
+          "title": "Inconsistent abbreviation",
+          "why": "If one term is abbreviated and another at the same level is not, the audience looks for meaning in the difference. There is none, and attention is lost on the way.",
+          "fix": "Either abbreviate everything or nothing. The same goes for color, alignment and size of equivalent elements.",
+          "wrong": {"kind": "table", "variant": "inconsistent", "head": ["CLASSIF.", "Precision", "Recall"], "rows": [["Random Forest", "0.91", "0.88"], ["SVM", "0.87", "0.81"], ["Decision tree", "0.79", "0.74"]]},
+          "right": {"kind": "table", "variant": "consistent", "head": ["Classifier", "Precision", "Recall"], "rows": [["Random Forest", "0.91", "0.88"], ["Support Vector Machine", "0.87", "0.81"], ["Decision tree", "0.79", "0.74"]]}
+        },
+        {
+          "id": "tabela-fonte-pequena",
+          "title": "A table copied from the paper",
+          "why": "The table in the paper was made to be read at 30 cm, on paper, at your own pace. On a slide it becomes a gray smudge of unreadable numbers.",
+          "fix": "Rebuild it for the slide: fewer columns, fewer rows, large type, only what supports the argument.",
+          "wrong": {"kind": "table", "variant": "dense", "head": ["Model", "P", "R", "F1", "AUC", "Time (s)", "Memory (MB)", "Epochs"], "rows": [["Baseline", "0.74", "0.71", "0.72", "0.80", "412", "1280", "50"], ["Variant A", "0.79", "0.77", "0.78", "0.84", "455", "1310", "50"], ["Variant B", "0.83", "0.80", "0.81", "0.87", "498", "1422", "75"], ["Proposal", "0.91", "0.88", "0.89", "0.94", "521", "1450", "75"]]},
+          "right": {"kind": "table", "variant": "consistent", "head": ["Model", "F1"], "rows": [["Baseline", "0.72"], ["Best variant", "0.81"], ["Proposal", "0.89"]]}
+        },
+        {
+          "id": "trabalhos-relacionados",
+          "title": "Related work that only lists papers",
+          "why": "A list of papers tells the audience nothing. What they need to see is the gap your work fills.",
+          "fix": "Choose the columns from your own focus and make the gap visible. If the table comes early, call it what exists and what is missing.",
+          "wrong": {"kind": "table", "variant": "inconsistent", "head": ["Work", "Year", "Area"], "rows": [["Silva et al.", "2021", "Detection"], ["Souza et al.", "2022", "Detection"], ["Lima et al.", "2023", "Classification"]]},
+          "right": {"kind": "table", "variant": "gap", "head": ["Work", "Balancing", "Binary data", "Gap"], "rows": [["Silva et al.", "Not evaluated", "No", "no balancing"], ["Souza et al.", "SMOTE only", "No", "single technique"], ["Lima et al.", "SMOTE, ADASYN", "No", "no binary data"], ["This work", "Six techniques", "Yes", ""]]}
+        },
+        {
+          "id": "logomarca-pequena",
+          "title": "Tiny logos on the first slide",
+          "why": "The first slide stays up while you are being introduced, which is exactly when the institutions could be recognized. With tiny logos, nobody recognizes anything.",
+          "fix": "Make the logos on the opening slide considerably larger.",
+          "wrong": {"kind": "title-logos", "variant": "tiny-logos", "title": "Title of the work", "authors": "Authors, institution"},
+          "right": {"kind": "title-logos", "variant": "big-logos", "title": "Title of the work", "authors": "Authors, institution"}
+        }
+      ]
+    },
+    "checklist": {
+      "title": "Slide review checklist",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Tick every item before calling the talk ready. Your progress is saved in this browser."
+        }
+      ],
+      "ui": {
+        "progress": "items ticked",
+        "reset": "Clear all",
+        "copy": "Copy as text",
+        "copied": "Copied",
+        "allDone": "Checklist complete. Have a good talk.",
+        "resetConfirm": "Untick every item?"
+      }
+    },
+    "timing": {
+      "title": "Timing calculator",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Enter the length of your slot and see how much time each part of the talk gets, plus the margin you have to get it wrong."
+        }
+      ],
+      "ui": {
+        "label": "Talk length, in minutes",
+        "quick": "Common slots",
+        "minutes": "min",
+        "seconds": "s",
+        "parts": "Suggested split",
+        "slidesLabel": "How many slides",
+        "slidesHint": "One slide per minute is a useful rule of thumb, more accurate for short talks than for long ones.",
+        "toleranceLabel": "Time margin",
+        "toleranceTarget": "Rehearsal target: land within",
+        "toleranceLimit": "Hard limit: never go past",
+        "ofTotal": "of the total time",
+        "aroundLabel": "about",
+        "parts_foundation": "Background",
+        "parts_problem": "Goal and problem",
+        "parts_contribution": "Contribution and results",
+        "parts_closing": "Closing and acknowledgements"
+      },
+      "after": [
+        {
+          "type": "note",
+          "text": "If you spend two minutes or more on a single slide, it probably has too much on it and should become two or three slides."
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Gallery of examples",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Complete talks from papers accepted at scientific events, in PDF and in editable formats. Get inspired, copy, adapt and make the most of them. They are free to use."
+        },
+        {
+          "type": "prose",
+          "paragraphs": [
+            "These talks had different slot lengths in their sessions, which explains the variation in slide count. Some follow every recommendation on this site, others follow most of them.",
+            "Most decks are in Portuguese, since they come from Brazilian events. The structure, the pacing and the visual decisions read just as well in any language."
+          ]
+        }
+      ],
+      "ui": {
+        "filterEvent": "Event",
+        "filterTrack": "Kind of work",
+        "filterAll": "All",
+        "results": "examples",
+        "noResults": "No examples match these filters.",
+        "clear": "Clear filters",
+        "slidesLabel": "slides",
+        "authorsLabel": "Authors",
+        "thumbAlt": "First slide of"
+      },
+      "tracks": {
+        "tp": "Main track, full paper",
+        "sf": "Tools track",
+        "wticg": "Undergraduate research workshop",
+        "wrseg": "Regional workshop",
+        "sbrc": "SBRC, networks symposium",
+        "dsn": "DSN"
+      },
+      "events": {
+        "sbseg2026": "SBSeg 2026",
+        "sbseg2023": "SBSeg 2023",
+        "sbseg2022": "SBSeg 2022",
+        "sbseg2021": "SBSeg 2021",
+        "sbseg2020": "SBSeg 2020",
+        "wrseg2023": "WRSeg 2023",
+        "wrseg2020": "WRSeg 2020",
+        "wrseg2018": "WRSeg 2018",
+        "sbrc2020": "SBRC 2020",
+        "dsn2023": "DSN 2023"
+      },
+      "formats": {
+        "pdf": "PDF",
+        "pptx": "PPTX",
+        "latex": "LaTeX",
+        "external": "Online"
+      }
+    },
+    "templates": {
+      "title": "Templates",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Ready starting points. Modify them, edit them and use them freely."
+        }
+      ],
+      "items": [
+        {
+          "name": "SBSeg 2024 template",
+          "text": "The official slide template of the event, with a cover, content slides and a closing slide. It works for any technical talk, not only for SBSeg.",
+          "files": [
+            {"type": "pdf", "url": "assets/slides/template-sbseg2024.pdf"},
+            {"type": "pptx", "url": "assets/slides/template-sbseg2024.pptx"},
+            {"type": "external", "label": "Google Drive", "url": "https://docs.google.com/presentation/d/1PvzQ3sBsGwQsKkTCbjP-egoiiKLnauqWFz26WDW6ykE/edit?usp=sharing"}
+          ],
+          "thumb": "assets/thumbs/template-sbseg2024.png"
+        },
+        {
+          "name": "IFSCyan LaTeX template",
+          "text": "A LaTeX presentation template by Émerson Mello, in the colored variant.",
+          "files": [
+            {"type": "external", "label": "GitHub", "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifscyan"}
+          ]
+        },
+        {
+          "name": "IFSClean LaTeX template",
+          "text": "A LaTeX presentation template by Émerson Mello, in the clean variant, on a white background.",
+          "files": [
+            {"type": "external", "label": "GitHub", "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifsclean"}
+          ]
+        }
+      ]
+    },
+    "credits": {
+      "title": "Credits",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "This site grew out of the presentation guidance page of SBSeg 2024, and out of the review notes written since then."
+        },
+        {
+          "type": "people",
+          "heading": "Authors of the original material",
+          "text": "Presentation guidance page, SBSeg 2024.",
+          "items": [
+            "Diego Kreutz, UNIPAMPA",
+            "Marco A. Amaral Henriques, UNICAMP",
+            "Charles Christian Miers, UDESC",
+            "Cintia Borges Margi, USP",
+            "Rodrigo Brandão Mansilha, UNIPAMPA"
+          ]
+        },
+        {
+          "type": "people",
+          "heading": "Contributors to the original gallery",
+          "items": [
+            "Diego Kreutz",
+            "Émerson Mello",
+            "Felipe Assis",
+            "Felipe Salles",
+            "Isadora Ferrão",
+            "Jessica Sato",
+            "João Otávio Chervinski",
+            "Vinícius Rodrigues"
+          ]
+        },
+        {
+          "type": "prose",
+          "heading": "Authors of the examples",
+          "paragraphs": [
+            "Every talk in the gallery carries the names of its authors. The material is published with permission, as a reference for anyone preparing their own talk.",
+            "If you authored one of the examples and want it removed from the gallery, or want the attribution corrected, just ask."
+          ]
+        },
+        {
+          "type": "links",
+          "heading": "Origin",
+          "items": [
+            {"label": "Presentation guidance, SBSeg 2024", "url": "https://sbseg2024.ita.br/autores/sugestoes-para-apresentacoes/"},
+            {"label": "SBSeg 2024 gallery of examples", "url": "https://sbseg24.github.io/slides/"}
+          ]
+        },
+        {
+          "type": "prose",
+          "heading": "Use and contribution",
+          "paragraphs": [
+            "All content is free to use. Copy it, adapt it, translate it and reuse it in your classes, your supervision and your events.",
+            "If you have a talk that turned out well and want to contribute it to the gallery, get in touch."
+          ]
+        }
+      ]
+    }
+  },
+  "footer": {
+    "origin": "Free to use, derived from the presentation guidance of SBSeg 2024.",
+    "creditsLink": "Credits and authors"
+  }
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Timing calculator | Slides4All</title>
+<meta name="description" content="A practical guide to building slides and presenting technical work, with a gallery of real examples in PDF and PPTX.">
+<link rel="stylesheet" href="../../assets/css/site.css">
+  <link rel="alternate" hreflang="pt" href="../../pt/tempo/">
+  <link rel="alternate" hreflang="en" href="../../en/timing/">
+  <link rel="alternate" hreflang="es" href="../../es/tiempo/">
+  <link rel="alternate" hreflang="x-default" href="../../pt/tempo/">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../"><span class="brand-name">Slides4All</span><span class="brand-tagline">How to give a great talk</span></a>
+    <nav class="site-nav" aria-label="Menu"><ul><li><a href="../slides/">Building slides</a></li><li><a href="../presenting/">Presenting</a></li><li><a href="../mistakes/">Common mistakes</a></li><li><a href="../checklist/">Checklist</a></li><li><a href="../timing/" aria-current="page">Timing</a></li><li><a href="../gallery/">Gallery</a></li><li><a href="../templates/">Templates</a></li></ul></nav>
+    <nav class="lang" aria-label="Language"><a href="../../pt/tempo/" lang="pt">Português</a><a href="../../en/timing/" lang="en" aria-current="true">English</a><a href="../../es/tiempo/" lang="es">Español</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+<h1>Timing calculator</h1>
+<p class="lead">Enter the length of your slot and see how much time each part of the talk gets, plus the margin you have to get it wrong.</p>
+<form class="timing" id="timingForm" autocomplete="off">
+<label class="timing-label" for="timingInput">Talk length, in minutes</label>
+<input type="number" id="timingInput" min="1" max="180" step="1" value="20" inputmode="numeric">
+<div class="timing-quick"><span>Common slots</span>
+<button type="button" class="btn quick" data-min="15">15</button><button type="button" class="btn quick" data-min="20">20</button><button type="button" class="btn quick" data-min="25">25</button><button type="button" class="btn quick" data-min="30">30</button>
+</div></form>
+<section class="block"><h2>Suggested split</h2>
+<table class="timing-table"><tbody><tr><th scope="row">Background</th><td class="pct">30%</td><td class="val" data-part="foundation">-</td></tr><tr><th scope="row">Goal and problem</th><td class="pct">15%</td><td class="val" data-part="problem">-</td></tr><tr><th scope="row">Contribution and results</th><td class="pct">45%</td><td class="val" data-part="contribution">-</td></tr><tr><th scope="row">Closing and acknowledgements</th><td class="pct">10%</td><td class="val" data-part="closing">-</td></tr></tbody></table></section>
+<section class="block"><h2>How many slides</h2>
+<p class="timing-big"><span id="timingSlides">-</span></p>
+<p class="intro">One slide per minute is a useful rule of thumb, more accurate for short talks than for long ones.</p></section>
+<section class="block"><h2>Time margin</h2><ul class="rules">
+<li>Rehearsal target: land within <strong id="timingTol5">-</strong></li>
+<li>Hard limit: never go past <strong id="timingTol10">-</strong></li>
+</ul></section>
+<div hidden id="timingStrings" data-min="min" data-sec="s" data-around="about" data-oftotal="of the total time"></div>
+<aside class="note"><p>If you spend two minutes or more on a single slide, it probably has too much on it and should become two or three slides.</p></aside>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Free to use, derived from the presentation guidance of SBSeg 2024.</p>
+    <p><a href="../credits/">Credits and authors</a></p>
+  </div>
+</footer>
+<script src="../../assets/js/timing.js" defer></script>
+<script src="../../assets/js/lang.js" defer></script>
+</body>
+</html>

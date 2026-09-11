@@ -1,0 +1,627 @@
+{
+  "lang": "pt",
+  "locale": "pt-BR",
+  "site": {
+    "name": "Slides4All",
+    "tagline": "Como fazer uma ótima apresentação",
+    "description": "Guia prático para preparar slides e apresentar trabalhos técnicos, com galeria de exemplos reais em PDF e PPTX."
+  },
+  "nav": {
+    "home": "Início",
+    "slides": "Fazer os slides",
+    "presenting": "Apresentar",
+    "mistakes": "Erros comuns",
+    "checklist": "Checklist",
+    "timing": "Tempo",
+    "gallery": "Galeria",
+    "templates": "Templates",
+    "credits": "Créditos"
+  },
+  "ui": {
+    "skip": "Ir para o conteúdo",
+    "language": "Idioma",
+    "menu": "Menu",
+    "slidesCount": "slides",
+    "download": "Baixar",
+    "openIn": "Abrir em",
+    "backToTop": "Voltar ao topo",
+    "wrong": "Assim não",
+    "right": "Assim sim",
+    "why": "Por quê"
+  },
+  "pages": {
+    "home": {
+      "title": "Como fazer uma ótima apresentação",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Uma apresentação existe para que a plateia entenda o seu argumento e a sua linha de raciocínio. Se ao final ela não entendeu, a apresentação falhou, por melhor que seja o trabalho por trás dela."
+        },
+        {
+          "type": "prose",
+          "paragraphs": [
+            "Este site reúne o que funciona na prática: como montar os slides, como ensaiar, como usar o tempo que lhe deram e como revisar tudo antes de enviar. Cada recomendação veio de revisões reais de apresentações de trabalhos aceitos em eventos científicos, e quase todas nasceram de um erro que se repetiu muitas vezes.",
+            "Não há teoria aqui. Há um conjunto de decisões que melhoram a apresentação de quase todo mundo, uma galeria de exemplos completos para copiar e adaptar, e um checklist para passar antes de mandar os slides."
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "kicker": "Os slides já estão prontos",
+              "title": "Passe o checklist",
+              "text": "{{checklistCount}} itens objetivos, em oito blocos. Marque o que já está feito e veja o que falta.",
+              "page": "checklist"
+            },
+            {
+              "kicker": "Vou começar agora",
+              "title": "Como fazer os slides",
+              "text": "Fontes, figuras, texto, visual, consistência e tabelas. A ordem é a do impacto real.",
+              "page": "slides"
+            },
+            {
+              "kicker": "Quero ver como os outros fizeram",
+              "title": "Galeria de exemplos",
+              "text": "40 apresentações completas, em PDF e PPTX, livres para copiar e adaptar.",
+              "page": "gallery"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Se você só tiver cinco minutos",
+          "intro": "Estas cinco decisões resolvem a maior parte dos problemas que aparecem nas revisões.",
+          "items": [
+            "Aumente as fontes. É o problema mais recorrente de todos. Assuma sala grande e lotada.",
+            "Abra os slides no celular, a 50 cm dos olhos. O que você não conseguir ler, a plateia também não vai.",
+            "Quando faltar espaço, corte conteúdo. Nunca diminua a fonte.",
+            "Fundo branco, texto preto. Sem cinza, sem colorido atrás do texto.",
+            "Ensaie cinco vezes, em pé e falando alto. O discurso só flui a partir do quinto ensaio."
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este site aplica em si mesmo as regras que ensina: fundo branco, tipografia grande, pouca cor e nenhum enfeite. Ele também passa no teste do celular."
+        },
+        {
+          "type": "prose",
+          "heading": "De onde vem este material",
+          "paragraphs": [
+            "O ponto de partida foi a página de sugestões para apresentações do SBSeg 2024, escrita por um grupo de pesquisadores para os autores dos trabalhos aceitos naquele evento. A ela somaram-se as notas de revisão, a síntese de sugestões e o checklist produzidos em 2026 a partir de dezenas de apresentações revisadas uma a uma.",
+            "O conteúdo é de livre uso. Copie, adapte, traduza e reaproveite."
+          ]
+        }
+      ]
+    },
+    "slides": {
+      "title": "Como fazer os slides",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Os slides são o apoio da sua fala, não o texto do artigo projetado na parede. Tudo aqui serve a um único objetivo: a pessoa no fundo da sala precisa conseguir ler e entender."
+        },
+        {
+          "type": "section",
+          "heading": "1. Fontes e legibilidade",
+          "intro": "É o problema mais recorrente em todas as revisões, de longe. Se você só for corrigir uma coisa, corrija esta.",
+          "items": [
+            "Use 24pt ou mais no conteúdo dos slides, incluindo o texto dentro de imagens e tabelas.",
+            "Use 32pt ou mais nos títulos dos slides.",
+            "Faça o teste do celular: abra o deck no telefone, a uns 50 cm dos olhos. Se não deu para ler sem esforço, a fonte está pequena.",
+            "Assuma sempre uma sala grande e lotada. Quem está no fundo também precisa acompanhar.",
+            "Quando o conteúdo não couber com fonte grande, corte o conteúdo. Nunca diminua a fonte para caber.",
+            "Prefira menos itens, frases mais curtas e mais slides a um slide denso com letra pequena.",
+            "Não deixe muito espaço em branco sobrando: em geral é sinal de que a fonte ou a figura poderiam ser maiores."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "2. Figuras e gráficos",
+          "intro": "A prioridade máxima é a boa visualização da figura, não preservar o enquadramento do template.",
+          "items": [
+            "Figuras e gráficos devem ocupar o máximo de espaço possível do slide.",
+            "Figuras complexas podem e devem usar o slide inteiro, inclusive 100% dele, sobrepondo título e rodapé.",
+            "Apresente figuras complexas progressivamente, em vários slides, uma etapa por vez.",
+            "Se a figura mostra arquitetura, etapas ou fluxo e você vai falar de cada parte, faça um slide por parte.",
+            "Todo experimento tem um pipeline ou fluxograma. Mostre essa figura: ela explica a abordagem melhor que qualquer lista.",
+            "Prefira imagens vetoriais ou de alta definição, como SVG, PDF ou PNG grande.",
+            "Recorte de tela é a pior alternativa. Se der zoom e aparecer borrão ou quadriculado, troque a imagem.",
+            "Remova figuras decorativas. Se for preciso escolher entre manter uma figura secundária e aumentar a fonte, aumente a fonte.",
+            "Use retângulos, círculos e setas para destacar a parte que você está explicando naquele momento."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "3. Texto",
+          "intro": "Slide não é texto corrido. Cada linha a mais disputa a atenção com o que você está falando.",
+          "items": [
+            "Prefira itens curtos e diretos, que sirvam de guia para a sua fala.",
+            "Não transcreva frases nem parágrafos do artigo para o slide.",
+            "Evite sentenças completas, com sujeito, verbo, objeto e complementos. Isso é para texto, não para slide.",
+            "Não coloque bloco de texto ao lado de um gráfico. Ele polui o slide e atrapalha a leitura da figura.",
+            "Evite palavras e afirmações fortes sem evidência, como comprovado, garantido ou irrefutável. Existe prova matemática formal? Se não, troque a palavra.",
+            "Padronize o idioma: ou tudo em português, ou tudo em inglês. Nada de misturar, como escrever feature com ALTA variância.",
+            "Remova números decorativos das caixinhas e use o espaço para destacar as palavras-chave."
+          ]
+        },
+        {
+          "type": "example",
+          "heading": "A técnica da manchete",
+          "intro": "A forma mais simples de passar o conteúdo é escrever como manchete de jornal, e deixar a explicação completa para a fala.",
+          "before": {
+            "label": "Frase de artigo",
+            "text": "O novo sistema XPTO desenvolvido neste trabalho teve um desempenho que superou em 30% a melhor versão da literatura."
+          },
+          "after": {
+            "label": "Manchete de slide",
+            "text": "XPTO: desempenho 30% superior ao estado da arte"
+          }
+        },
+        {
+          "type": "section",
+          "heading": "4. Visual",
+          "intro": "A regra é sempre a mesma: tudo que não ajuda a entender, atrapalha.",
+          "items": [
+            "Fundo branco e texto preto. Evite sempre fundo cinza ou colorido: o branco favorece a legibilidade.",
+            "Não use fundo colorido atrás de texto, nem em caixas ou quadros. Se a cor do fundo for parecida com a do texto, o estrago é maior ainda.",
+            "Não exagere na quantidade de cores, exceto quando for necessário diferenciar dados em um gráfico.",
+            "Use esquemas de cores com bom contraste.",
+            "Confira as bordas de todas as caixas e balões: o texto não pode encostar nem vazar da margem.",
+            "Aumente as logomarcas do primeiro slide. Elas costumam ficar pequenas demais para serem reconhecidas.",
+            "Numere os slides. Ajuda a plateia a anotar e a direcionar perguntas, e ajuda você a controlar o tempo.",
+            "Título em todo slide é recomendável, mas não é obrigatório: às vezes aumentar a imagem vale mais que colocar um título."
+          ]
+        },
+        {
+          "type": "links",
+          "heading": "Leituras sobre cor e contraste",
+          "items": [
+            {"label": "Choosing colors for your presentation slides", "url": "https://www.thinkoutsidetheslide.com/choosing-colors-for-your-presentation-slides/"},
+            {"label": "Psychology of color in PowerPoint presentations", "url": "https://presentationteam.com/psychology-of-color-in-powerpoint-presentations/"},
+            {"label": "How to choose a color scheme", "url": "https://visme.co/blog/how-to-choose-a-color-scheme/"}
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "5. Consistência",
+          "intro": "A consistência visual precisa valer do primeiro ao último slide. Estas perguntas pegam quase todos os deslizes.",
+          "items": [
+            "Por que um termo está abreviado e outro do mesmo tipo não está?",
+            "Por que um nome está em português e outro em inglês?",
+            "Por que uma fonte está maior que outra para elementos do mesmo nível?",
+            "Por que os mesmos elementos usam cores diferentes em slides diferentes?",
+            "Por que há diferença de alinhamento, espaçamento, tamanho ou estilo entre elementos equivalentes?"
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "6. Tabelas e trabalhos relacionados",
+          "intro": "Tabela copiada do artigo quase nunca funciona no slide. Ela precisa ser refeita.",
+          "items": [
+            "Reconstrua a tabela para o slide, em vez de copiar a do artigo.",
+            "Use fonte grande no conteúdo da tabela, não só no cabeçalho.",
+            "Confira o cabeçalho: quebra de linha estranha em título de coluna é o defeito mais comum.",
+            "Nem sempre é preciso mostrar a tabela inteira. Apresente só os dados mais relevantes.",
+            "Nem sempre é preciso mostrar todas as tabelas do artigo. Explicar bem os dados importantes vale mais do que passar por tudo correndo.",
+            "Exiba a tabela progressivamente, destacando a linha ou coluna que está sendo explicada."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "A tabela de trabalhos relacionados",
+          "intro": "Ela não serve para listar trabalhos. Serve para deixar evidente a lacuna que o seu trabalho preenche.",
+          "items": [
+            "Deixe claro o que falta ou quais são as limitações dos trabalhos anteriores.",
+            "Escolha as colunas a partir do foco do seu trabalho: se você avalia técnicas de balanceamento, a tabela precisa mostrar quais técnicas cada trabalho usou e em que tipo de dado.",
+            "Se a tabela aparece no início da apresentação, logo depois do problema e dos desafios, o título melhor é o que já existe e o que falta.",
+            "Não gaste muito tempo nos trabalhos relacionados."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "A estrutura da apresentação",
+          "intro": "O conteúdo precisa caber no tempo, e a sua contribuição é o que a plateia veio ouvir.",
+          "items": [
+            "Foque no problema, nos desafios, na solução e nos resultados.",
+            "Contexto longo é pouco relevante e faz você perder a plateia no meio do caminho.",
+            "Não gaste tempo justificando a pesquisa. Apresente claramente o problema que está sendo resolvido.",
+            "Experimente fugir do clássico: em vez de abrir com o slide de roteiro, abra com uma motivação forte ou com o problema. A apresentação fica mais envolvente.",
+            "Prepare slides de reserva, depois do slide final, com respostas para as perguntas prováveis da banca. Você não os mostra na apresentação, mas eles salvam a discussão."
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Quantos slides fazer? Um slide por minuto é uma boa regra de bolso, mais precisa em apresentações curtas do que em longas. Slide com muito texto consome mais tempo e desmotiva a plateia."
+        }
+      ]
+    },
+    "presenting": {
+      "title": "Como apresentar",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Apresentar um trabalho é fazer a plateia entender os seus argumentos. Não é necessário que concordem, é necessário que entendam."
+        },
+        {
+          "type": "section",
+          "heading": "Ensaie, pelo menos cinco vezes",
+          "intro": "Ensaio não é ler os slides em silêncio. É levantar, falar alto e cronometrar.",
+          "items": [
+            "A experiência mostra que só a partir do quinto ou sexto ensaio o discurso fica fluido, bem organizado e sem redundância.",
+            "Ensaiar fixa o conteúdo, acalma e cria uma sequência lógica e natural para a fala.",
+            "Se puder, grave áudio ou vídeo dos ensaios e ouça algum tempo depois. Você vai perceber pontos que não notou durante a gravação."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "A plateia percebe quando não houve ensaio",
+          "intro": "Não é uma questão de talento. Os sinais são sempre os mesmos.",
+          "items": [
+            "A pessoa gagueja e para várias vezes para pensar no que vai falar.",
+            "Repete o que já falou, porque achou uma forma melhor de explicar o que já deveria estar claro.",
+            "Não consegue passar a mensagem mais relevante do trabalho dentro do tempo.",
+            "É interrompida antes de terminar, por ter excedido o tempo.",
+            "Fica sem tempo para perguntas e discussão, que estão entre os maiores benefícios de apresentar."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Durante a apresentação",
+          "items": [
+            "Olhe para o público. A apresentação não é para a tela, para o computador, para o chão nem para o teto.",
+            "Se você for tímido, mude o olhar de um lado para o outro da plateia, ou fixe um ponto no fundo da sala, um pouco acima das cabeças.",
+            "Não fique lendo os slides. Passa impressão imediata de despreparo, e quem ensaiou não precisa ler: ao ver o slide, o conteúdo já vem à cabeça.",
+            "Também não fale de um monte de coisas que não estão no slide. A plateia se perde quando não encontra apoio visual para o que ouve.",
+            "O equilíbrio: o slide traz o essencial, a sua fala complementa com frases mais elaboradas.",
+            "Se você passar dois minutos ou mais no mesmo slide, provavelmente ele tem conteúdo demais e deveria virar dois ou três.",
+            "É maçante para a plateia acompanhar uma apresentação que quase não troca de slide."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "O tempo é do evento, não seu",
+          "intro": "Respeite, respeite e respeite o tempo alocado.",
+          "items": [
+            "Tenha como meta, nos ensaios, uma tolerância de 5% do tempo alocado, para mais ou para menos, sem contar o tempo de perguntas.",
+            "Jamais ultrapasse a marca de 10% de tolerância no momento da apresentação. Você pode perder o direito de concluir.",
+            "Não terminar no tempo obriga o presidente da sessão a interromper você, e demonstra desprezo pelas regras, pelos organizadores e pela plateia.",
+            "Terminar muito antes também é ruim: desperdiça um tempo de ouro que lhe foi concedido e sugere que você não tinha o que explicar.",
+            "Se tiver dúvida sobre a duração do seu slot, procure o chair da sua trilha ou do evento."
+          ]
+        },
+        {
+          "type": "callout",
+          "heading": "Divisão sugerida do tempo",
+          "text": "Sua contribuição costuma estar na parte final do artigo, e é ela que merece a maior fatia.",
+          "items": [
+            "30% para a fundamentação",
+            "15% para o objetivo e o problema",
+            "45% para a contribuição, com resultados, limitações e discussão",
+            "10% para considerações finais, trabalhos futuros e agradecimentos"
+          ],
+          "linkPage": "timing",
+          "linkLabel": "Calcular para o meu tempo"
+        },
+        {
+          "type": "section",
+          "heading": "Antes de considerar pronto",
+          "items": [
+            "Faça pelo menos duas revisões do conteúdo com os coautores.",
+            "Faça várias iterações de melhoria nos slides. Assim como um bom texto, uma boa apresentação demanda ciclos de refinamento.",
+            "Peça para alguém que não participou da elaboração revisar os slides, no celular.",
+            "Passe o checklist inteiro, slide por slide."
+          ],
+          "linkPage": "checklist",
+          "linkLabel": "Abrir o checklist"
+        }
+      ]
+    },
+    "mistakes": {
+      "title": "Erros comuns",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Estes são os problemas que mais aparecem nas revisões, com a versão errada e a corrigida lado a lado. Os exemplos foram recriados do zero: nenhum deck da galeria é usado aqui como caso negativo."
+        }
+      ],
+      "mistakes": [
+        {
+          "id": "fonte-pequena",
+          "title": "Fonte pequena no conteúdo",
+          "why": "É o problema mais recorrente de todos. Na sala grande, quem está no fundo simplesmente não lê. O teste do celular a 50 cm pega isso em segundos.",
+          "fix": "Suba para 24pt ou mais. Se não couber, corte itens, nunca a fonte.",
+          "wrong": {"kind": "bullets", "variant": "small-type", "title": "Avaliação experimental", "items": ["O experimento foi conduzido em quatro cenários distintos, com 167 execuções no total, variando o número de nós e a taxa de chegada", "Foram comparadas três configurações de referência descritas na literatura recente sobre o tema", "Os resultados indicam ganho consistente em todos os cenários avaliados, com destaque para o cenário C", "As limitações observadas são discutidas na seção seguinte"]},
+          "right": {"kind": "bullets", "variant": "big-type", "title": "Avaliação experimental", "items": ["167 execuções, 4 cenários", "Ganho consistente em todos", "Cenário C: maior efeito"]}
+        },
+        {
+          "id": "fundo-cinza",
+          "title": "Fundo cinza ou colorido",
+          "why": "O fundo colorido reduz o contraste e cansa a vista. Quando a cor do fundo é próxima da cor do texto, o estrago é grande, e projetores variam muito mais do que a sua tela.",
+          "fix": "Fundo branco, texto preto. Guarde a cor para destacar um dado.",
+          "wrong": {"kind": "bullets", "variant": "gray-bg", "title": "Solução proposta", "items": ["Pipeline em quatro etapas", "Validação automática de regras", "Contenção em tempo de execução"]},
+          "right": {"kind": "bullets", "variant": "big-type", "title": "Solução proposta", "items": ["Pipeline em quatro etapas", "Validação automática de regras", "Contenção em tempo de execução"]}
+        },
+        {
+          "id": "texto-ao-lado-do-grafico",
+          "title": "Bloco de texto ao lado do gráfico",
+          "why": "A plateia tenta ler o texto e olhar o gráfico ao mesmo tempo, e não faz nem uma coisa nem outra. O gráfico ainda por cima fica espremido.",
+          "fix": "Gráfico grande sozinho no slide. O texto vira a sua fala, ou um slide próprio.",
+          "wrong": {"kind": "chart-text", "variant": "cramped", "title": "Resultados", "items": ["A curva azul representa a configuração base", "A curva laranja representa a configuração proposta", "O ganho médio observado foi de 30% ao longo de toda a faixa", "O comportamento se mantém estável a partir do ponto médio"]},
+          "right": {"kind": "chart-only", "variant": "big-type", "title": "Proposta supera a base em toda a faixa"}
+        },
+        {
+          "id": "figura-pequena",
+          "title": "Figura pequena com espaço sobrando",
+          "why": "Espaço em branco sobrando quase sempre significa que a figura poderia estar maior. O espaço do slide é nobre e está sendo desperdiçado.",
+          "fix": "Amplie a figura até o limite do slide. Se for complexa, deixe ela ocupar 100%, por cima do título e do rodapé.",
+          "wrong": {"kind": "figure", "variant": "tiny-figure", "title": "Arquitetura do sistema"},
+          "right": {"kind": "figure", "variant": "full-figure", "title": ""}
+        },
+        {
+          "id": "figura-complexa",
+          "title": "Figura complexa num slide só",
+          "why": "Enquanto você explica a etapa 1, metade da plateia já está tentando decifrar a etapa 4. Você perde a atenção justamente na parte mais importante.",
+          "fix": "Quebre em vários slides, uma etapa por vez, acrescentando conteúdo a cada slide.",
+          "wrong": {"kind": "steps", "variant": "all-at-once", "title": "Pipeline", "steps": ["Coleta", "Extração", "Validação", "Contenção"]},
+          "right": {"kind": "steps", "variant": "progressive", "title": "Pipeline, etapa 2 de 4", "steps": ["Coleta", "Extração", "Validação", "Contenção"], "active": 2}
+        },
+        {
+          "id": "numeros-decorativos",
+          "title": "Números decorativos nas caixas",
+          "why": "O número grande ocupa o espaço mais nobre da caixa sem dizer nada. Quem lê já sabe que são três contribuições.",
+          "fix": "Remova o número e use o espaço para a palavra-chave da contribuição, em fonte maior.",
+          "wrong": {"kind": "boxes", "variant": "numbered", "title": "Contribuições", "boxes": [{"n": "01", "text": "Pipeline reprodutível de coleta e extração de dados"}, {"n": "02", "text": "Validação automática das regras geradas"}, {"n": "03", "text": "Avaliação em quatro cenários distintos"}]},
+          "right": {"kind": "boxes", "variant": "keyword", "title": "Contribuições", "boxes": [{"key": "Pipeline", "text": "coleta e extração reprodutíveis"}, {"key": "Validação", "text": "automática das regras geradas"}, {"key": "Avaliação", "text": "quatro cenários distintos"}]}
+        },
+        {
+          "id": "texto-vazando",
+          "title": "Texto encostando ou vazando da borda",
+          "why": "Fica visivelmente desleixado e, no projetor, a última linha às vezes some de vez. É o tipo de detalhe que a plateia nota antes do conteúdo.",
+          "fix": "Dê respiro dentro da caixa e confira todas as bordas, uma a uma.",
+          "wrong": {"kind": "box-text", "variant": "overflow", "text": "A regra é testada com tráfego legítimo antes de entrar em produção, e o resultado da checagem alimenta a próxima iteração do agente"},
+          "right": {"kind": "box-text", "variant": "padded", "text": "A regra é testada com tráfego legítimo antes de entrar em produção"}
+        },
+        {
+          "id": "idiomas-misturados",
+          "title": "Português e inglês misturados",
+          "why": "A troca de idioma no meio da frase trava a leitura. E costuma ser acidental, o que passa impressão de descuido.",
+          "fix": "Escolha um idioma e mantenha do primeiro ao último slide, inclusive nos rótulos de gráficos e tabelas.",
+          "wrong": {"kind": "bullets", "variant": "mixed-lang", "title": "Feature selection", "items": ["Feature com ALTA variância", "Threshold definido empiricamente", "Accuracy média por execução"]},
+          "right": {"kind": "bullets", "variant": "big-type", "title": "Seleção de características", "items": ["Característica com alta variância", "Limiar definido empiricamente", "Acurácia média por execução"]}
+        },
+        {
+          "id": "abreviacao-inconsistente",
+          "title": "Abreviação inconsistente",
+          "why": "Se um termo aparece abreviado e outro do mesmo nível não, a plateia procura um significado na diferença. Não há nenhum, e a atenção se perde no caminho.",
+          "fix": "Ou abrevia tudo, ou não abrevia nada. Vale também para cor, alinhamento e tamanho de elementos equivalentes.",
+          "wrong": {"kind": "table", "variant": "inconsistent", "head": ["CLASSIF.", "Precisão", "Recall"], "rows": [["Random Forest", "0,91", "0,88"], ["SVM", "0,87", "0,81"], ["Árvore de decisão", "0,79", "0,74"]]},
+          "right": {"kind": "table", "variant": "consistent", "head": ["Classificador", "Precisão", "Revocação"], "rows": [["Random Forest", "0,91", "0,88"], ["SVM", "0,87", "0,81"], ["Árvore de decisão", "0,79", "0,74"]]}
+        },
+        {
+          "id": "tabela-fonte-pequena",
+          "title": "Tabela copiada do artigo",
+          "why": "A tabela do artigo foi feita para ser lida a 30 cm, no papel, com tempo. No slide, ela vira uma mancha cinza com números ilegíveis.",
+          "fix": "Refaça a tabela para o slide: menos colunas, menos linhas, fonte grande, só o que importa para o argumento.",
+          "wrong": {"kind": "table", "variant": "dense", "head": ["Modelo", "P", "R", "F1", "AUC", "Tempo (s)", "Memória (MB)", "Épocas"], "rows": [["Base", "0,74", "0,71", "0,72", "0,80", "412", "1280", "50"], ["Variante A", "0,79", "0,77", "0,78", "0,84", "455", "1310", "50"], ["Variante B", "0,83", "0,80", "0,81", "0,87", "498", "1422", "75"], ["Proposta", "0,91", "0,88", "0,89", "0,94", "521", "1450", "75"]]},
+          "right": {"kind": "table", "variant": "consistent", "head": ["Modelo", "F1"], "rows": [["Base", "0,72"], ["Melhor variante", "0,81"], ["Proposta", "0,89"]]}
+        },
+        {
+          "id": "trabalhos-relacionados",
+          "title": "Trabalhos relacionados que só listam",
+          "why": "Listar trabalhos não diz nada à plateia. O que ela precisa ver é a lacuna que o seu trabalho preenche.",
+          "fix": "Escolha as colunas a partir do seu foco e deixe a lacuna visível. Se a tabela vem no início, chame de o que já existe e o que falta.",
+          "wrong": {"kind": "table", "variant": "inconsistent", "head": ["Trabalho", "Ano", "Área"], "rows": [["Silva et al.", "2021", "Detecção"], ["Souza et al.", "2022", "Detecção"], ["Lima et al.", "2023", "Classificação"]]},
+          "right": {"kind": "table", "variant": "gap", "head": ["Trabalho", "Balanceamento", "Dado binário", "Lacuna"], "rows": [["Silva et al.", "Não avalia", "Não", "sem balanceamento"], ["Souza et al.", "SMOTE apenas", "Não", "uma técnica só"], ["Lima et al.", "SMOTE, ADASYN", "Não", "não cobre binário"], ["Este trabalho", "Seis técnicas", "Sim", ""]]}
+        },
+        {
+          "id": "logomarca-pequena",
+          "title": "Logomarca minúscula no primeiro slide",
+          "why": "O primeiro slide fica no ar enquanto você é apresentado, e é o momento em que as instituições poderiam ser reconhecidas. Com a logomarca pequena, ninguém identifica nada.",
+          "fix": "Aumente bastante as logomarcas do slide de abertura.",
+          "wrong": {"kind": "title-logos", "variant": "tiny-logos", "title": "Título do trabalho", "authors": "Autores, instituição"},
+          "right": {"kind": "title-logos", "variant": "big-logos", "title": "Título do trabalho", "authors": "Autores, instituição"}
+        }
+      ]
+    },
+    "checklist": {
+      "title": "Checklist de revisão de slides",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Marque cada item antes de considerar a apresentação pronta. O progresso fica salvo neste navegador."
+        }
+      ],
+      "ui": {
+        "progress": "itens marcados",
+        "reset": "Limpar tudo",
+        "copy": "Copiar como texto",
+        "copied": "Copiado",
+        "allDone": "Checklist completo. Boa apresentação.",
+        "resetConfirm": "Desmarcar todos os itens?"
+      }
+    },
+    "timing": {
+      "title": "Calculadora de tempo",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Informe a duração do seu slot e veja quanto tempo cabe em cada parte da apresentação, além da margem que você tem para errar."
+        }
+      ],
+      "ui": {
+        "label": "Duração da apresentação, em minutos",
+        "quick": "Slots comuns",
+        "minutes": "min",
+        "seconds": "s",
+        "parts": "Divisão sugerida",
+        "slidesLabel": "Quantos slides",
+        "slidesHint": "Um slide por minuto é uma boa regra de bolso, mais precisa em apresentações curtas do que em longas.",
+        "toleranceLabel": "Margem de tempo",
+        "toleranceTarget": "Meta nos ensaios: terminar dentro de",
+        "toleranceLimit": "Limite absoluto: nunca passar de",
+        "ofTotal": "do tempo total",
+        "aroundLabel": "aproximadamente",
+        "parts_foundation": "Fundamentação",
+        "parts_problem": "Objetivo e problema",
+        "parts_contribution": "Contribuição e resultados",
+        "parts_closing": "Considerações e agradecimentos"
+      },
+      "after": [
+        {
+          "type": "note",
+          "text": "Se você ficar dois minutos ou mais em um mesmo slide, ele provavelmente tem conteúdo demais e deveria virar dois ou três slides."
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Galeria de exemplos",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Apresentações completas de trabalhos aceitos em eventos científicos, em PDF e em formato editável. Inspire-se, copie, adapte e aproveite. São de livre uso."
+        },
+        {
+          "type": "prose",
+          "paragraphs": [
+            "Os exemplos tiveram tempos de apresentação diferentes em suas sessões, o que explica a variação no número de slides. Alguns seguem todas as recomendações deste site, outros seguem boa parte delas."
+          ]
+        }
+      ],
+      "ui": {
+        "filterEvent": "Evento",
+        "filterTrack": "Tipo de trabalho",
+        "filterAll": "Todos",
+        "results": "exemplos",
+        "noResults": "Nenhum exemplo com esses filtros.",
+        "clear": "Limpar filtros",
+        "slidesLabel": "slides",
+        "authorsLabel": "Autores",
+        "thumbAlt": "Primeiro slide de"
+      },
+      "tracks": {
+        "tp": "Trilha principal",
+        "sf": "Salão de ferramentas",
+        "wticg": "WTICG, iniciação científica",
+        "wrseg": "WRSeg, workshop regional",
+        "sbrc": "SBRC",
+        "dsn": "DSN"
+      },
+      "events": {
+        "sbseg2026": "SBSeg 2026",
+        "sbseg2023": "SBSeg 2023",
+        "sbseg2022": "SBSeg 2022",
+        "sbseg2021": "SBSeg 2021",
+        "sbseg2020": "SBSeg 2020",
+        "wrseg2023": "WRSeg 2023",
+        "wrseg2020": "WRSeg 2020",
+        "wrseg2018": "WRSeg 2018",
+        "sbrc2020": "SBRC 2020",
+        "dsn2023": "DSN 2023"
+      },
+      "formats": {
+        "pdf": "PDF",
+        "pptx": "PPTX",
+        "latex": "LaTeX",
+        "external": "Online"
+      }
+    },
+    "templates": {
+      "title": "Templates",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Pontos de partida prontos. Modifique, edite e use livremente."
+        }
+      ],
+      "items": [
+        {
+          "name": "Template do SBSeg 2024",
+          "text": "Template oficial de slides do evento, com capa, slides de conteúdo e encerramento. Serve para qualquer apresentação técnica, não só para o SBSeg.",
+          "files": [
+            {"type": "pdf", "url": "assets/slides/template-sbseg2024.pdf"},
+            {"type": "pptx", "url": "assets/slides/template-sbseg2024.pptx"},
+            {"type": "external", "label": "Google Drive", "url": "https://docs.google.com/presentation/d/1PvzQ3sBsGwQsKkTCbjP-egoiiKLnauqWFz26WDW6ykE/edit?usp=sharing"}
+          ],
+          "thumb": "assets/thumbs/template-sbseg2024.png"
+        },
+        {
+          "name": "Template LaTeX IFSCyan",
+          "text": "Template de apresentação em LaTeX, de Émerson Mello, na variante colorida.",
+          "files": [
+            {"type": "external", "label": "GitHub", "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifscyan"}
+          ]
+        },
+        {
+          "name": "Template LaTeX IFSClean",
+          "text": "Template de apresentação em LaTeX, de Émerson Mello, na variante limpa, com fundo branco.",
+          "files": [
+            {"type": "external", "label": "GitHub", "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifsclean"}
+          ]
+        }
+      ]
+    },
+    "credits": {
+      "title": "Créditos",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Este site nasceu da página de sugestões para apresentações do SBSeg 2024 e cresceu com as notas de revisão produzidas desde então."
+        },
+        {
+          "type": "people",
+          "heading": "Autores do material original",
+          "text": "Página de sugestões para apresentações do SBSeg 2024.",
+          "items": [
+            "Diego Kreutz, UNIPAMPA",
+            "Marco A. Amaral Henriques, UNICAMP",
+            "Charles Christian Miers, UDESC",
+            "Cintia Borges Margi, USP",
+            "Rodrigo Brandão Mansilha, UNIPAMPA"
+          ]
+        },
+        {
+          "type": "people",
+          "heading": "Contribuidores da galeria original",
+          "items": [
+            "Diego Kreutz",
+            "Émerson Mello",
+            "Felipe Assis",
+            "Felipe Salles",
+            "Isadora Ferrão",
+            "Jessica Sato",
+            "João Otávio Chervinski",
+            "Vinícius Rodrigues"
+          ]
+        },
+        {
+          "type": "prose",
+          "heading": "Autores dos exemplos",
+          "paragraphs": [
+            "Cada apresentação da galeria traz o nome de seus autores. O material é publicado com autorização, para servir de referência a quem está preparando a própria apresentação.",
+            "Se você é autor de um exemplo e quer que ele saia da galeria, ou quer corrigir a atribuição, basta pedir."
+          ]
+        },
+        {
+          "type": "links",
+          "heading": "Origem",
+          "items": [
+            {"label": "Sugestões para apresentações, SBSeg 2024", "url": "https://sbseg2024.ita.br/autores/sugestoes-para-apresentacoes/"},
+            {"label": "Galeria de exemplos do SBSeg 2024", "url": "https://sbseg24.github.io/slides/"}
+          ]
+        },
+        {
+          "type": "prose",
+          "heading": "Uso e contribuição",
+          "paragraphs": [
+            "Todo o conteúdo é de livre uso. Copie, adapte, traduza e reaproveite em suas aulas, orientações e eventos.",
+            "Se você tem uma apresentação que ficou boa e quer contribuir com a galeria, entre em contato."
+          ]
+        }
+      ]
+    }
+  },
+  "footer": {
+    "origin": "Material de livre uso, derivado das sugestões para apresentações do SBSeg 2024.",
+    "creditsLink": "Créditos e autores"
+  }
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slides4All</title>
+<link rel="stylesheet" href="assets/css/site.css">
+  <link rel="alternate" hreflang="pt" href="pt/">
+  <link rel="alternate" hreflang="en" href="en/">
+  <link rel="alternate" hreflang="es" href="es/">
+  <link rel="alternate" hreflang="x-default" href="pt/">
+<script>
+(function () {
+  var supported = ["pt", "en", "es"];
+  var saved = null;
+  try { saved = localStorage.getItem('s4a-lang'); } catch (err) {}
+  var wanted = saved;
+  if (!wanted) {
+    var list = navigator.languages || [navigator.language || ''];
+    for (var i = 0; i < list.length && !wanted; i++) {
+      var code = String(list[i]).slice(0, 2).toLowerCase();
+      if (supported.indexOf(code) !== -1) { wanted = code; }
+    }
+  }
+  location.replace((wanted || 'pt') + '/');
+}());
+</script>
+</head>
+<body class="root-choice">
+<main class="wrap">
+<h1>Slides4All</h1>
+<p>Escolha o idioma. Choose your language. Elige el idioma.</p>
+<ul class="links"><li><a href="pt/">Português</a></li><li><a href="en/">English</a></li><li><a href="es/">Español</a></li></ul>
+</main>
+</body>
+</html>

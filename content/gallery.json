@@ -1,0 +1,962 @@
+[
+  {
+    "slug": "sf-ciocca-rulesfarmer-sbseg2026",
+    "title": "Toward Agentic Intrusion Detection in the Internet of Things: Rule Generation and Live Validation for XRCE-DDS Attacks",
+    "authors": "Matheus Ciocca, Emanuel Ferreira, Tuigg Barcelos, Silvio Quincozes, Diego Kreutz, Paulo Souza",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "sf",
+    "lang": "pt",
+    "slides": 21,
+    "thumb": "assets/thumbs/sf-ciocca-rulesfarmer-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sf-ciocca-rulesfarmer-sbseg2026.pdf",
+        "bytes": 1973173
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/sf-ciocca-rulesfarmer-sbseg2026.pptx",
+        "bytes": 3327673
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "sf-cristhian-zerolinc-sbseg2026",
+    "title": "ZeroLINC: Training-Free Local Classification of Security Incident Reports",
+    "authors": "Cristhian Kapelinski, Beatriz Machado, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "sf",
+    "lang": "pt",
+    "slides": 26,
+    "thumb": "assets/thumbs/sf-cristhian-zerolinc-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sf-cristhian-zerolinc-sbseg2026.pdf",
+        "bytes": 1520782
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/sf-cristhian-zerolinc-sbseg2026.pptx",
+        "bytes": 4494960
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "sf-douglas-mulitaminer-sbseg2026",
+    "title": "MulitaMiner: An LLM-Based Tool for Structuring Vulnerability Scanner Reports",
+    "authors": "Douglas Lautert, Beatriz Machado, Cristhian Kapelinski, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "sf",
+    "lang": "pt",
+    "slides": 16,
+    "thumb": "assets/thumbs/sf-douglas-mulitaminer-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sf-douglas-mulitaminer-sbseg2026.pdf",
+        "bytes": 1007103
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/sf-douglas-mulitaminer-sbseg2026.pptx",
+        "bytes": 2459834
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "sf-emanuel-ioteducore-sbseg2026",
+    "title": "IoTEdu Core: correlação multi-IDS e contenção automatizada de ataques em redes IoT institucionais",
+    "authors": "Emanuel Ferreira, Matheus Ciocca, Douglas Fideles, Silvio Quincozes, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "sf",
+    "lang": "pt",
+    "slides": 37,
+    "thumb": "assets/thumbs/sf-emanuel-ioteducore-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sf-emanuel-ioteducore-sbseg2026.pdf",
+        "bytes": 1457613
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/sf-emanuel-ioteducore-sbseg2026.pptx",
+        "bytes": 3059435
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "sf-francis-aiacgateguard-sbseg2026",
+    "title": "AIaCGateGuard: A Security-First Pipeline for Benchmarking LLM- and SLM-Generated IaC",
+    "authors": "Francis Luis Santos Vargas, Rodrigo Brandão Mansilha, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "sf",
+    "lang": "pt",
+    "slides": 30,
+    "thumb": "assets/thumbs/sf-francis-aiacgateguard-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sf-francis-aiacgateguard-sbseg2026.pdf",
+        "bytes": 1967795
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/sf-francis-aiacgateguard-sbseg2026.pptx",
+        "bytes": 3572632
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "sf-leonardo-attackzoo-sbseg2026",
+    "title": "AttackZoo: A Reproducible Testbed for Attack Execution and Network Traffic Dataset Generation",
+    "authors": "Leonardo Bitzki, Diego Kreutz, Leandro Bertholdo, Cristhian Kapelinski",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "sf",
+    "lang": "pt",
+    "slides": 18,
+    "thumb": "assets/thumbs/sf-leonardo-attackzoo-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sf-leonardo-attackzoo-sbseg2026.pdf",
+        "bytes": 1454233
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/sf-leonardo-attackzoo-sbseg2026.pptx",
+        "bytes": 3661633
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "sf-rui-adminforge-sbseg2026",
+    "title": "AdminForge: Declarative Privileged-Identity Management for Linux Server Fleets",
+    "authors": "Rui de Quadros Ribeiro, Cristhian Kapelinski, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "sf",
+    "lang": "pt",
+    "slides": 24,
+    "thumb": "assets/thumbs/sf-rui-adminforge-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sf-rui-adminforge-sbseg2026.pdf",
+        "bytes": 1410713
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/sf-rui-adminforge-sbseg2026.pptx",
+        "bytes": 5679569
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "tp-anna-statisticalranking-sbseg2026",
+    "title": "Statistical Ranking: A Voting-Based Ensemble Approach to Feature Selection in Android Malware Detection",
+    "authors": "Anna Luiza Gomes, Lucas Ferreira, Angelo Gaspar, Diego Kreutz, Dionatan Schmidt, Rodrigo Mansilha, Kayuã Paim",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "tp",
+    "lang": "pt",
+    "slides": 39,
+    "thumb": "assets/thumbs/tp-anna-statisticalranking-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/tp-anna-statisticalranking-sbseg2026.pdf",
+        "bytes": 1450744
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/tp-anna-statisticalranking-sbseg2026.pptx",
+        "bytes": 3058793
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "tp-beatriz-mulitaminer-versoes-sbseg2026",
+    "title": "MulitaMiner: avaliação multi-versão de extração de relatórios de vulnerabilidade com LLMs",
+    "authors": "Beatriz Machado, Douglas Lautert, Cristhian Kapelinski, Diego Kreutz, Isadora Garcia Ferrão, Alessandro Bof",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "tp",
+    "lang": "pt",
+    "slides": 44,
+    "thumb": "assets/thumbs/tp-beatriz-mulitaminer-versoes-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/tp-beatriz-mulitaminer-versoes-sbseg2026.pdf",
+        "bytes": 3639355
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/tp-beatriz-mulitaminer-versoes-sbseg2026.pptx",
+        "bytes": 4880426
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "tp-cristhian-dockerrandomsample-sbseg2026",
+    "title": "Uma medição de segurança das imagens do Docker Hub por amostra aleatória uniforme",
+    "authors": "Cristhian Kapelinski, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "tp",
+    "lang": "pt",
+    "slides": 49,
+    "thumb": "assets/thumbs/tp-cristhian-dockerrandomsample-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/tp-cristhian-dockerrandomsample-sbseg2026.pdf",
+        "bytes": 2406018
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/tp-cristhian-dockerrandomsample-sbseg2026.pptx",
+        "bytes": 4765673
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "tp-cristhian-oscensus-sbseg2026",
+    "title": "OSCensus: um censo com múltiplos scanners das imagens-base Linux do Docker Hub",
+    "authors": "Cristhian Kapelinski, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "tp",
+    "lang": "pt",
+    "slides": 49,
+    "thumb": "assets/thumbs/tp-cristhian-oscensus-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/tp-cristhian-oscensus-sbseg2026.pdf",
+        "bytes": 3232433
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/tp-cristhian-oscensus-sbseg2026.pptx",
+        "bytes": 5816315
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "tp-cristhian-quantizer4bitpii-sbseg2026",
+    "title": "Nem todo quantizador de 4 bits é igual: mitigação, na implantação, do vazamento de dados pessoais em modelos de linguagem pequenos ajustados",
+    "authors": "Cristhian Kapelinski, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "tp",
+    "lang": "pt",
+    "slides": 93,
+    "thumb": "assets/thumbs/tp-cristhian-quantizer4bitpii-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/tp-cristhian-quantizer4bitpii-sbseg2026.pdf",
+        "bytes": 1971248
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/tp-cristhian-quantizer4bitpii-sbseg2026.pptx",
+        "bytes": 4464710
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "tp-francis-securityevaluationiac-sbseg2026",
+    "title": "Security-First Evaluation of Text-to-Terraform: Benchmarking LLMs and SLMs for Secure IaC Generation",
+    "authors": "Francis Vargas, Rodrigo Brandão Mansilha, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "tp",
+    "lang": "pt",
+    "slides": 34,
+    "thumb": "assets/thumbs/tp-francis-securityevaluationiac-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/tp-francis-securityevaluationiac-sbseg2026.pdf",
+        "bytes": 950975
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/tp-francis-securityevaluationiac-sbseg2026.pptx",
+        "bytes": 638506
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "tp-lucas-whenbalancingharms-sbseg2026",
+    "title": "When Balancing Harms: condições estruturais que degradam a detecção de malware Android após o balanceamento",
+    "authors": "Lucas Ferreira, Anna Luiza Gomes, Angelo Diniz, Diego Kreutz, Dionatan R. Schmidt, Rodrigo Mansilha, Kayuã Oleques Paim",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "tp",
+    "lang": "pt",
+    "slides": 54,
+    "thumb": "assets/thumbs/tp-lucas-whenbalancingharms-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/tp-lucas-whenbalancingharms-sbseg2026.pdf",
+        "bytes": 2160512
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/tp-lucas-whenbalancingharms-sbseg2026.pptx",
+        "bytes": 2735725
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "tp-priscila-siemrules-sbseg2026",
+    "title": "Context-Aware SIEM Rule Generation with LLMs: When Site Profiles Are Not Enough",
+    "authors": "Priscila Schafhauzer, Cristhian Kapelinski, Marcio Pohlmann, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "tp",
+    "lang": "pt",
+    "slides": 23,
+    "thumb": "assets/thumbs/tp-priscila-siemrules-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/tp-priscila-siemrules-sbseg2026.pdf",
+        "bytes": 1252612
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/tp-priscila-siemrules-sbseg2026.pptx",
+        "bytes": 5431767
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "wticg-beatriz-mulitaminer-slms-sbseg2026",
+    "title": "Local vs. nuvem: LLMs locais para extração de vulnerabilidades de relatórios de scanners de segurança",
+    "authors": "Beatriz Machado, Cristhian Kapelinski, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "wticg",
+    "lang": "pt",
+    "slides": 36,
+    "thumb": "assets/thumbs/wticg-beatriz-mulitaminer-slms-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wticg-beatriz-mulitaminer-slms-sbseg2026.pdf",
+        "bytes": 1369122
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/wticg-beatriz-mulitaminer-slms-sbseg2026.pptx",
+        "bytes": 1486809
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "wticg-cristhian-cryptocensus-sbseg2026",
+    "title": "CryptoCensus: postura criptográfica e prontidão pós-quântica do Docker Hub",
+    "authors": "Cristhian Kapelinski, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "wticg",
+    "lang": "pt",
+    "slides": 55,
+    "thumb": "assets/thumbs/wticg-cristhian-cryptocensus-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wticg-cristhian-cryptocensus-sbseg2026.pdf",
+        "bytes": 1618657
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/wticg-cristhian-cryptocensus-sbseg2026.pptx",
+        "bytes": 4334692
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "wticg-cristhian-pixguardsim-sbseg2026",
+    "title": "PixGuard-Sim: um testbed sensível a prazo para detectores de fraude no Pix",
+    "authors": "Cristhian Kapelinski, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "wticg",
+    "lang": "pt",
+    "slides": 55,
+    "thumb": "assets/thumbs/wticg-cristhian-pixguardsim-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wticg-cristhian-pixguardsim-sbseg2026.pdf",
+        "bytes": 2827561
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/wticg-cristhian-pixguardsim-sbseg2026.pptx",
+        "bytes": 5148759
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "wticg-cristhian-ragtrap-sbseg2026",
+    "title": "RAGtrap: revogação de fontes e consulta indexada de proveniência para corpora RAG envenenados",
+    "authors": "Cristhian Kapelinski, Diego Kreutz",
+    "event": "sbseg2026",
+    "year": 2026,
+    "track": "wticg",
+    "lang": "pt",
+    "slides": 27,
+    "thumb": "assets/thumbs/wticg-cristhian-ragtrap-sbseg2026.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wticg-cristhian-ragtrap-sbseg2026.pdf",
+        "bytes": 2701051
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/wticg-cristhian-ragtrap-sbseg2026.pptx",
+        "bytes": 9789573
+      }
+    ],
+    "source": "local"
+  },
+  {
+    "slug": "dsn2023-ibc-performance",
+    "title": "Analyzing the Performance of the Inter-Blockchain Communication Protocol",
+    "authors": "João Otávio Chervinski, Diego Kreutz, Xiwei Xu, Jiangshan Yu",
+    "event": "dsn2023",
+    "year": 2023,
+    "track": "dsn",
+    "lang": "en",
+    "slides": 30,
+    "thumb": "assets/thumbs/dsn2023-ibc-performance.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/dsn2023-ibc-performance.pdf",
+        "bytes": 2520059
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/19LPt-TtQd1kW6jJs2Pc3OvvAID8TBxe_eWrtX3apOj8/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "sbseg2023-sf-amgenerator-amexplorer",
+    "title": "AMGenerator e AMExplorer: geração de metadados e construção de datasets Android",
+    "authors": "Vanderson Rocha, Joner Assolin, Hendrio Bragança, Diego Kreutz, Eduardo Feitosa",
+    "event": "sbseg2023",
+    "year": 2023,
+    "track": "sf",
+    "lang": "pt",
+    "slides": 29,
+    "thumb": "assets/thumbs/sbseg2023-sf-amgenerator-amexplorer.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sbseg2023-sf-amgenerator-amexplorer.pdf",
+        "bytes": 2238927
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1M2BGgAX3mReA45mt-lA-X_MMhS12rnBwwP0dZaHAEtg/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "wrseg2023-autodroid",
+    "title": "AutoDroid: disponibilizando a ferramenta DroidAugmentor como serviço",
+    "authors": "Luiz Felipe Laviola, Kayuã Paim, Diego Kreutz, Rodrigo Mansilha",
+    "event": "wrseg2023",
+    "year": 2023,
+    "track": "wrseg",
+    "lang": "pt",
+    "slides": 48,
+    "thumb": "assets/thumbs/wrseg2023-autodroid.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wrseg2023-autodroid.pdf",
+        "bytes": 2593231
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1ah2KdUhd5a_zl4VTv6faa15Mw2SQYHAAA02z5gu5Cbo/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "wrseg2023-ewebapi",
+    "title": "eWebAPI: uma API para assinar digitalmente lotes de certificados eletrônicos utilizando o e-certsDS",
+    "authors": "Alan Schulze, Diego Kreutz",
+    "event": "wrseg2023",
+    "year": 2023,
+    "track": "wrseg",
+    "lang": "pt",
+    "slides": 54,
+    "thumb": "assets/thumbs/wrseg2023-ewebapi.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wrseg2023-ewebapi.pdf",
+        "bytes": 2166067
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1l6E_yoKStjyofu6rHMSomtKBUNJKWrlcY9XrJhcJAyY/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "wrseg2023-fs3ev2",
+    "title": "Avaliação de métodos de seleção de características de amostras Android com a ferramenta FS3E (v2)",
+    "authors": "Nicolas Neves, Vanderson Rocha, Diego Kreutz, Hendrio Bragança, Eduardo Feitosa",
+    "event": "wrseg2023",
+    "year": 2023,
+    "track": "wrseg",
+    "lang": "pt",
+    "slides": 37,
+    "thumb": "assets/thumbs/wrseg2023-fs3ev2.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wrseg2023-fs3ev2.pdf",
+        "bytes": 1083147
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1-yXQvob9LFjpfFxu-esFQtdHVz0I_5rpvdHqvQePZ0A/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "wticg2023-analise",
+    "title": "Análise do protocolo Committeeless Proof-of-Stake: em busca de um melhor ponto de operação",
+    "authors": "Vinícius Peixoto, Marco Aurélio Amaral Henriques",
+    "event": "sbseg2023",
+    "year": 2023,
+    "track": "wticg",
+    "lang": "pt",
+    "slides": 34,
+    "thumb": "assets/thumbs/wticg2023-analise.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wticg2023-analise.pdf",
+        "bytes": 490071
+      },
+      {
+        "type": "latex",
+        "url": "assets/slides/wticg2023-analise.zip",
+        "bytes": 1437206
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "wticg2023-aplicacao",
+    "title": "Aplicação de criptografia homomórfica na mineração de dados em fluxos de roteadores de borda na Internet",
+    "authors": "Felipe M. F. Assis, Evandro L. C. Macedo, Luís Felipe M. de Moraes",
+    "event": "sbseg2023",
+    "year": 2023,
+    "track": "wticg",
+    "lang": "pt",
+    "slides": 33,
+    "thumb": "assets/thumbs/wticg2023-aplicacao.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wticg2023-aplicacao.pdf",
+        "bytes": 879884
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1EXBoJKjwp42KgfiT_6paA6jrefiGipBpwocPAfm8Vek/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "wticg2023-impacto",
+    "title": "Impacto da otimização de funções hash no desempenho do algoritmo de assinaturas digitais pós-quântica CRYSTALS-Dilithium",
+    "authors": "Rodrigo Duarte de Meneses, Marco Aurélio Amaral Henriques",
+    "event": "sbseg2023",
+    "year": 2023,
+    "track": "wticg",
+    "lang": "pt",
+    "slides": 28,
+    "thumb": "assets/thumbs/wticg2023-impacto.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wticg2023-impacto.pdf",
+        "bytes": 2288930
+      },
+      {
+        "type": "external",
+        "label": "Canva",
+        "url": "https://www.canva.com/design/DAFvMVTenPc/zcpCcXwYItL9Ua6_GcPTEA/edit?utm_content=DAFvMVTenPc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "wticg2023-modelagem",
+    "title": "Modelagem das áreas de risco de sistemas de detecção de intrusão para cálculo de métricas de privacidade",
+    "authors": "Jessica Yumi Nakano Sato, Daniel Macêdo Batista",
+    "event": "sbseg2023",
+    "year": 2023,
+    "track": "wticg",
+    "lang": "pt",
+    "slides": 12,
+    "thumb": "assets/thumbs/wticg2023-modelagem.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wticg2023-modelagem.pdf",
+        "bytes": 1340623
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1fWicmTVzpwGuy5hb-P02ntDuSAum3HvyRHkOgBTt62M/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "wticg2023-secflow",
+    "title": "SecFlow: aprendizado não supervisionado para análise e detecção de anomalias em redes de computadores",
+    "authors": "Felipe Salles, Luiz Claudio Schara, Taiane Ramos",
+    "event": "sbseg2023",
+    "year": 2023,
+    "track": "wticg",
+    "lang": "pt",
+    "slides": 22,
+    "thumb": "assets/thumbs/wticg2023-secflow.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wticg2023-secflow.pdf",
+        "bytes": 1054382
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/wticg2023-secflow.pptx",
+        "bytes": 2597296
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "sbseg2022-sf-adbuilder",
+    "title": "ADBuilder: ferramenta de construção de datasets para detecção de malwares Android",
+    "authors": "Lucas Vilanova, Diego Kreutz, Joner Assolin, Vagner Quincozes, Charles Miers, Rodrigo Mansilha, Eduardo Feitosa",
+    "event": "sbseg2022",
+    "year": 2022,
+    "track": "sf",
+    "lang": "pt",
+    "slides": 19,
+    "thumb": "assets/thumbs/sbseg2022-sf-adbuilder.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sbseg2022-sf-adbuilder.pdf",
+        "bytes": 979009
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1zDwdvganX90b1WLKP2Ha3-PdlluiqGFsSnjhFwd7Vr4/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "sbseg2022-sf-autocar",
+    "title": "AutoCAR: automação e reprodutibilidade de testes de métodos de classificação baseados em regras de associação",
+    "authors": "Vanderson Rocha, Diego Kreutz, Eduardo Feitosa",
+    "event": "sbseg2022",
+    "year": 2022,
+    "track": "sf",
+    "lang": "pt",
+    "slides": 9,
+    "thumb": "assets/thumbs/sbseg2022-sf-autocar.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sbseg2022-sf-autocar.pdf",
+        "bytes": 1155795
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/19Q9aBPOXM51QGbrqX79atsTtMR_5IVL6ieqcILV4qYI/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "sbseg2022-tp-analise",
+    "title": "Uma análise de métodos de seleção de características aplicados à detecção de malwares Android",
+    "authors": "Taina Soares, Diego Kreutz, Vanderson Rocha, Estevão Costa, Luiza Leão, Jonas Pontes, Joner Assolin, Gustavo Rodrigues, Eduardo Feitosa",
+    "event": "sbseg2022",
+    "year": 2022,
+    "track": "tp",
+    "lang": "pt",
+    "slides": 50,
+    "thumb": "assets/thumbs/sbseg2022-tp-analise.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sbseg2022-tp-analise.pdf",
+        "bytes": 989999
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1A03ZglUNrEnUkuMtAV8GdFkuLvN888b6kYubeH1nqBk/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "sbseg2022-tp-metodos",
+    "title": "Avaliação de métodos de classificação baseados em regras de associação para detecção de malwares Android",
+    "authors": "Vanderson Rocha, Diego Kreutz, Jonas Pontes, Eduardo Feitosa",
+    "event": "sbseg2022",
+    "year": 2022,
+    "track": "tp",
+    "lang": "pt",
+    "slides": 38,
+    "thumb": "assets/thumbs/sbseg2022-tp-metodos.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sbseg2022-tp-metodos.pdf",
+        "bytes": 2059151
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1pKAk12QZ1jjD8JzGmiyjJ4oXFR4K4wBQgt8YzV6107Y/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "sbseg2021-sf-ecertsds",
+    "title": "e-certsDS: certificados eletrônicos com assinatura digital",
+    "authors": "Maurício El Uri, Luciano Vargas, Diego Kreutz",
+    "event": "sbseg2021",
+    "year": 2021,
+    "track": "sf",
+    "lang": "pt",
+    "slides": 32,
+    "thumb": "assets/thumbs/sbseg2021-sf-ecertsds.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sbseg2021-sf-ecertsds.pdf",
+        "bytes": 4202474
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1EYEdM7CZavGVWTYAS0TV5I4wTcNlMpRftsVZHQWgtNs/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "sbrc2020-https-br-slides",
+    "title": "Uma análise da utilização de HTTPS no Brasil",
+    "authors": "Maurício Fiorenza, Diego Kreutz, Thiago Escarrone, Daniel Temp",
+    "event": "sbrc2020",
+    "year": 2020,
+    "track": "sbrc",
+    "lang": "pt",
+    "slides": 41,
+    "thumb": "assets/thumbs/sbrc2020-https-br-slides.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sbrc2020-https-br-slides.pdf",
+        "bytes": 952301
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1QsYGWj9HR1miHT3XRNZ_pjNl_Q1257fx0LaQ-Dyk0Bk/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "sbseg2020-auth4app-slides",
+    "title": "Auth4App: Protocols for Identification and Authentication using Mobile Applications",
+    "authors": "Diego Kreutz, Rafael Fernandes, Giulliano Paz, Tadeu Jenuario, Rodrigo Mansilha, Roger Immich, Charles C. Miers",
+    "event": "sbseg2020",
+    "year": 2020,
+    "track": "tp",
+    "lang": "pt",
+    "slides": 28,
+    "thumb": "assets/thumbs/sbseg2020-auth4app-slides.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sbseg2020-auth4app-slides.pdf",
+        "bytes": 1397194
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://drive.google.com/file/d/1d32Jal4zjLmJglst2znS0rTuBufR_nJt/view?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "sbseg2020-fws-hybridnets-slides",
+    "title": "Gerenciamento de firewalls em redes híbridas",
+    "authors": "Maurício Fiorenza, Diego Kreutz, Rodrigo Mansilha",
+    "event": "sbseg2020",
+    "year": 2020,
+    "track": "tp",
+    "lang": "pt",
+    "slides": 27,
+    "thumb": "assets/thumbs/sbseg2020-fws-hybridnets-slides.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/sbseg2020-fws-hybridnets-slides.pdf",
+        "bytes": 865502
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1qXmlus5LtvkL48yM10gfp5nBcI1UKTLtNU0g5CRs6vk/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "wrseg2020-formsonline-slides",
+    "title": "Viralização de questionários online: desafios e oportunidades",
+    "authors": "Maurício El Uri, Rafael Kreutz, Maurício Fiorenza, Diego Kreutz, Thiago Escarrone, Daniel Temp, Vinicius Nunez, Rodrigo Mansilha",
+    "event": "wrseg2020",
+    "year": 2020,
+    "track": "wrseg",
+    "lang": "pt",
+    "slides": 25,
+    "thumb": "assets/thumbs/wrseg2020-formsonline-slides.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wrseg2020-formsonline-slides.pdf",
+        "bytes": 1320752
+      },
+      {
+        "type": "external",
+        "label": "Google Drive",
+        "url": "https://docs.google.com/presentation/d/1vbsQhfqhoV0Wxrv-GUbzCRb5S3C0GffBuLgi9DI7-WQ/edit?usp=sharing"
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "wrseg2018-idvvs-opensgx-slides",
+    "title": "Inicialização e geração de iDVVs com Intel SGX e OpenSGX",
+    "authors": "Rodrigo Masera, Rodrigo Machado, Diego Kreutz",
+    "event": "wrseg2018",
+    "year": 2018,
+    "track": "wrseg",
+    "lang": "pt",
+    "slides": 28,
+    "thumb": "assets/thumbs/wrseg2018-idvvs-opensgx-slides.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wrseg2018-idvvs-opensgx-slides.pdf",
+        "bytes": 3031579
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/wrseg2018-idvvs-opensgx-slides.pptx",
+        "bytes": 2285499
+      }
+    ],
+    "source": "sbseg24"
+  },
+  {
+    "slug": "wrseg2018-seguraai-slides",
+    "title": "SeguraAí: confidencialidade de dados sensíveis com SGX",
+    "authors": "Felipe Antunes, Filipe Garcia, Diego Kreutz",
+    "event": "wrseg2018",
+    "year": 2018,
+    "track": "wrseg",
+    "lang": "pt",
+    "slides": 26,
+    "thumb": "assets/thumbs/wrseg2018-seguraai-slides.png",
+    "files": [
+      {
+        "type": "pdf",
+        "url": "assets/slides/wrseg2018-seguraai-slides.pdf",
+        "bytes": 4642877
+      },
+      {
+        "type": "pptx",
+        "url": "assets/slides/wrseg2018-seguraai-slides.pptx",
+        "bytes": 3400683
+      }
+    ],
+    "source": "sbseg24"
+  }
+]

@@ -1,31 +1,11 @@
-# Built things
-_Debug/
-Compiled/
+# Arquivos originais dos decks, ja importados para assets/slides/.
+# Ficam no disco para consulta, mas nao entram no repositorio: os arquivos
+# publicados sao os de assets/, deduplicados e renomeados.
+templates_exemplos/
 
-# AudioCache can be rebuilt from sources
-AudioCache/
+# Relatorios intermediarios dos importadores
+tools/import_report.json
+tools/sbseg24_entries.json
 
-# Lockfile
-_OpenInEditor.lock
-
-# User settings
-Game.agf.user
-*.crm.user
-
-# Backups
-Game.agf.bak
-backup_acsprset.spr
-
-# Memory dumps
-*.dmp
-
-# Temporary files
-# temporarily created during sprite or room background compression
-~aclzw.tmp
-# temporary, main game data, before getting packed into exe
-game28.dta
-# temporary build of the game before being moved to Compiled/ folder
-*.exe
-
-# Log files
-warnings.log
+# macOS
+.DS_Store

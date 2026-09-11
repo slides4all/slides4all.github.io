@@ -1,0 +1,286 @@
+[
+  {
+    "id": "celular",
+    "title": {
+      "pt": "1. Teste do celular, faça primeiro",
+      "en": "1. The phone test, do this first",
+      "es": "1. Prueba del móvil, hazla primero"
+    },
+    "items": [
+      {
+        "id": "celular-leitura",
+        "pt": "Abri o deck no celular, a uns 50 cm, e consegui ler tudo sem esforço.",
+        "en": "I opened the deck on my phone, at about 50 cm, and could read everything without effort.",
+        "es": "Abrí la presentación en el móvil, a unos 50 cm, y pude leerlo todo sin esfuerzo."
+      },
+      {
+        "id": "celular-pior-slide",
+        "pt": "Identifiquei o slide mais problemático e corrigi os principais problemas.",
+        "en": "I found the worst slide and fixed its main problems.",
+        "es": "Identifiqué la diapositiva más problemática y corregí sus principales problemas."
+      }
+    ]
+  },
+  {
+    "id": "fontes",
+    "title": {
+      "pt": "2. Fontes",
+      "en": "2. Font sizes",
+      "es": "2. Tipografía"
+    },
+    "items": [
+      {
+        "id": "fontes-corpo",
+        "pt": "Não há fonte pequena no corpo dos slides.",
+        "en": "No small type in the body of any slide.",
+        "es": "No hay letra pequeña en el cuerpo de las diapositivas."
+      },
+      {
+        "id": "fontes-tabelas",
+        "pt": "Não há fonte pequena em tabelas.",
+        "en": "No small type in tables.",
+        "es": "No hay letra pequeña en las tablas."
+      },
+      {
+        "id": "fontes-graficos",
+        "pt": "Não há fonte pequena em gráficos ou legendas.",
+        "en": "No small type in charts or captions.",
+        "es": "No hay letra pequeña en gráficos ni leyendas."
+      },
+      {
+        "id": "fontes-caixas",
+        "pt": "Não há fonte pequena em caixas de texto laterais.",
+        "en": "No small type in side text boxes.",
+        "es": "No hay letra pequeña en los cuadros de texto laterales."
+      },
+      {
+        "id": "fontes-corte",
+        "pt": "Quando faltou espaço, cortei conteúdo em vez de reduzir a fonte.",
+        "en": "Whenever space ran out, I cut content instead of shrinking the type.",
+        "es": "Cuando faltó espacio, recorté contenido en lugar de reducir la letra."
+      }
+    ]
+  },
+  {
+    "id": "figuras",
+    "title": {
+      "pt": "3. Figuras e gráficos",
+      "en": "3. Figures and charts",
+      "es": "3. Figuras y gráficos"
+    },
+    "items": [
+      {
+        "id": "figuras-espaco",
+        "pt": "Cada figura ocupa o máximo de espaço possível.",
+        "en": "Every figure takes up as much space as it can.",
+        "es": "Cada figura ocupa el máximo espacio posible."
+      },
+      {
+        "id": "figuras-slide-inteiro",
+        "pt": "Figuras complexas usam o slide inteiro, mesmo que seja necessário sobrepor título ou rodapé.",
+        "en": "Complex figures use the whole slide, even if that means covering the title or the footer.",
+        "es": "Las figuras complejas usan la diapositiva entera, aunque haya que tapar el título o el pie."
+      },
+      {
+        "id": "figuras-progressivas",
+        "pt": "Figuras de fluxo com várias etapas foram divididas em slides progressivos.",
+        "en": "Multi-step flow figures were split across progressive slides.",
+        "es": "Las figuras de flujo con varias etapas se dividieron en diapositivas progresivas."
+      },
+      {
+        "id": "figuras-pipeline",
+        "pt": "A abordagem possui uma figura de pipeline ou fluxograma.",
+        "en": "The approach has a pipeline or flowchart figure.",
+        "es": "El enfoque tiene una figura de pipeline o diagrama de flujo."
+      },
+      {
+        "id": "figuras-decorativas",
+        "pt": "Removi figuras decorativas que ocupavam espaço sem acrescentar informação.",
+        "en": "I removed decorative figures that took up space without adding information.",
+        "es": "Eliminé las figuras decorativas que ocupaban espacio sin aportar información."
+      }
+    ]
+  },
+  {
+    "id": "texto",
+    "title": {
+      "pt": "4. Texto",
+      "en": "4. Text",
+      "es": "4. Texto"
+    },
+    "items": [
+      {
+        "id": "texto-itens-curtos",
+        "pt": "Substituí frases longas por itens curtos e objetivos.",
+        "en": "I replaced long sentences with short, direct items.",
+        "es": "Sustituí las frases largas por elementos cortos y directos."
+      },
+      {
+        "id": "texto-grafico",
+        "pt": "Não há bloco de texto competindo visualmente com um gráfico ou figura.",
+        "en": "No block of text competes visually with a chart or a figure.",
+        "es": "Ningún bloque de texto compite visualmente con un gráfico o una figura."
+      },
+      {
+        "id": "texto-palavras-fortes",
+        "pt": "Não há palavras fortes sem evidência, como comprovado, garantido ou irrefutável.",
+        "en": "No strong claims without evidence, such as proven, guaranteed or irrefutable.",
+        "es": "No hay palabras fuertes sin evidencia, como comprobado, garantizado o irrefutable."
+      },
+      {
+        "id": "texto-idioma",
+        "pt": "O idioma está padronizado: tudo em PT ou tudo em EN.",
+        "en": "The language is consistent: all in one language, never mixed.",
+        "es": "El idioma está unificado: todo en un solo idioma, sin mezclas."
+      },
+      {
+        "id": "texto-numeros",
+        "pt": "Removi números decorativos das caixas.",
+        "en": "I removed decorative numbers from the boxes.",
+        "es": "Eliminé los números decorativos de los cuadros."
+      },
+      {
+        "id": "texto-palavras-chave",
+        "pt": "Destaquei visualmente as palavras-chave.",
+        "en": "I visually highlighted the keywords.",
+        "es": "Destaqué visualmente las palabras clave."
+      }
+    ]
+  },
+  {
+    "id": "visual",
+    "title": {
+      "pt": "5. Visual",
+      "en": "5. Visual",
+      "es": "5. Visual"
+    },
+    "items": [
+      {
+        "id": "visual-fundo-branco",
+        "pt": "O fundo é branco em todos os slides.",
+        "en": "The background is white on every slide.",
+        "es": "El fondo es blanco en todas las diapositivas."
+      },
+      {
+        "id": "visual-sem-fundo-colorido",
+        "pt": "Não há fundo cinza ou colorido atrás de textos.",
+        "en": "There is no gray or colored background behind any text.",
+        "es": "No hay fondo gris ni de color detrás de los textos."
+      },
+      {
+        "id": "visual-bordas",
+        "pt": "Nenhum texto está encostado ou vazando das bordas das caixas.",
+        "en": "No text touches or overflows the edges of its box.",
+        "es": "Ningún texto toca ni se sale de los bordes de su cuadro."
+      },
+      {
+        "id": "visual-logomarcas",
+        "pt": "As logomarcas do primeiro slide estão suficientemente grandes e legíveis.",
+        "en": "The logos on the first slide are large and legible enough.",
+        "es": "Los logotipos de la primera diapositiva son suficientemente grandes y legibles."
+      }
+    ]
+  },
+  {
+    "id": "consistencia",
+    "title": {
+      "pt": "6. Consistência",
+      "en": "6. Consistency",
+      "es": "6. Consistencia"
+    },
+    "items": [
+      {
+        "id": "consistencia-fonte",
+        "pt": "Elementos do mesmo nível usam a mesma fonte.",
+        "en": "Elements at the same level use the same type.",
+        "es": "Los elementos del mismo nivel usan la misma tipografía."
+      },
+      {
+        "id": "consistencia-cores",
+        "pt": "Os mesmos tipos de elementos usam as mesmas cores.",
+        "en": "The same kinds of elements use the same colors.",
+        "es": "Los mismos tipos de elementos usan los mismos colores."
+      },
+      {
+        "id": "consistencia-alinhamento",
+        "pt": "Mantive o mesmo padrão de alinhamento e espaçamento.",
+        "en": "I kept alignment and spacing consistent throughout.",
+        "es": "Mantuve el mismo patrón de alineación y espaciado."
+      },
+      {
+        "id": "consistencia-abreviacoes",
+        "pt": "As abreviações estão padronizadas.",
+        "en": "Abbreviations are used consistently.",
+        "es": "Las abreviaturas están unificadas."
+      }
+    ]
+  },
+  {
+    "id": "tabelas",
+    "title": {
+      "pt": "7. Tabelas",
+      "en": "7. Tables",
+      "es": "7. Tablas"
+    },
+    "items": [
+      {
+        "id": "tabelas-cabecalhos",
+        "pt": "Os cabeçalhos não apresentam quebras de linha estranhas.",
+        "en": "Headers have no awkward line breaks.",
+        "es": "Los encabezados no tienen saltos de línea extraños."
+      },
+      {
+        "id": "tabelas-fonte",
+        "pt": "A fonte do conteúdo está grande o suficiente para leitura no celular.",
+        "en": "The body type is large enough to read on a phone.",
+        "es": "La letra del contenido es lo bastante grande para leerse en el móvil."
+      },
+      {
+        "id": "tabelas-lacuna",
+        "pt": "A tabela de trabalhos relacionados evidencia a lacuna de pesquisa, e não apenas lista trabalhos.",
+        "en": "The related work table makes the research gap evident, instead of merely listing papers.",
+        "es": "La tabla de trabajos relacionados evidencia la brecha de investigación, no solo enumera trabajos."
+      },
+      {
+        "id": "tabelas-titulo",
+        "pt": "Quando a tabela aparece no início da apresentação, o título é o que já existe e o que falta.",
+        "en": "When that table comes early in the talk, its title is what exists and what is missing.",
+        "es": "Cuando esa tabla aparece al principio, su título es lo que ya existe y lo que falta."
+      }
+    ]
+  },
+  {
+    "id": "envio",
+    "title": {
+      "pt": "8. Antes de enviar",
+      "en": "8. Before you send it",
+      "es": "8. Antes de enviarla"
+    },
+    "items": [
+      {
+        "id": "envio-slide-a-slide",
+        "pt": "Passei por todos os slides, um por um.",
+        "en": "I went through every slide, one by one.",
+        "es": "Revisé todas las diapositivas, una por una."
+      },
+      {
+        "id": "envio-titulos",
+        "pt": "O título de cada slide corresponde claramente ao conteúdo apresentado.",
+        "en": "Each slide title clearly matches the content on it.",
+        "es": "El título de cada diapositiva corresponde claramente a su contenido."
+      },
+      {
+        "id": "envio-revisor-externo",
+        "pt": "Pedi para alguém que não participou da elaboração do deck revisar os slides no celular.",
+        "en": "I asked someone who did not work on the deck to review it on a phone.",
+        "es": "Pedí a alguien que no participó en la elaboración que revisara las diapositivas en el móvil."
+      },
+      {
+        "id": "envio-ensaios",
+        "pt": "Ensaiei pelo menos cinco vezes, em pé, falando alto e cronometrando.",
+        "en": "I rehearsed at least five times, standing, out loud and timed.",
+        "es": "Ensayé al menos cinco veces, de pie, en voz alta y con cronómetro."
+      }
+    ]
+  }
+]

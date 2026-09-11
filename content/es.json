@@ -1,0 +1,628 @@
+{
+  "lang": "es",
+  "locale": "es",
+  "site": {
+    "name": "Slides4All",
+    "tagline": "Cómo hacer una gran presentación",
+    "description": "Guía práctica para preparar diapositivas y presentar trabajos técnicos, con una galería de ejemplos reales en PDF y PPTX."
+  },
+  "nav": {
+    "home": "Inicio",
+    "slides": "Hacer las diapositivas",
+    "presenting": "Presentar",
+    "mistakes": "Errores comunes",
+    "checklist": "Checklist",
+    "timing": "Tiempo",
+    "gallery": "Galería",
+    "templates": "Plantillas",
+    "credits": "Créditos"
+  },
+  "ui": {
+    "skip": "Ir al contenido",
+    "language": "Idioma",
+    "menu": "Menú",
+    "slidesCount": "diapositivas",
+    "download": "Descargar",
+    "openIn": "Abrir en",
+    "backToTop": "Volver arriba",
+    "wrong": "Así no",
+    "right": "Así sí",
+    "why": "Por qué"
+  },
+  "pages": {
+    "home": {
+      "title": "Cómo hacer una gran presentación",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Una presentación existe para que el público entienda tu argumento y siga tu razonamiento. Si al final no lo entendió, la presentación falló, por bueno que sea el trabajo que hay detrás."
+        },
+        {
+          "type": "prose",
+          "paragraphs": [
+            "Este sitio reúne lo que funciona en la práctica: cómo armar las diapositivas, cómo ensayar, cómo usar el tiempo que te dieron y cómo revisarlo todo antes de enviarlo. Cada recomendación salió de revisiones reales de presentaciones de trabajos aceptados en eventos científicos, y casi todas nacieron de un error que se repitió muchas veces.",
+            "Aquí no hay teoría. Hay un conjunto de decisiones que mejoran la presentación de casi cualquiera, una galería de ejemplos completos para copiar y adaptar, y un checklist para repasar antes de enviar las diapositivas."
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "kicker": "Ya tengo las diapositivas",
+              "title": "Repasa el checklist",
+              "text": "{{checklistCount}} puntos concretos en ocho bloques. Marca lo hecho y mira lo que falta.",
+              "page": "checklist"
+            },
+            {
+              "kicker": "Voy a empezar ahora",
+              "title": "Cómo hacer las diapositivas",
+              "text": "Tipografía, figuras, texto, visual, consistencia y tablas, en orden de impacto real.",
+              "page": "slides"
+            },
+            {
+              "kicker": "Quiero ver cómo lo hicieron otros",
+              "title": "Galería de ejemplos",
+              "text": "40 presentaciones completas, en PDF y PPTX, libres para copiar y adaptar.",
+              "page": "gallery"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Si solo tienes cinco minutos",
+          "intro": "Estas cinco decisiones resuelven la mayor parte de los problemas que aparecen en las revisiones.",
+          "items": [
+            "Agranda la letra. Es, con diferencia, el problema más frecuente. Supón una sala grande y llena.",
+            "Abre las diapositivas en el móvil, a 50 cm de los ojos. Lo que tú no puedas leer, el público tampoco.",
+            "Cuando falte espacio, recorta contenido. Nunca reduzcas la letra.",
+            "Fondo blanco, texto negro. Sin gris ni color detrás del texto.",
+            "Ensaya cinco veces, de pie y en voz alta. El discurso solo fluye a partir del quinto ensayo."
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este sitio aplica en sí mismo las reglas que enseña: fondo blanco, tipografía grande, poco color y ningún adorno. También pasa la prueba del móvil."
+        },
+        {
+          "type": "prose",
+          "heading": "De dónde viene este material",
+          "paragraphs": [
+            "El punto de partida fue la página de sugerencias para presentaciones del SBSeg 2024, un simposio brasileño de seguridad de la información, escrita por un grupo de investigadores para los autores de los trabajos aceptados. A ella se sumaron las notas de revisión, la síntesis de sugerencias y el checklist elaborados en 2026 a partir de decenas de presentaciones revisadas una a una.",
+            "El contenido es de libre uso. Cópialo, adáptalo, tradúcelo y reutilízalo."
+          ]
+        }
+      ]
+    },
+    "slides": {
+      "title": "Cómo hacer las diapositivas",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Las diapositivas apoyan lo que dices, no son el artículo proyectado en la pared. Todo lo que sigue sirve a un único objetivo: quien está al fondo de la sala tiene que poder leer y entender."
+        },
+        {
+          "type": "section",
+          "heading": "1. Tipografía y legibilidad",
+          "intro": "Es, con diferencia, el problema más frecuente en todas las revisiones. Si solo vas a corregir una cosa, corrige esta.",
+          "items": [
+            "Usa 24pt o más en el contenido, incluido el texto dentro de imágenes y tablas.",
+            "Usa 32pt o más en los títulos de las diapositivas.",
+            "Haz la prueba del móvil: abre la presentación en el teléfono, a unos 50 cm de los ojos. Si cuesta leerla, la letra es pequeña.",
+            "Supón siempre una sala grande y llena. Quien está al fondo también necesita seguirte.",
+            "Cuando el contenido no quepa con letra grande, recorta el contenido. Nunca reduzcas la letra para que quepa.",
+            "Prefiere menos puntos, frases más cortas y más diapositivas antes que una diapositiva densa con letra pequeña.",
+            "No dejes mucho espacio en blanco de sobra: suele indicar que la letra o la figura podrían ser más grandes."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "2. Figuras y gráficos",
+          "intro": "La prioridad máxima es que la figura se vea bien, no conservar el encuadre de la plantilla.",
+          "items": [
+            "Las figuras y los gráficos deben ocupar el máximo espacio posible de la diapositiva.",
+            "Las figuras complejas pueden y deben usar la diapositiva entera, incluso el 100%, tapando el título y el pie.",
+            "Presenta las figuras complejas de forma progresiva, en varias diapositivas, una etapa cada vez.",
+            "Si la figura muestra una arquitectura, unas etapas o un flujo y vas a hablar de cada parte, dedica una diapositiva a cada parte.",
+            "Todo experimento tiene un pipeline o un diagrama de flujo. Muestra esa figura: explica el enfoque mejor que cualquier lista.",
+            "Prefiere imágenes vectoriales o de alta definición, como SVG, PDF o un PNG grande.",
+            "La captura de pantalla es la peor opción. Si al ampliar aparece borrosa o pixelada, cambia la imagen.",
+            "Quita las figuras decorativas. Si hay que elegir entre conservar una figura secundaria y agrandar la letra, agranda la letra.",
+            "Usa rectángulos, círculos y flechas para destacar la parte que estás explicando en ese momento."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "3. Texto",
+          "intro": "Una diapositiva no es prosa. Cada línea de más compite por la atención con lo que estás diciendo.",
+          "items": [
+            "Prefiere puntos cortos y directos, que sirvan de guía para tu discurso.",
+            "No transcribas frases ni párrafos del artículo a la diapositiva.",
+            "Evita las oraciones completas, con sujeto, verbo, objeto y complementos. Eso es para textos, no para diapositivas.",
+            "No pongas un bloque de texto al lado de un gráfico. Ensucia la diapositiva y estorba la lectura de la figura.",
+            "Evita las palabras y afirmaciones fuertes sin evidencia, como comprobado, garantizado o irrefutable. ¿Hay una prueba matemática formal? Si no, cambia la palabra.",
+            "Unifica el idioma: todo en un solo idioma, sin mezclas dentro de la misma frase.",
+            "Quita los números decorativos de los cuadros y usa ese espacio para destacar las palabras clave."
+          ]
+        },
+        {
+          "type": "example",
+          "heading": "La técnica del titular",
+          "intro": "La forma más simple de transmitir el contenido es escribir como un titular de periódico y dejar la explicación completa para tu voz.",
+          "before": {
+            "label": "Frase de artículo",
+            "text": "El nuevo sistema XPTO desarrollado en este trabajo obtuvo un rendimiento que superó en un 30% a la mejor versión de la literatura."
+          },
+          "after": {
+            "label": "Titular de diapositiva",
+            "text": "XPTO: rendimiento un 30% superior al estado del arte"
+          }
+        },
+        {
+          "type": "section",
+          "heading": "4. Visual",
+          "intro": "La regla es siempre la misma: todo lo que no ayuda a entender, estorba.",
+          "items": [
+            "Fondo blanco y texto negro. Evita siempre el fondo gris o de color: el blanco favorece la legibilidad.",
+            "No uses fondo de color detrás del texto, ni siquiera en cuadros o paneles. Si el color del fondo se parece al del texto, el daño es mayor.",
+            "No te excedas con los colores, salvo cuando haga falta distinguir series de datos en un gráfico.",
+            "Usa combinaciones de color con buen contraste.",
+            "Revisa los bordes de todos los cuadros y bocadillos: el texto no puede tocarlos ni salirse del margen.",
+            "Agranda los logotipos de la primera diapositiva. Suelen quedar demasiado pequeños para reconocerse.",
+            "Numera las diapositivas. Ayuda al público a tomar notas y a dirigir sus preguntas, y te ayuda a controlar el tiempo.",
+            "Poner título en todas las diapositivas es recomendable, pero no obligatorio: a veces agrandar la imagen vale más que añadir un título."
+          ]
+        },
+        {
+          "type": "links",
+          "heading": "Lecturas sobre color y contraste",
+          "items": [
+            {"label": "Choosing colors for your presentation slides", "url": "https://www.thinkoutsidetheslide.com/choosing-colors-for-your-presentation-slides/"},
+            {"label": "Psychology of color in PowerPoint presentations", "url": "https://presentationteam.com/psychology-of-color-in-powerpoint-presentations/"},
+            {"label": "How to choose a color scheme", "url": "https://visme.co/blog/how-to-choose-a-color-scheme/"}
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "5. Consistencia",
+          "intro": "La consistencia visual tiene que mantenerse de la primera diapositiva a la última. Estas preguntas detectan casi todos los descuidos.",
+          "items": [
+            "¿Por qué un término está abreviado y otro del mismo tipo no?",
+            "¿Por qué una etiqueta está en un idioma y otra en otro?",
+            "¿Por qué una letra es más grande que otra para elementos del mismo nivel?",
+            "¿Por qué los mismos elementos usan colores distintos en diapositivas distintas?",
+            "¿Por qué hay diferencias de alineación, espaciado, tamaño o estilo entre elementos equivalentes?"
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "6. Tablas y trabajos relacionados",
+          "intro": "Una tabla copiada del artículo casi nunca funciona en una diapositiva. Hay que rehacerla.",
+          "items": [
+            "Rehaz la tabla para la diapositiva, en lugar de copiar la del artículo.",
+            "Usa letra grande en el contenido de la tabla, no solo en el encabezado.",
+            "Revisa el encabezado: un salto de línea extraño en un título de columna es el defecto más común.",
+            "Pocas veces hace falta mostrar la tabla entera. Muestra solo los datos más relevantes.",
+            "Pocas veces hacen falta todas las tablas del artículo. Explicar bien los datos importantes vale más que pasar por todo deprisa.",
+            "Muestra la tabla de forma progresiva, destacando la fila o la columna que estás explicando."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "La tabla de trabajos relacionados",
+          "intro": "No está para enumerar trabajos. Está para dejar evidente la brecha que tu trabajo llena.",
+          "items": [
+            "Deja claro qué falta o cuáles son las limitaciones de los trabajos anteriores.",
+            "Elige las columnas a partir de tu propio foco: si evalúas técnicas de balanceo, la tabla tiene que mostrar qué técnicas usó cada trabajo y sobre qué tipo de datos.",
+            "Si la tabla aparece al principio, justo después del problema y los desafíos, un título mejor es lo que ya existe y lo que falta.",
+            "No dediques mucho tiempo a los trabajos relacionados."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "La estructura de la presentación",
+          "intro": "El contenido tiene que caber en el tiempo, y tu aportación es lo que el público vino a escuchar.",
+          "items": [
+            "Céntrate en el problema, los desafíos, la solución y los resultados.",
+            "Un contexto largo es poco relevante y hace que pierdas al público a mitad de camino.",
+            "No gastes tiempo justificando la investigación. Basta con presentar claramente el problema que resuelves.",
+            "Prueba a salirte de lo clásico: en vez de abrir con la diapositiva de índice, abre con una motivación fuerte o con el problema. La presentación gana mucho.",
+            "Prepara diapositivas de reserva, después de la final, con respuestas a las preguntas probables. No las muestras durante la charla, pero salvan la discusión."
+          ]
+        },
+        {
+          "type": "note",
+          "text": "¿Cuántas diapositivas? Una por minuto es una buena regla general, más precisa en presentaciones cortas que en largas. Una diapositiva con mucho texto consume más tiempo y desmotiva al público."
+        }
+      ]
+    },
+    "presenting": {
+      "title": "Cómo presentar",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Presentar un trabajo es lograr que el público entienda tus argumentos. No hace falta que esté de acuerdo. Hace falta que entienda."
+        },
+        {
+          "type": "section",
+          "heading": "Ensaya, al menos cinco veces",
+          "intro": "Ensayar no es leer las diapositivas en silencio. Es levantarse, hablar en voz alta y cronometrar.",
+          "items": [
+            "La experiencia muestra que solo a partir del quinto o sexto ensayo el discurso se vuelve fluido, bien organizado y sin repeticiones.",
+            "Ensayar fija el contenido, tranquiliza y crea una secuencia lógica y natural.",
+            "Si puedes, graba audio o vídeo de los ensayos y escúchalos un tiempo después. Notarás cosas que no viste mientras grababas."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "El público nota cuando no hubo ensayo",
+          "intro": "No es cuestión de talento. Las señales son siempre las mismas.",
+          "items": [
+            "La persona tartamudea y se detiene varias veces a pensar qué va a decir.",
+            "Repite lo que ya dijo, porque encontró una forma mejor de explicar algo que ya debería estar claro.",
+            "No consigue transmitir el mensaje más relevante dentro del tiempo.",
+            "La interrumpen antes de terminar, por haberse pasado del tiempo.",
+            "Se queda sin tiempo para preguntas y discusión, que están entre los mayores beneficios de presentar."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Durante la presentación",
+          "items": [
+            "Mira al público. La presentación no es para la pantalla, el ordenador, el suelo ni el techo.",
+            "Si eres tímido, mueve la mirada de un lado a otro de la sala, o fija un punto al fondo, un poco por encima de las cabezas.",
+            "No leas las diapositivas. Transmite falta de preparación al instante, y quien ensayó no lo necesita: al ver la diapositiva, el contenido vuelve solo.",
+            "Tampoco hables de un montón de cosas que no están en la diapositiva. El público se pierde cuando no encuentra apoyo visual para lo que oye.",
+            "El equilibrio: la diapositiva lleva lo esencial, tu voz añade las frases más elaboradas.",
+            "Si pasas dos minutos o más en una misma diapositiva, seguramente tiene demasiado contenido y debería ser dos o tres.",
+            "Resulta pesado seguir una presentación en la que casi nunca cambia la diapositiva."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "El tiempo es del evento, no tuyo",
+          "intro": "Respeta, respeta y respeta el tiempo que te asignaron.",
+          "items": [
+            "En los ensayos, ponte como meta terminar dentro del 5% del tiempo asignado, por arriba o por abajo, sin contar las preguntas.",
+            "Jamás superes el 10% el día de la presentación. Puedes perder el derecho a concluir.",
+            "Pasarse obliga al presidente de sesión a interrumpirte, y muestra desprecio por las reglas, por los organizadores y por el público.",
+            "Terminar mucho antes también es malo: desperdicia un tiempo valioso que te concedieron y sugiere que no tenías nada que explicar.",
+            "Si tienes dudas sobre la duración de tu turno, pregunta al chair de tu sesión o del evento."
+          ]
+        },
+        {
+          "type": "callout",
+          "heading": "División sugerida del tiempo",
+          "text": "Tu aportación suele estar en la parte final del artículo, y es la que merece la mayor porción.",
+          "items": [
+            "30% para la fundamentación",
+            "15% para el objetivo y el problema",
+            "45% para tu aportación, con resultados, limitaciones y discusión",
+            "10% para consideraciones finales, trabajos futuros y agradecimientos"
+          ],
+          "linkPage": "timing",
+          "linkLabel": "Calcular para mi tiempo"
+        },
+        {
+          "type": "section",
+          "heading": "Antes de darlo por terminado",
+          "items": [
+            "Revisa el contenido con tus coautores al menos dos veces.",
+            "Haz varias iteraciones de mejora. Igual que un buen texto, una buena presentación exige ciclos de refinamiento.",
+            "Pide a alguien que no participó en la elaboración que revise las diapositivas, en el móvil.",
+            "Repasa el checklist entero, diapositiva por diapositiva."
+          ],
+          "linkPage": "checklist",
+          "linkLabel": "Abrir el checklist"
+        }
+      ]
+    },
+    "mistakes": {
+      "title": "Errores comunes",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Estos son los problemas que más aparecen en las revisiones, con la versión equivocada y la corregida una al lado de la otra. Los ejemplos fueron recreados desde cero: ninguna presentación de la galería se usa aquí como caso negativo."
+        }
+      ],
+      "mistakes": [
+        {
+          "id": "fonte-pequena",
+          "title": "Letra pequeña en el contenido",
+          "why": "Es, con diferencia, el problema más frecuente. En una sala grande, quien está al fondo simplemente no lee. La prueba del móvil a 50 cm lo detecta en segundos.",
+          "fix": "Sube a 24pt o más. Si no cabe, recorta puntos, nunca la letra.",
+          "wrong": {"kind": "bullets", "variant": "small-type", "title": "Evaluación experimental", "items": ["El experimento se realizó en cuatro escenarios distintos, con 167 ejecuciones en total, variando el número de nodos y la tasa de llegada", "Se compararon tres configuraciones de referencia descritas en la literatura reciente sobre el tema", "Los resultados indican una ganancia consistente en todos los escenarios evaluados, con especial énfasis en el escenario C", "Las limitaciones observadas se discuten en la sección siguiente"]},
+          "right": {"kind": "bullets", "variant": "big-type", "title": "Evaluación experimental", "items": ["167 ejecuciones, 4 escenarios", "Ganancia consistente en todos", "Escenario C: mayor efecto"]}
+        },
+        {
+          "id": "fundo-cinza",
+          "title": "Fondo gris o de color",
+          "why": "El fondo de color reduce el contraste y cansa la vista. Cuando su color se parece al del texto, el daño es grande, y los proyectores varían mucho más que tu pantalla.",
+          "fix": "Fondo blanco, texto negro. Guarda el color para destacar un dato.",
+          "wrong": {"kind": "bullets", "variant": "gray-bg", "title": "Solución propuesta", "items": ["Pipeline en cuatro etapas", "Validación automática de reglas", "Contención en tiempo de ejecución"]},
+          "right": {"kind": "bullets", "variant": "big-type", "title": "Solución propuesta", "items": ["Pipeline en cuatro etapas", "Validación automática de reglas", "Contención en tiempo de ejecución"]}
+        },
+        {
+          "id": "texto-ao-lado-do-grafico",
+          "title": "Bloque de texto al lado del gráfico",
+          "why": "El público intenta leer el texto y mirar el gráfico a la vez, y no hace ninguna de las dos cosas. Encima, el gráfico queda apretado.",
+          "fix": "Un gráfico grande y solo en la diapositiva. El texto pasa a tu voz, o a una diapositiva propia.",
+          "wrong": {"kind": "chart-text", "variant": "cramped", "title": "Resultados", "items": ["La curva azul representa la configuración base", "La curva naranja representa la configuración propuesta", "La ganancia media observada fue del 30% en todo el rango", "El comportamiento se mantiene estable a partir del punto medio"]},
+          "right": {"kind": "chart-only", "variant": "big-type", "title": "La propuesta supera a la base en todo el rango"}
+        },
+        {
+          "id": "figura-pequena",
+          "title": "Figura pequeña con espacio de sobra",
+          "why": "El espacio en blanco sobrante casi siempre significa que la figura podría ser más grande. El espacio de la diapositiva es valioso y se está desperdiciando.",
+          "fix": "Amplía la figura hasta el borde. Si es compleja, deja que ocupe el 100%, por encima del título y del pie.",
+          "wrong": {"kind": "figure", "variant": "tiny-figure", "title": "Arquitectura del sistema"},
+          "right": {"kind": "figure", "variant": "full-figure", "title": ""}
+        },
+        {
+          "id": "figura-complexa",
+          "title": "Figura compleja en una sola diapositiva",
+          "why": "Mientras explicas la etapa 1, media sala ya está intentando descifrar la etapa 4. Pierdes la atención justo en la parte más importante.",
+          "fix": "Divídela en varias diapositivas, una etapa cada vez, añadiendo contenido en cada una.",
+          "wrong": {"kind": "steps", "variant": "all-at-once", "title": "Pipeline", "steps": ["Recolección", "Extracción", "Validación", "Contención"]},
+          "right": {"kind": "steps", "variant": "progressive", "title": "Pipeline, etapa 2 de 4", "steps": ["Recolección", "Extracción", "Validación", "Contención"], "active": 2}
+        },
+        {
+          "id": "numeros-decorativos",
+          "title": "Números decorativos en los cuadros",
+          "why": "El número grande ocupa el mejor espacio del cuadro y no dice nada. Quien lee ya ve que son tres aportaciones.",
+          "fix": "Quita el número y usa el espacio para la palabra clave de cada aportación, en letra más grande.",
+          "wrong": {"kind": "boxes", "variant": "numbered", "title": "Aportaciones", "boxes": [{"n": "01", "text": "Pipeline reproducible de recolección y extracción de datos"}, {"n": "02", "text": "Validación automática de las reglas generadas"}, {"n": "03", "text": "Evaluación en cuatro escenarios distintos"}]},
+          "right": {"kind": "boxes", "variant": "keyword", "title": "Aportaciones", "boxes": [{"key": "Pipeline", "text": "recolección y extracción reproducibles"}, {"key": "Validación", "text": "automática de las reglas generadas"}, {"key": "Evaluación", "text": "cuatro escenarios distintos"}]}
+        },
+        {
+          "id": "texto-vazando",
+          "title": "Texto que toca o se sale del borde",
+          "why": "Se ve descuidado y, en el proyector, la última línea a veces desaparece del todo. Es el tipo de detalle que el público nota antes que el contenido.",
+          "fix": "Deja aire dentro del cuadro y revisa todos los bordes, uno a uno.",
+          "wrong": {"kind": "box-text", "variant": "overflow", "text": "La regla se prueba con tráfico legítimo antes de entrar en producción, y el resultado de esa comprobación alimenta la siguiente iteración del agente"},
+          "right": {"kind": "box-text", "variant": "padded", "text": "La regla se prueba con tráfico legítimo antes de entrar en producción"}
+        },
+        {
+          "id": "idiomas-misturados",
+          "title": "Dos idiomas mezclados",
+          "why": "Cambiar de idioma a mitad de frase frena la lectura. Y suele ser accidental, lo que se lee como descuido.",
+          "fix": "Elige un idioma y mantenlo de la primera diapositiva a la última, incluidas las etiquetas de gráficos y tablas.",
+          "wrong": {"kind": "bullets", "variant": "mixed-lang", "title": "Feature selection", "items": ["Feature con ALTA varianza", "Threshold definido empíricamente", "Accuracy media por ejecución"]},
+          "right": {"kind": "bullets", "variant": "big-type", "title": "Selección de características", "items": ["Característica con alta varianza", "Umbral definido empíricamente", "Exactitud media por ejecución"]}
+        },
+        {
+          "id": "abreviacao-inconsistente",
+          "title": "Abreviación inconsistente",
+          "why": "Si un término aparece abreviado y otro del mismo nivel no, el público busca un significado en la diferencia. No lo hay, y la atención se pierde por el camino.",
+          "fix": "O se abrevia todo, o no se abrevia nada. Vale también para color, alineación y tamaño de elementos equivalentes.",
+          "wrong": {"kind": "table", "variant": "inconsistent", "head": ["CLASIF.", "Precisión", "Recall"], "rows": [["Random Forest", "0,91", "0,88"], ["SVM", "0,87", "0,81"], ["Árbol de decisión", "0,79", "0,74"]]},
+          "right": {"kind": "table", "variant": "consistent", "head": ["Clasificador", "Precisión", "Exhaustividad"], "rows": [["Random Forest", "0,91", "0,88"], ["Máquina de vectores de soporte", "0,87", "0,81"], ["Árbol de decisión", "0,79", "0,74"]]}
+        },
+        {
+          "id": "tabela-fonte-pequena",
+          "title": "Tabla copiada del artículo",
+          "why": "La tabla del artículo se hizo para leerse a 30 cm, en papel y con calma. En la diapositiva se convierte en una mancha gris de números ilegibles.",
+          "fix": "Rehazla para la diapositiva: menos columnas, menos filas, letra grande, solo lo que sostiene el argumento.",
+          "wrong": {"kind": "table", "variant": "dense", "head": ["Modelo", "P", "R", "F1", "AUC", "Tiempo (s)", "Memoria (MB)", "Épocas"], "rows": [["Base", "0,74", "0,71", "0,72", "0,80", "412", "1280", "50"], ["Variante A", "0,79", "0,77", "0,78", "0,84", "455", "1310", "50"], ["Variante B", "0,83", "0,80", "0,81", "0,87", "498", "1422", "75"], ["Propuesta", "0,91", "0,88", "0,89", "0,94", "521", "1450", "75"]]},
+          "right": {"kind": "table", "variant": "consistent", "head": ["Modelo", "F1"], "rows": [["Base", "0,72"], ["Mejor variante", "0,81"], ["Propuesta", "0,89"]]}
+        },
+        {
+          "id": "trabalhos-relacionados",
+          "title": "Trabajos relacionados que solo enumeran",
+          "why": "Una lista de trabajos no le dice nada al público. Lo que necesita ver es la brecha que tu trabajo llena.",
+          "fix": "Elige las columnas desde tu propio foco y haz visible la brecha. Si la tabla va al principio, titúlala lo que ya existe y lo que falta.",
+          "wrong": {"kind": "table", "variant": "inconsistent", "head": ["Trabajo", "Año", "Área"], "rows": [["Silva et al.", "2021", "Detección"], ["Souza et al.", "2022", "Detección"], ["Lima et al.", "2023", "Clasificación"]]},
+          "right": {"kind": "table", "variant": "gap", "head": ["Trabajo", "Balanceo", "Datos binarios", "Brecha"], "rows": [["Silva et al.", "No evalúa", "No", "sin balanceo"], ["Souza et al.", "Solo SMOTE", "No", "una sola técnica"], ["Lima et al.", "SMOTE, ADASYN", "No", "no cubre binarios"], ["Este trabajo", "Seis técnicas", "Sí", ""]]}
+        },
+        {
+          "id": "logomarca-pequena",
+          "title": "Logotipos diminutos en la primera diapositiva",
+          "why": "La primera diapositiva está en pantalla mientras te presentan, que es justo cuando las instituciones podrían reconocerse. Con el logotipo pequeño, nadie identifica nada.",
+          "fix": "Agranda bastante los logotipos de la diapositiva de apertura.",
+          "wrong": {"kind": "title-logos", "variant": "tiny-logos", "title": "Título del trabajo", "authors": "Autores, institución"},
+          "right": {"kind": "title-logos", "variant": "big-logos", "title": "Título del trabajo", "authors": "Autores, institución"}
+        }
+      ]
+    },
+    "checklist": {
+      "title": "Checklist de revisión de diapositivas",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Marca cada punto antes de dar la presentación por terminada. El progreso se guarda en este navegador."
+        }
+      ],
+      "ui": {
+        "progress": "puntos marcados",
+        "reset": "Limpiar todo",
+        "copy": "Copiar como texto",
+        "copied": "Copiado",
+        "allDone": "Checklist completo. Buena presentación.",
+        "resetConfirm": "¿Desmarcar todos los puntos?"
+      }
+    },
+    "timing": {
+      "title": "Calculadora de tiempo",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Indica la duración de tu turno y mira cuánto tiempo cabe en cada parte de la presentación, además del margen que tienes para equivocarte."
+        }
+      ],
+      "ui": {
+        "label": "Duración de la presentación, en minutos",
+        "quick": "Turnos habituales",
+        "minutes": "min",
+        "seconds": "s",
+        "parts": "División sugerida",
+        "slidesLabel": "Cuántas diapositivas",
+        "slidesHint": "Una diapositiva por minuto es una buena regla general, más precisa en presentaciones cortas que en largas.",
+        "toleranceLabel": "Margen de tiempo",
+        "toleranceTarget": "Meta en los ensayos: terminar dentro de",
+        "toleranceLimit": "Límite absoluto: nunca pasar de",
+        "ofTotal": "del tiempo total",
+        "aroundLabel": "aproximadamente",
+        "parts_foundation": "Fundamentación",
+        "parts_problem": "Objetivo y problema",
+        "parts_contribution": "Aportación y resultados",
+        "parts_closing": "Consideraciones y agradecimientos"
+      },
+      "after": [
+        {
+          "type": "note",
+          "text": "Si pasas dos minutos o más en una misma diapositiva, seguramente tiene demasiado contenido y debería convertirse en dos o tres."
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Galería de ejemplos",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Presentaciones completas de trabajos aceptados en eventos científicos, en PDF y en formato editable. Inspírate, copia, adapta y aprovéchalas. Son de libre uso."
+        },
+        {
+          "type": "prose",
+          "paragraphs": [
+            "Estas presentaciones tuvieron turnos de distinta duración en sus sesiones, lo que explica la variación en el número de diapositivas. Algunas siguen todas las recomendaciones de este sitio, otras siguen buena parte de ellas.",
+            "La mayoría está en portugués, porque proviene de eventos brasileños. La estructura, el ritmo y las decisiones visuales se leen igual de bien en cualquier idioma."
+          ]
+        }
+      ],
+      "ui": {
+        "filterEvent": "Evento",
+        "filterTrack": "Tipo de trabajo",
+        "filterAll": "Todos",
+        "results": "ejemplos",
+        "noResults": "Ningún ejemplo con esos filtros.",
+        "clear": "Limpiar filtros",
+        "slidesLabel": "diapositivas",
+        "authorsLabel": "Autores",
+        "thumbAlt": "Primera diapositiva de"
+      },
+      "tracks": {
+        "tp": "Sesión principal, artículo completo",
+        "sf": "Sesión de herramientas",
+        "wticg": "Taller de iniciación científica",
+        "wrseg": "Taller regional",
+        "sbrc": "SBRC, simposio de redes",
+        "dsn": "DSN"
+      },
+      "events": {
+        "sbseg2026": "SBSeg 2026",
+        "sbseg2023": "SBSeg 2023",
+        "sbseg2022": "SBSeg 2022",
+        "sbseg2021": "SBSeg 2021",
+        "sbseg2020": "SBSeg 2020",
+        "wrseg2023": "WRSeg 2023",
+        "wrseg2020": "WRSeg 2020",
+        "wrseg2018": "WRSeg 2018",
+        "sbrc2020": "SBRC 2020",
+        "dsn2023": "DSN 2023"
+      },
+      "formats": {
+        "pdf": "PDF",
+        "pptx": "PPTX",
+        "latex": "LaTeX",
+        "external": "Online"
+      }
+    },
+    "templates": {
+      "title": "Plantillas",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Puntos de partida listos para usar. Modifícalos, edítalos y úsalos libremente."
+        }
+      ],
+      "items": [
+        {
+          "name": "Plantilla del SBSeg 2024",
+          "text": "Plantilla oficial de diapositivas del evento, con portada, diapositivas de contenido y cierre. Sirve para cualquier presentación técnica, no solo para el SBSeg.",
+          "files": [
+            {"type": "pdf", "url": "assets/slides/template-sbseg2024.pdf"},
+            {"type": "pptx", "url": "assets/slides/template-sbseg2024.pptx"},
+            {"type": "external", "label": "Google Drive", "url": "https://docs.google.com/presentation/d/1PvzQ3sBsGwQsKkTCbjP-egoiiKLnauqWFz26WDW6ykE/edit?usp=sharing"}
+          ],
+          "thumb": "assets/thumbs/template-sbseg2024.png"
+        },
+        {
+          "name": "Plantilla LaTeX IFSCyan",
+          "text": "Plantilla de presentación en LaTeX, de Émerson Mello, en la variante con color.",
+          "files": [
+            {"type": "external", "label": "GitHub", "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifscyan"}
+          ]
+        },
+        {
+          "name": "Plantilla LaTeX IFSClean",
+          "text": "Plantilla de presentación en LaTeX, de Émerson Mello, en la variante limpia, con fondo blanco.",
+          "files": [
+            {"type": "external", "label": "GitHub", "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifsclean"}
+          ]
+        }
+      ]
+    },
+    "credits": {
+      "title": "Créditos",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Este sitio nació de la página de sugerencias para presentaciones del SBSeg 2024 y creció con las notas de revisión escritas desde entonces."
+        },
+        {
+          "type": "people",
+          "heading": "Autores del material original",
+          "text": "Página de sugerencias para presentaciones, SBSeg 2024.",
+          "items": [
+            "Diego Kreutz, UNIPAMPA",
+            "Marco A. Amaral Henriques, UNICAMP",
+            "Charles Christian Miers, UDESC",
+            "Cintia Borges Margi, USP",
+            "Rodrigo Brandão Mansilha, UNIPAMPA"
+          ]
+        },
+        {
+          "type": "people",
+          "heading": "Contribuidores de la galería original",
+          "items": [
+            "Diego Kreutz",
+            "Émerson Mello",
+            "Felipe Assis",
+            "Felipe Salles",
+            "Isadora Ferrão",
+            "Jessica Sato",
+            "João Otávio Chervinski",
+            "Vinícius Rodrigues"
+          ]
+        },
+        {
+          "type": "prose",
+          "heading": "Autores de los ejemplos",
+          "paragraphs": [
+            "Cada presentación de la galería lleva el nombre de sus autores. El material se publica con autorización, para servir de referencia a quien está preparando la suya.",
+            "Si eres autor de un ejemplo y quieres que salga de la galería, o quieres corregir la atribución, basta con pedirlo."
+          ]
+        },
+        {
+          "type": "links",
+          "heading": "Origen",
+          "items": [
+            {"label": "Sugerencias para presentaciones, SBSeg 2024", "url": "https://sbseg2024.ita.br/autores/sugestoes-para-apresentacoes/"},
+            {"label": "Galería de ejemplos del SBSeg 2024", "url": "https://sbseg24.github.io/slides/"}
+          ]
+        },
+        {
+          "type": "prose",
+          "heading": "Uso y contribución",
+          "paragraphs": [
+            "Todo el contenido es de libre uso. Cópialo, adáptalo, tradúcelo y reutilízalo en tus clases, tus tutorías y tus eventos.",
+            "Si tienes una presentación que quedó bien y quieres aportarla a la galería, ponte en contacto."
+          ]
+        }
+      ]
+    }
+  },
+  "footer": {
+    "origin": "Material de libre uso, derivado de las sugerencias para presentaciones del SBSeg 2024.",
+    "creditsLink": "Créditos y autores"
+  }
+}

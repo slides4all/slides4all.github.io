@@ -223,6 +223,7 @@
           "intro": "The content has to fit the time, and your contribution is what the audience came for.",
           "items": [
             "Focus on the problem, the challenges, the solution and the results.",
+            "Go into technical detail on the problem and the challenges. That is where the audience decides whether the work matters, and it is the part most often squeezed for time.",
             "Long context is rarely relevant and loses the audience halfway through.",
             "Do not spend time justifying the research. Just state the problem being solved, clearly.",
             "Try breaking the mold: instead of opening with an outline slide, open with strong motivation or with the problem. The talk becomes far more engaging.",
@@ -292,11 +293,11 @@
         {
           "type": "callout",
           "heading": "Suggested split of the time",
-          "text": "Your contribution is usually in the final part of the paper, and it deserves the largest share.",
+          "text": "The audience came for the problem and for your solution. Long background eats exactly the time those two parts need.",
           "items": [
-            "30% for background",
-            "15% for the goal and the problem",
-            "45% for your contribution, with results, limitations and discussion",
+            "10% for background, only enough to situate the work",
+            "25% for the problem and the challenges, with the technical detail",
+            "55% for the solution and the results, with limitations and discussion",
             "10% for closing remarks, future work and acknowledgements"
           ],
           "linkPage": "timing",
@@ -462,8 +463,8 @@
         "ofTotal": "of the total time",
         "aroundLabel": "about",
         "parts_foundation": "Background",
-        "parts_problem": "Goal and problem",
-        "parts_contribution": "Contribution and results",
+        "parts_problem": "Problem and challenges",
+        "parts_contribution": "Solution and results",
         "parts_closing": "Closing and acknowledgements"
       },
       "after": [

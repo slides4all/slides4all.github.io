@@ -9,7 +9,9 @@
   var SEG = textos.getAttribute('data-sec');
   var APROX = textos.getAttribute('data-around');
 
-  var partes = { foundation: 30, problem: 15, contribution: 45, closing: 10 };
+  /* Os percentuais vem do proprio HTML, gerado por build.py, para que a tabela
+     e este calculo nao possam discordar. */
+  var celulas = Array.prototype.slice.call(document.querySelectorAll('[data-part]'));
 
   function formatar(segundos) {
     var s = Math.round(segundos);
@@ -24,11 +26,9 @@
     if (!minutos || minutos < 1) { minutos = 0; }
     var segundos = minutos * 60;
 
-    Object.keys(partes).forEach(function (nome) {
-      var alvo = document.querySelector('[data-part="' + nome + '"]');
-      if (alvo) {
-        alvo.textContent = minutos ? formatar(segundos * partes[nome] / 100) : '-';
-      }
+    celulas.forEach(function (alvo) {
+      var pct = parseFloat(alvo.getAttribute('data-pct'));
+      alvo.textContent = minutos ? formatar(segundos * pct / 100) : '-';
     });
 
     var slides = document.getElementById('timingSlides');

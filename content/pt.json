@@ -223,6 +223,7 @@
           "intro": "O conteúdo precisa caber no tempo, e a sua contribuição é o que a plateia veio ouvir.",
           "items": [
             "Foque no problema, nos desafios, na solução e nos resultados.",
+            "Detalhe tecnicamente o problema e os desafios. É aí que a plateia decide se o trabalho interessa, e é a parte que mais costuma ficar sem tempo.",
             "Contexto longo é pouco relevante e faz você perder a plateia no meio do caminho.",
             "Não gaste tempo justificando a pesquisa. Apresente claramente o problema que está sendo resolvido.",
             "Experimente fugir do clássico: em vez de abrir com o slide de roteiro, abra com uma motivação forte ou com o problema. A apresentação fica mais envolvente.",
@@ -292,11 +293,11 @@
         {
           "type": "callout",
           "heading": "Divisão sugerida do tempo",
-          "text": "Sua contribuição costuma estar na parte final do artigo, e é ela que merece a maior fatia.",
+          "text": "A plateia veio pelo problema e pela sua solução. Fundamentação longa consome justamente o tempo de que essas duas partes precisam.",
           "items": [
-            "30% para a fundamentação",
-            "15% para o objetivo e o problema",
-            "45% para a contribuição, com resultados, limitações e discussão",
+            "10% para a fundamentação, apenas o necessário para situar o trabalho",
+            "25% para o problema e os desafios, com o detalhamento técnico",
+            "55% para a solução e os resultados, com limitações e discussão",
             "10% para considerações finais, trabalhos futuros e agradecimentos"
           ],
           "linkPage": "timing",
@@ -462,8 +463,8 @@
         "ofTotal": "do tempo total",
         "aroundLabel": "aproximadamente",
         "parts_foundation": "Fundamentação",
-        "parts_problem": "Objetivo e problema",
-        "parts_contribution": "Contribuição e resultados",
+        "parts_problem": "Problema e desafios",
+        "parts_contribution": "Solução e resultados",
         "parts_closing": "Considerações e agradecimentos"
       },
       "after": [

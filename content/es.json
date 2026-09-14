@@ -223,6 +223,7 @@
           "intro": "El contenido tiene que caber en el tiempo, y tu aportación es lo que el público vino a escuchar.",
           "items": [
             "Céntrate en el problema, los desafíos, la solución y los resultados.",
+            "Detalla técnicamente el problema y los desafíos. Ahí es donde el público decide si el trabajo le interesa, y es la parte que más se queda sin tiempo.",
             "Un contexto largo es poco relevante y hace que pierdas al público a mitad de camino.",
             "No gastes tiempo justificando la investigación. Basta con presentar claramente el problema que resuelves.",
             "Prueba a salirte de lo clásico: en vez de abrir con la diapositiva de índice, abre con una motivación fuerte o con el problema. La presentación gana mucho.",
@@ -292,11 +293,11 @@
         {
           "type": "callout",
           "heading": "División sugerida del tiempo",
-          "text": "Tu aportación suele estar en la parte final del artículo, y es la que merece la mayor porción.",
+          "text": "El público vino por el problema y por tu solución. Una fundamentación larga consume justamente el tiempo que esas dos partes necesitan.",
           "items": [
-            "30% para la fundamentación",
-            "15% para el objetivo y el problema",
-            "45% para tu aportación, con resultados, limitaciones y discusión",
+            "10% para la fundamentación, solo lo necesario para situar el trabajo",
+            "25% para el problema y los desafíos, con el detalle técnico",
+            "55% para la solución y los resultados, con limitaciones y discusión",
             "10% para consideraciones finales, trabajos futuros y agradecimientos"
           ],
           "linkPage": "timing",
@@ -462,8 +463,8 @@
         "ofTotal": "del tiempo total",
         "aroundLabel": "aproximadamente",
         "parts_foundation": "Fundamentación",
-        "parts_problem": "Objetivo y problema",
-        "parts_contribution": "Aportación y resultados",
+        "parts_problem": "Problema y desafíos",
+        "parts_contribution": "Solución y resultados",
         "parts_closing": "Consideraciones y agradecimientos"
       },
       "after": [

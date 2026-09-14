@@ -74,6 +74,8 @@ Ensaio: pelo menos cinco vezes, em pé e falando alto, porque só a partir do qu
 
 Tempo: respeitar o slot com tolerância de 5% nos ensaios e jamais ultrapassar 10%. O constrangimento das duas falhas simétricas, terminar tarde e terminar cedo demais. A divisão sugerida do tempo, que na página aparece junto com o link para a calculadora.
 
+A divisão do tempo foi revista em relação ao material do SBSeg 2024, que recomendava 30% para fundamentação, 15% para objetivo e problema, 45% para a contribuição e 10% para o encerramento. A recomendação atual é 10% para fundamentação, 25% para o problema e os desafios, 55% para a solução e os resultados, e 10% para o encerramento. O motivo: fundamentação longa consome justamente o tempo de que o detalhamento técnico do problema e a solução precisam, e num slot de 20 minutos os 30% originais gastavam 6 minutos antes de a plateia ouvir qual era o problema. Os percentuais vivem em `DIVISAO_TEMPO`, em `build.py`, e são emitidos no HTML como `data-pct`, de onde a calculadora os lê: tabela e cálculo não podem discordar.
+
 Execução: olhar para a plateia, não ler os slides, numerar os slides, não ficar mais de dois minutos no mesmo slide, não passar informação fundamental só pela fala.
 
 Revisão: pelo menos duas revisões com os coautores, e a revisão final por alguém que não participou da elaboração, feita no celular.
@@ -94,7 +96,7 @@ O estado usa `localStorage` com leitura e escrita protegidas, e a página funcio
 
 ### 4.6 Tempo
 
-Entrada: duração do slot em minutos. Saída: os minutos de cada parte segundo a divisão de 30% para fundamentação, 15% para objetivo e problema, 45% para contribuição e resultados, 10% para considerações e agradecimentos; a faixa recomendada de slides; a tolerância de 5% em segundos; e o limite absoluto de 10%.
+Entrada: duração do slot em minutos. Saída: os minutos de cada parte segundo a divisão de 10% para fundamentação, 25% para problema e desafios, 55% para solução e resultados, 10% para considerações e agradecimentos; a estimativa de slides; a tolerância de 5% em segundos; e o limite absoluto de 10%.
 
 Botões rápidos para os slots mais comuns (15, 20, 25 e 30 minutos) e a ressalva do material original: um slide por minuto é uma boa regra de bolso, mais precisa em apresentações curtas do que em longas.
 

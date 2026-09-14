@@ -38,6 +38,13 @@ SLUGS = {
 }
 ORDEM_NAV = ["slides", "presenting", "mistakes", "checklist", "timing",
              "gallery", "templates"]
+
+# Divisao sugerida do tempo da apresentacao, em porcentagem. Definida aqui e
+# emitida no HTML como data-pct: a calculadora le esses valores do proprio
+# documento, para que tabela e calculo nunca possam discordar.
+DIVISAO_TEMPO = [("foundation", 10), ("problem", 25),
+                 ("contribution", 55), ("closing", 10)]
+assert sum(p for _, p in DIVISAO_TEMPO) == 100, "a divisao do tempo precisa somar 100%"
 NOMES_IDIOMA = {"pt": "Português", "en": "English", "es": "Español"}
 
 # Listas que podem ter tamanho diferente entre idiomas sem que isso seja erro.
@@ -400,13 +407,12 @@ def render_checklist(pagina, ctx, grupos):
 
 def render_timing(pagina, ctx):
     ui = pagina["ui"]
-    partes = [("foundation", 30), ("problem", 15), ("contribution", 45), ("closing", 10)]
     linhas = []
-    for chave, pct in partes:
+    for chave, pct in DIVISAO_TEMPO:
         linhas.append(
             '<tr><th scope="row">%s</th><td class="pct">%d%%</td>'
-            '<td class="val" data-part="%s">-</td></tr>'
-            % (e(ui["parts_" + chave]), pct, chave))
+            '<td class="val" data-part="%s" data-pct="%d">-</td></tr>'
+            % (e(ui["parts_" + chave]), pct, chave, pct))
     return "\n".join([
         '<form class="timing" id="timingForm" autocomplete="off">',
         '<label class="timing-label" for="timingInput">%s</label>' % e(ui["label"]),

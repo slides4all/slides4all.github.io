@@ -176,9 +176,18 @@
           "type": "links",
           "heading": "Reading on color and contrast",
           "items": [
-            {"label": "Choosing colors for your presentation slides", "url": "https://www.thinkoutsidetheslide.com/choosing-colors-for-your-presentation-slides/"},
-            {"label": "Psychology of color in PowerPoint presentations", "url": "https://presentationteam.com/psychology-of-color-in-powerpoint-presentations/"},
-            {"label": "How to choose a color scheme", "url": "https://visme.co/blog/how-to-choose-a-color-scheme/"}
+            {
+              "label": "Choosing colors for your presentation slides",
+              "url": "https://www.thinkoutsidetheslide.com/choosing-colors-for-your-presentation-slides/"
+            },
+            {
+              "label": "Psychology of color in PowerPoint presentations",
+              "url": "https://presentationteam.com/psychology-of-color-in-powerpoint-presentations/"
+            },
+            {
+              "label": "How to choose a color scheme",
+              "url": "https://visme.co/blog/how-to-choose-a-color-scheme/"
+            }
           ]
         },
         {
@@ -331,96 +340,434 @@
           "title": "Small type in the body",
           "why": "By far the most common problem. In a large room, the people at the back simply do not read it. The phone test at 50 cm catches this in seconds.",
           "fix": "Go up to 24pt or more. If it does not fit, cut items, never the type size.",
-          "wrong": {"kind": "bullets", "variant": "small-type", "title": "Experimental evaluation", "items": ["The experiment was carried out across four distinct scenarios, with 167 runs in total, varying the number of nodes and the arrival rate", "Three reference configurations described in the recent literature on the topic were compared", "Results show a consistent gain across every scenario evaluated, most notably in scenario C", "The limitations observed are discussed in the following section"]},
-          "right": {"kind": "bullets", "variant": "big-type", "title": "Experimental evaluation", "items": ["167 runs, 4 scenarios", "Consistent gain in all of them", "Scenario C: largest effect"]}
+          "wrong": {
+            "kind": "bullets",
+            "variant": "small-type",
+            "title": "Experimental evaluation",
+            "items": [
+              "The experiment was carried out across four distinct scenarios, with 167 runs in total, varying the number of nodes and the arrival rate",
+              "Three reference configurations described in the recent literature on the topic were compared",
+              "Results show a consistent gain across every scenario evaluated, most notably in scenario C",
+              "The limitations observed are discussed in the following section"
+            ]
+          },
+          "right": {
+            "kind": "bullets",
+            "variant": "big-type",
+            "title": "Experimental evaluation",
+            "items": [
+              "167 runs, 4 scenarios",
+              "Consistent gain in all of them",
+              "Scenario C: largest effect"
+            ]
+          }
         },
         {
           "id": "fundo-cinza",
           "title": "Gray or colored background",
           "why": "A colored background cuts contrast and tires the eyes. When the background is close to the text color the damage is severe, and projectors vary far more than your screen does.",
           "fix": "White background, black text. Save color for highlighting one number.",
-          "wrong": {"kind": "bullets", "variant": "gray-bg", "title": "Proposed solution", "items": ["Four-stage pipeline", "Automatic rule validation", "Runtime containment"]},
-          "right": {"kind": "bullets", "variant": "big-type", "title": "Proposed solution", "items": ["Four-stage pipeline", "Automatic rule validation", "Runtime containment"]}
+          "wrong": {
+            "kind": "bullets",
+            "variant": "gray-bg",
+            "title": "Proposed solution",
+            "items": [
+              "Four-stage pipeline",
+              "Automatic rule validation",
+              "Runtime containment"
+            ]
+          },
+          "right": {
+            "kind": "bullets",
+            "variant": "big-type",
+            "title": "Proposed solution",
+            "items": [
+              "Four-stage pipeline",
+              "Automatic rule validation",
+              "Runtime containment"
+            ]
+          }
         },
         {
           "id": "texto-ao-lado-do-grafico",
           "title": "A block of text beside the chart",
           "why": "The audience tries to read the text and look at the chart at the same time, and does neither. The chart gets squeezed on top of that.",
           "fix": "One large chart alone on the slide. The text becomes your voice, or a slide of its own.",
-          "wrong": {"kind": "chart-text", "variant": "cramped", "title": "Results", "items": ["The blue curve is the baseline configuration", "The orange curve is the proposed configuration", "The average gain observed was 30% across the whole range", "Behaviour stays stable from the midpoint onward"]},
-          "right": {"kind": "chart-only", "variant": "big-type", "title": "Proposal beats the baseline across the range"}
+          "wrong": {
+            "kind": "chart-text",
+            "variant": "cramped",
+            "title": "Results",
+            "items": [
+              "The blue curve is the baseline configuration",
+              "The orange curve is the proposed configuration",
+              "The average gain observed was 30% across the whole range",
+              "Behaviour stays stable from the midpoint onward"
+            ]
+          },
+          "right": {
+            "kind": "chart-only",
+            "variant": "big-type",
+            "title": "Proposal beats the baseline across the range"
+          }
         },
         {
           "id": "figura-pequena",
           "title": "A small figure with space to spare",
           "why": "Leftover white space almost always means the figure could be larger. Slide space is precious and it is being wasted.",
           "fix": "Scale the figure to the edge of the slide. If it is complex, let it take 100%, over the title and the footer.",
-          "wrong": {"kind": "figure", "variant": "tiny-figure", "title": "System architecture"},
-          "right": {"kind": "figure", "variant": "full-figure", "title": ""}
+          "wrong": {
+            "kind": "figure",
+            "variant": "tiny-figure",
+            "title": "System architecture"
+          },
+          "right": {
+            "kind": "figure",
+            "variant": "full-figure",
+            "title": ""
+          }
         },
         {
           "id": "figura-complexa",
           "title": "A complex figure on a single slide",
           "why": "While you explain step 1, half the room is already trying to decode step 4. You lose their attention exactly where it matters most.",
           "fix": "Break it across slides, one step at a time, adding content with each slide.",
-          "wrong": {"kind": "steps", "variant": "all-at-once", "title": "Pipeline", "steps": ["Collection", "Extraction", "Validation", "Containment"]},
-          "right": {"kind": "steps", "variant": "progressive", "title": "Pipeline, step 2 of 4", "steps": ["Collection", "Extraction", "Validation", "Containment"], "active": 2}
+          "wrong": {
+            "kind": "steps",
+            "variant": "all-at-once",
+            "title": "Pipeline",
+            "steps": [
+              "Collection",
+              "Extraction",
+              "Validation",
+              "Containment"
+            ]
+          },
+          "right": {
+            "kind": "steps",
+            "variant": "progressive",
+            "title": "Pipeline, step 2 of 4",
+            "steps": [
+              "Collection",
+              "Extraction",
+              "Validation",
+              "Containment"
+            ],
+            "active": 2
+          }
         },
         {
           "id": "numeros-decorativos",
           "title": "Decorative numbers in boxes",
           "why": "The big number takes the best space in the box and says nothing. Anyone reading can already see there are three contributions.",
           "fix": "Drop the number and use the space for the keyword of each contribution, in larger type.",
-          "wrong": {"kind": "boxes", "variant": "numbered", "title": "Contributions", "boxes": [{"n": "01", "text": "Reproducible pipeline for data collection and extraction"}, {"n": "02", "text": "Automatic validation of the generated rules"}, {"n": "03", "text": "Evaluation across four distinct scenarios"}]},
-          "right": {"kind": "boxes", "variant": "keyword", "title": "Contributions", "boxes": [{"key": "Pipeline", "text": "reproducible collection and extraction"}, {"key": "Validation", "text": "automatic, on the generated rules"}, {"key": "Evaluation", "text": "four distinct scenarios"}]}
+          "wrong": {
+            "kind": "boxes",
+            "variant": "numbered",
+            "title": "Contributions",
+            "boxes": [
+              {
+                "n": "01",
+                "text": "Reproducible pipeline for data collection and extraction"
+              },
+              {
+                "n": "02",
+                "text": "Automatic validation of the generated rules"
+              },
+              {
+                "n": "03",
+                "text": "Evaluation across four distinct scenarios"
+              }
+            ]
+          },
+          "right": {
+            "kind": "boxes",
+            "variant": "keyword",
+            "title": "Contributions",
+            "boxes": [
+              {
+                "key": "Pipeline",
+                "text": "reproducible collection and extraction"
+              },
+              {
+                "key": "Validation",
+                "text": "automatic, on the generated rules"
+              },
+              {
+                "key": "Evaluation",
+                "text": "four distinct scenarios"
+              }
+            ]
+          }
         },
         {
           "id": "texto-vazando",
           "title": "Text touching or overflowing the edge",
           "why": "It looks visibly careless and, on a projector, the last line sometimes disappears entirely. It is the kind of detail an audience notices before the content.",
           "fix": "Give the text room inside the box and check every edge, one by one.",
-          "wrong": {"kind": "box-text", "variant": "overflow", "text": "The rule is tested against legitimate traffic before going into production, and the outcome of that check feeds the next iteration of the agent"},
-          "right": {"kind": "box-text", "variant": "padded", "text": "The rule is tested against legitimate traffic before going live"}
+          "wrong": {
+            "kind": "box-text",
+            "variant": "overflow",
+            "text": "The rule is tested against legitimate traffic before going into production, and the outcome of that check feeds the next iteration of the agent"
+          },
+          "right": {
+            "kind": "box-text",
+            "variant": "padded",
+            "text": "The rule is tested against legitimate traffic before going live"
+          }
         },
         {
           "id": "idiomas-misturados",
           "title": "Two languages mixed together",
           "why": "Switching language mid-phrase stalls the reader. It is usually accidental, which reads as carelessness.",
           "fix": "Pick one language and hold it from the first slide to the last, including chart and table labels.",
-          "wrong": {"kind": "bullets", "variant": "mixed-lang", "title": "Feature selection", "items": ["Feature com ALTA variância", "Threshold definido empirically", "Accuracy média por run"]},
-          "right": {"kind": "bullets", "variant": "big-type", "title": "Feature selection", "items": ["Feature with high variance", "Empirically defined threshold", "Mean accuracy per run"]}
+          "wrong": {
+            "kind": "bullets",
+            "variant": "mixed-lang",
+            "title": "Feature selection",
+            "items": [
+              "Feature com ALTA variância",
+              "Threshold definido empirically",
+              "Accuracy média por run"
+            ]
+          },
+          "right": {
+            "kind": "bullets",
+            "variant": "big-type",
+            "title": "Feature selection",
+            "items": [
+              "Feature with high variance",
+              "Empirically defined threshold",
+              "Mean accuracy per run"
+            ]
+          }
         },
         {
           "id": "abreviacao-inconsistente",
           "title": "Inconsistent abbreviation",
           "why": "If one term is abbreviated and another at the same level is not, the audience looks for meaning in the difference. There is none, and attention is lost on the way.",
           "fix": "Either abbreviate everything or nothing. The same goes for color, alignment and size of equivalent elements.",
-          "wrong": {"kind": "table", "variant": "inconsistent", "head": ["CLASSIF.", "Precision", "Recall"], "rows": [["Random Forest", "0.91", "0.88"], ["SVM", "0.87", "0.81"], ["Decision tree", "0.79", "0.74"]]},
-          "right": {"kind": "table", "variant": "consistent", "head": ["Classifier", "Precision", "Recall"], "rows": [["Random Forest", "0.91", "0.88"], ["Support Vector Machine", "0.87", "0.81"], ["Decision tree", "0.79", "0.74"]]}
+          "wrong": {
+            "kind": "table",
+            "variant": "inconsistent",
+            "head": [
+              "CLASSIF.",
+              "Precision",
+              "Recall"
+            ],
+            "rows": [
+              [
+                "Random Forest",
+                "0.91",
+                "0.88"
+              ],
+              [
+                "SVM",
+                "0.87",
+                "0.81"
+              ],
+              [
+                "Decision tree",
+                "0.79",
+                "0.74"
+              ]
+            ]
+          },
+          "right": {
+            "kind": "table",
+            "variant": "consistent",
+            "head": [
+              "Classifier",
+              "Precision",
+              "Recall"
+            ],
+            "rows": [
+              [
+                "Random Forest",
+                "0.91",
+                "0.88"
+              ],
+              [
+                "Support Vector Machine",
+                "0.87",
+                "0.81"
+              ],
+              [
+                "Decision tree",
+                "0.79",
+                "0.74"
+              ]
+            ]
+          }
         },
         {
           "id": "tabela-fonte-pequena",
           "title": "A table copied from the paper",
           "why": "The table in the paper was made to be read at 30 cm, on paper, at your own pace. On a slide it becomes a gray smudge of unreadable numbers.",
           "fix": "Rebuild it for the slide: fewer columns, fewer rows, large type, only what supports the argument.",
-          "wrong": {"kind": "table", "variant": "dense", "head": ["Model", "P", "R", "F1", "AUC", "Time (s)", "Memory (MB)", "Epochs"], "rows": [["Baseline", "0.74", "0.71", "0.72", "0.80", "412", "1280", "50"], ["Variant A", "0.79", "0.77", "0.78", "0.84", "455", "1310", "50"], ["Variant B", "0.83", "0.80", "0.81", "0.87", "498", "1422", "75"], ["Proposal", "0.91", "0.88", "0.89", "0.94", "521", "1450", "75"]]},
-          "right": {"kind": "table", "variant": "consistent", "head": ["Model", "F1"], "rows": [["Baseline", "0.72"], ["Best variant", "0.81"], ["Proposal", "0.89"]]}
+          "wrong": {
+            "kind": "table",
+            "variant": "dense",
+            "head": [
+              "Model",
+              "P",
+              "R",
+              "F1",
+              "AUC",
+              "Time (s)",
+              "Memory (MB)",
+              "Epochs"
+            ],
+            "rows": [
+              [
+                "Baseline",
+                "0.74",
+                "0.71",
+                "0.72",
+                "0.80",
+                "412",
+                "1280",
+                "50"
+              ],
+              [
+                "Variant A",
+                "0.79",
+                "0.77",
+                "0.78",
+                "0.84",
+                "455",
+                "1310",
+                "50"
+              ],
+              [
+                "Variant B",
+                "0.83",
+                "0.80",
+                "0.81",
+                "0.87",
+                "498",
+                "1422",
+                "75"
+              ],
+              [
+                "Proposal",
+                "0.91",
+                "0.88",
+                "0.89",
+                "0.94",
+                "521",
+                "1450",
+                "75"
+              ]
+            ]
+          },
+          "right": {
+            "kind": "table",
+            "variant": "consistent",
+            "head": [
+              "Model",
+              "F1"
+            ],
+            "rows": [
+              [
+                "Baseline",
+                "0.72"
+              ],
+              [
+                "Best variant",
+                "0.81"
+              ],
+              [
+                "Proposal",
+                "0.89"
+              ]
+            ]
+          }
         },
         {
           "id": "trabalhos-relacionados",
           "title": "Related work that only lists papers",
           "why": "A list of papers tells the audience nothing. What they need to see is the gap your work fills.",
           "fix": "Choose the columns from your own focus and make the gap visible. If the table comes early, call it what exists and what is missing.",
-          "wrong": {"kind": "table", "variant": "inconsistent", "head": ["Work", "Year", "Area"], "rows": [["Silva et al.", "2021", "Detection"], ["Souza et al.", "2022", "Detection"], ["Lima et al.", "2023", "Classification"]]},
-          "right": {"kind": "table", "variant": "gap", "head": ["Work", "Balancing", "Binary data", "Gap"], "rows": [["Silva et al.", "Not evaluated", "No", "no balancing"], ["Souza et al.", "SMOTE only", "No", "single technique"], ["Lima et al.", "SMOTE, ADASYN", "No", "no binary data"], ["This work", "Six techniques", "Yes", ""]]}
+          "wrong": {
+            "kind": "table",
+            "variant": "inconsistent",
+            "head": [
+              "Work",
+              "Year",
+              "Area"
+            ],
+            "rows": [
+              [
+                "Silva et al.",
+                "2021",
+                "Detection"
+              ],
+              [
+                "Souza et al.",
+                "2022",
+                "Detection"
+              ],
+              [
+                "Lima et al.",
+                "2023",
+                "Classification"
+              ]
+            ]
+          },
+          "right": {
+            "kind": "table",
+            "variant": "gap",
+            "head": [
+              "Work",
+              "Balancing",
+              "Binary data",
+              "Gap"
+            ],
+            "rows": [
+              [
+                "Silva et al.",
+                "Not evaluated",
+                "No",
+                "no balancing"
+              ],
+              [
+                "Souza et al.",
+                "SMOTE only",
+                "No",
+                "single technique"
+              ],
+              [
+                "Lima et al.",
+                "SMOTE, ADASYN",
+                "No",
+                "no binary data"
+              ],
+              [
+                "This work",
+                "Six techniques",
+                "Yes",
+                ""
+              ]
+            ]
+          }
         },
         {
           "id": "logomarca-pequena",
           "title": "Tiny logos on the first slide",
           "why": "The first slide stays up while you are being introduced, which is exactly when the institutions could be recognized. With tiny logos, nobody recognizes anything.",
           "fix": "Make the logos on the opening slide considerably larger.",
-          "wrong": {"kind": "title-logos", "variant": "tiny-logos", "title": "Title of the work", "authors": "Authors, institution"},
-          "right": {"kind": "title-logos", "variant": "big-logos", "title": "Title of the work", "authors": "Authors, institution"}
+          "wrong": {
+            "kind": "title-logos",
+            "variant": "tiny-logos",
+            "title": "Title of the work",
+            "authors": "Authors, institution"
+          },
+          "right": {
+            "kind": "title-logos",
+            "variant": "big-logos",
+            "title": "Title of the work",
+            "authors": "Authors, institution"
+          }
         }
       ]
     },
@@ -524,7 +871,8 @@
         "pdf": "PDF",
         "pptx": "PPTX",
         "latex": "LaTeX",
-        "external": "Online"
+        "external": "Online",
+        "md": "Markdown"
       }
     },
     "templates": {
@@ -537,12 +885,32 @@
       ],
       "items": [
         {
+          "name": "Slides4All skill for language models",
+          "text": "The whole guide of this site in a single Markdown file, written for advanced language models: input interview, deck plan, headline-style writing, generation in PPTX, LaTeX Beamer or HTML, automatic auditing of the generated file, and the full checklist. Save it as a skill in Claude Code, or paste it as an instruction into any assistant.",
+          "files": [
+            {
+              "type": "md",
+              "url": "assets/skill/skill_slides4all.md"
+            }
+          ]
+        },
+        {
           "name": "SBSeg 2024 template",
           "text": "The official slide template of the event, with a cover, content slides and a closing slide. It works for any technical talk, not only for SBSeg.",
           "files": [
-            {"type": "pdf", "url": "assets/slides/template-sbseg2024.pdf"},
-            {"type": "pptx", "url": "assets/slides/template-sbseg2024.pptx"},
-            {"type": "external", "label": "Google Drive", "url": "https://docs.google.com/presentation/d/1PvzQ3sBsGwQsKkTCbjP-egoiiKLnauqWFz26WDW6ykE/edit?usp=sharing"}
+            {
+              "type": "pdf",
+              "url": "assets/slides/template-sbseg2024.pdf"
+            },
+            {
+              "type": "pptx",
+              "url": "assets/slides/template-sbseg2024.pptx"
+            },
+            {
+              "type": "external",
+              "label": "Google Drive",
+              "url": "https://docs.google.com/presentation/d/1PvzQ3sBsGwQsKkTCbjP-egoiiKLnauqWFz26WDW6ykE/edit?usp=sharing"
+            }
           ],
           "thumb": "assets/thumbs/template-sbseg2024.png"
         },
@@ -550,14 +918,22 @@
           "name": "IFSCyan LaTeX template",
           "text": "A LaTeX presentation template by Émerson Mello, in the colored variant.",
           "files": [
-            {"type": "external", "label": "GitHub", "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifscyan"}
+            {
+              "type": "external",
+              "label": "GitHub",
+              "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifscyan"
+            }
           ]
         },
         {
           "name": "IFSClean LaTeX template",
           "text": "A LaTeX presentation template by Émerson Mello, in the clean variant, on a white background.",
           "files": [
-            {"type": "external", "label": "GitHub", "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifsclean"}
+            {
+              "type": "external",
+              "label": "GitHub",
+              "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifsclean"
+            }
           ]
         }
       ]
@@ -568,6 +944,17 @@
         {
           "type": "lead",
           "text": "This site grew out of the presentation guidance page of SBSeg 2024, and out of the review notes written since then."
+        },
+        {
+          "type": "links",
+          "heading": "Published and maintained by",
+          "text": "This site is published and maintained by AI Horizon Labs.",
+          "items": [
+            {
+              "label": "AI Horizon Labs",
+              "url": "https://ai-horizon-labs.github.io/"
+            }
+          ]
         },
         {
           "type": "people",
@@ -607,8 +994,14 @@
           "type": "links",
           "heading": "Origin",
           "items": [
-            {"label": "Presentation guidance, SBSeg 2024", "url": "https://sbseg2024.ita.br/autores/sugestoes-para-apresentacoes/"},
-            {"label": "SBSeg 2024 gallery of examples", "url": "https://sbseg24.github.io/slides/"}
+            {
+              "label": "Presentation guidance, SBSeg 2024",
+              "url": "https://sbseg2024.ita.br/autores/sugestoes-para-apresentacoes/"
+            },
+            {
+              "label": "SBSeg 2024 gallery of examples",
+              "url": "https://sbseg24.github.io/slides/"
+            }
           ]
         },
         {
@@ -624,6 +1017,8 @@
   },
   "footer": {
     "origin": "Free to use, derived from the presentation guidance of SBSeg 2024.",
-    "creditsLink": "Credits and authors"
+    "creditsLink": "Credits and authors",
+    "maintainer": "A project by AI Horizon Labs",
+    "maintainerUrl": "https://ai-horizon-labs.github.io/"
   }
 }

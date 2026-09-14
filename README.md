@@ -16,6 +16,7 @@ content/gallery.json                catálogo de exemplos, comum aos três idiom
 content/checklist.json              itens do checklist, nos três idiomas
 build.py                            gera pt/, en/, es/ e index.html
 assets/                             css, js, decks e miniaturas
+assets/skill/skill_slides4all.md    skill de construção de apresentações para LLMs
 tools/                              importadores e verificador
 ```
 
@@ -42,8 +43,16 @@ As pastas `pt/`, `en/`, `es/` e o `index.html` da raiz são gerados e versionado
 
 Esses três só precisam ser executados quando novos exemplos entram na galeria. Requerem `pdftoppm` e `pdfinfo`, do poppler.
 
+## Skill para modelos de linguagem
+
+`assets/skill/skill_slides4all.md` destila todo o conteúdo do site em um único arquivo Markdown, escrito para modelos de linguagem avançados conduzirem a construção da apresentação de ponta a ponta: entrevista de insumos, plano do deck em YAML, redação em formato de manchete, geração em PPTX, LaTeX Beamer ou HTML, auditoria automática do arquivo gerado e o checklist completo. Está publicado na página de templates e pode ser salvo como skill do Claude Code em `~/.claude/skills/slides4all/SKILL.md`, ou colado como instrução em qualquer assistente.
+
+Os dois trechos de código publicados na skill, o de geração com `python-pptx` e o de auditoria do `.pptx`, foram executados contra decks reais da galeria antes da publicação.
+
 ## Conteúdo
 
 Todo o conteúdo é de livre uso. Copie, adapte, traduza e reaproveite.
 
 Os exemplos da galeria são publicados com autorização e com crédito nominal aos autores. Para remover um exemplo ou corrigir uma atribuição, abra uma issue.
+
+Site publicado e mantido pelo [AI Horizon Labs](https://ai-horizon-labs.github.io/).

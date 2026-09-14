@@ -215,6 +215,8 @@ def render_links(b, ctx):
     saida = ['<section class="block">']
     if b.get("heading"):
         saida.append("<h2>%s</h2>" % e(b["heading"]))
+    if b.get("text"):
+        saida.append('<p class="intro">%s</p>' % e(b["text"]))
     saida.append('<ul class="links">')
     for it in b["items"]:
         saida.append('<li><a href="%s" rel="noopener">%s</a></li>'
@@ -583,6 +585,7 @@ def montar_pagina(idioma, chave, texto, corpo, scripts):
   <div class="wrap">
     <p>%(origin)s</p>
     <p><a href="%(credits)s">%(creditslink)s</a></p>
+    <p class="footer-maintainer"><a href="%(maintainerurl)s" rel="noopener">%(maintainer)s</a></p>
   </div>
 </footer>
 %(js)s
@@ -608,6 +611,8 @@ def montar_pagina(idioma, chave, texto, corpo, scripts):
         "origin": e(texto["footer"]["origin"]),
         "credits": url_relativa(chave, idioma, "credits"),
         "creditslink": e(texto["footer"]["creditsLink"]),
+        "maintainer": e(texto["footer"]["maintainer"]),
+        "maintainerurl": e(texto["footer"]["maintainerUrl"]),
         "js": js,
     }
 

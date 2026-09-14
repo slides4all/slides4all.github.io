@@ -176,9 +176,18 @@
           "type": "links",
           "heading": "Lecturas sobre color y contraste",
           "items": [
-            {"label": "Choosing colors for your presentation slides", "url": "https://www.thinkoutsidetheslide.com/choosing-colors-for-your-presentation-slides/"},
-            {"label": "Psychology of color in PowerPoint presentations", "url": "https://presentationteam.com/psychology-of-color-in-powerpoint-presentations/"},
-            {"label": "How to choose a color scheme", "url": "https://visme.co/blog/how-to-choose-a-color-scheme/"}
+            {
+              "label": "Choosing colors for your presentation slides",
+              "url": "https://www.thinkoutsidetheslide.com/choosing-colors-for-your-presentation-slides/"
+            },
+            {
+              "label": "Psychology of color in PowerPoint presentations",
+              "url": "https://presentationteam.com/psychology-of-color-in-powerpoint-presentations/"
+            },
+            {
+              "label": "How to choose a color scheme",
+              "url": "https://visme.co/blog/how-to-choose-a-color-scheme/"
+            }
           ]
         },
         {
@@ -331,96 +340,434 @@
           "title": "Letra pequeña en el contenido",
           "why": "Es, con diferencia, el problema más frecuente. En una sala grande, quien está al fondo simplemente no lee. La prueba del móvil a 50 cm lo detecta en segundos.",
           "fix": "Sube a 24pt o más. Si no cabe, recorta puntos, nunca la letra.",
-          "wrong": {"kind": "bullets", "variant": "small-type", "title": "Evaluación experimental", "items": ["El experimento se realizó en cuatro escenarios distintos, con 167 ejecuciones en total, variando el número de nodos y la tasa de llegada", "Se compararon tres configuraciones de referencia descritas en la literatura reciente sobre el tema", "Los resultados indican una ganancia consistente en todos los escenarios evaluados, con especial énfasis en el escenario C", "Las limitaciones observadas se discuten en la sección siguiente"]},
-          "right": {"kind": "bullets", "variant": "big-type", "title": "Evaluación experimental", "items": ["167 ejecuciones, 4 escenarios", "Ganancia consistente en todos", "Escenario C: mayor efecto"]}
+          "wrong": {
+            "kind": "bullets",
+            "variant": "small-type",
+            "title": "Evaluación experimental",
+            "items": [
+              "El experimento se realizó en cuatro escenarios distintos, con 167 ejecuciones en total, variando el número de nodos y la tasa de llegada",
+              "Se compararon tres configuraciones de referencia descritas en la literatura reciente sobre el tema",
+              "Los resultados indican una ganancia consistente en todos los escenarios evaluados, con especial énfasis en el escenario C",
+              "Las limitaciones observadas se discuten en la sección siguiente"
+            ]
+          },
+          "right": {
+            "kind": "bullets",
+            "variant": "big-type",
+            "title": "Evaluación experimental",
+            "items": [
+              "167 ejecuciones, 4 escenarios",
+              "Ganancia consistente en todos",
+              "Escenario C: mayor efecto"
+            ]
+          }
         },
         {
           "id": "fundo-cinza",
           "title": "Fondo gris o de color",
           "why": "El fondo de color reduce el contraste y cansa la vista. Cuando su color se parece al del texto, el daño es grande, y los proyectores varían mucho más que tu pantalla.",
           "fix": "Fondo blanco, texto negro. Guarda el color para destacar un dato.",
-          "wrong": {"kind": "bullets", "variant": "gray-bg", "title": "Solución propuesta", "items": ["Pipeline en cuatro etapas", "Validación automática de reglas", "Contención en tiempo de ejecución"]},
-          "right": {"kind": "bullets", "variant": "big-type", "title": "Solución propuesta", "items": ["Pipeline en cuatro etapas", "Validación automática de reglas", "Contención en tiempo de ejecución"]}
+          "wrong": {
+            "kind": "bullets",
+            "variant": "gray-bg",
+            "title": "Solución propuesta",
+            "items": [
+              "Pipeline en cuatro etapas",
+              "Validación automática de reglas",
+              "Contención en tiempo de ejecución"
+            ]
+          },
+          "right": {
+            "kind": "bullets",
+            "variant": "big-type",
+            "title": "Solución propuesta",
+            "items": [
+              "Pipeline en cuatro etapas",
+              "Validación automática de reglas",
+              "Contención en tiempo de ejecución"
+            ]
+          }
         },
         {
           "id": "texto-ao-lado-do-grafico",
           "title": "Bloque de texto al lado del gráfico",
           "why": "El público intenta leer el texto y mirar el gráfico a la vez, y no hace ninguna de las dos cosas. Encima, el gráfico queda apretado.",
           "fix": "Un gráfico grande y solo en la diapositiva. El texto pasa a tu voz, o a una diapositiva propia.",
-          "wrong": {"kind": "chart-text", "variant": "cramped", "title": "Resultados", "items": ["La curva azul representa la configuración base", "La curva naranja representa la configuración propuesta", "La ganancia media observada fue del 30% en todo el rango", "El comportamiento se mantiene estable a partir del punto medio"]},
-          "right": {"kind": "chart-only", "variant": "big-type", "title": "La propuesta supera a la base en todo el rango"}
+          "wrong": {
+            "kind": "chart-text",
+            "variant": "cramped",
+            "title": "Resultados",
+            "items": [
+              "La curva azul representa la configuración base",
+              "La curva naranja representa la configuración propuesta",
+              "La ganancia media observada fue del 30% en todo el rango",
+              "El comportamiento se mantiene estable a partir del punto medio"
+            ]
+          },
+          "right": {
+            "kind": "chart-only",
+            "variant": "big-type",
+            "title": "La propuesta supera a la base en todo el rango"
+          }
         },
         {
           "id": "figura-pequena",
           "title": "Figura pequeña con espacio de sobra",
           "why": "El espacio en blanco sobrante casi siempre significa que la figura podría ser más grande. El espacio de la diapositiva es valioso y se está desperdiciando.",
           "fix": "Amplía la figura hasta el borde. Si es compleja, deja que ocupe el 100%, por encima del título y del pie.",
-          "wrong": {"kind": "figure", "variant": "tiny-figure", "title": "Arquitectura del sistema"},
-          "right": {"kind": "figure", "variant": "full-figure", "title": ""}
+          "wrong": {
+            "kind": "figure",
+            "variant": "tiny-figure",
+            "title": "Arquitectura del sistema"
+          },
+          "right": {
+            "kind": "figure",
+            "variant": "full-figure",
+            "title": ""
+          }
         },
         {
           "id": "figura-complexa",
           "title": "Figura compleja en una sola diapositiva",
           "why": "Mientras explicas la etapa 1, media sala ya está intentando descifrar la etapa 4. Pierdes la atención justo en la parte más importante.",
           "fix": "Divídela en varias diapositivas, una etapa cada vez, añadiendo contenido en cada una.",
-          "wrong": {"kind": "steps", "variant": "all-at-once", "title": "Pipeline", "steps": ["Recolección", "Extracción", "Validación", "Contención"]},
-          "right": {"kind": "steps", "variant": "progressive", "title": "Pipeline, etapa 2 de 4", "steps": ["Recolección", "Extracción", "Validación", "Contención"], "active": 2}
+          "wrong": {
+            "kind": "steps",
+            "variant": "all-at-once",
+            "title": "Pipeline",
+            "steps": [
+              "Recolección",
+              "Extracción",
+              "Validación",
+              "Contención"
+            ]
+          },
+          "right": {
+            "kind": "steps",
+            "variant": "progressive",
+            "title": "Pipeline, etapa 2 de 4",
+            "steps": [
+              "Recolección",
+              "Extracción",
+              "Validación",
+              "Contención"
+            ],
+            "active": 2
+          }
         },
         {
           "id": "numeros-decorativos",
           "title": "Números decorativos en los cuadros",
           "why": "El número grande ocupa el mejor espacio del cuadro y no dice nada. Quien lee ya ve que son tres aportaciones.",
           "fix": "Quita el número y usa el espacio para la palabra clave de cada aportación, en letra más grande.",
-          "wrong": {"kind": "boxes", "variant": "numbered", "title": "Aportaciones", "boxes": [{"n": "01", "text": "Pipeline reproducible de recolección y extracción de datos"}, {"n": "02", "text": "Validación automática de las reglas generadas"}, {"n": "03", "text": "Evaluación en cuatro escenarios distintos"}]},
-          "right": {"kind": "boxes", "variant": "keyword", "title": "Aportaciones", "boxes": [{"key": "Pipeline", "text": "recolección y extracción reproducibles"}, {"key": "Validación", "text": "automática de las reglas generadas"}, {"key": "Evaluación", "text": "cuatro escenarios distintos"}]}
+          "wrong": {
+            "kind": "boxes",
+            "variant": "numbered",
+            "title": "Aportaciones",
+            "boxes": [
+              {
+                "n": "01",
+                "text": "Pipeline reproducible de recolección y extracción de datos"
+              },
+              {
+                "n": "02",
+                "text": "Validación automática de las reglas generadas"
+              },
+              {
+                "n": "03",
+                "text": "Evaluación en cuatro escenarios distintos"
+              }
+            ]
+          },
+          "right": {
+            "kind": "boxes",
+            "variant": "keyword",
+            "title": "Aportaciones",
+            "boxes": [
+              {
+                "key": "Pipeline",
+                "text": "recolección y extracción reproducibles"
+              },
+              {
+                "key": "Validación",
+                "text": "automática de las reglas generadas"
+              },
+              {
+                "key": "Evaluación",
+                "text": "cuatro escenarios distintos"
+              }
+            ]
+          }
         },
         {
           "id": "texto-vazando",
           "title": "Texto que toca o se sale del borde",
           "why": "Se ve descuidado y, en el proyector, la última línea a veces desaparece del todo. Es el tipo de detalle que el público nota antes que el contenido.",
           "fix": "Deja aire dentro del cuadro y revisa todos los bordes, uno a uno.",
-          "wrong": {"kind": "box-text", "variant": "overflow", "text": "La regla se prueba con tráfico legítimo antes de entrar en producción, y el resultado de esa comprobación alimenta la siguiente iteración del agente"},
-          "right": {"kind": "box-text", "variant": "padded", "text": "La regla se prueba con tráfico legítimo antes de entrar en producción"}
+          "wrong": {
+            "kind": "box-text",
+            "variant": "overflow",
+            "text": "La regla se prueba con tráfico legítimo antes de entrar en producción, y el resultado de esa comprobación alimenta la siguiente iteración del agente"
+          },
+          "right": {
+            "kind": "box-text",
+            "variant": "padded",
+            "text": "La regla se prueba con tráfico legítimo antes de entrar en producción"
+          }
         },
         {
           "id": "idiomas-misturados",
           "title": "Dos idiomas mezclados",
           "why": "Cambiar de idioma a mitad de frase frena la lectura. Y suele ser accidental, lo que se lee como descuido.",
           "fix": "Elige un idioma y mantenlo de la primera diapositiva a la última, incluidas las etiquetas de gráficos y tablas.",
-          "wrong": {"kind": "bullets", "variant": "mixed-lang", "title": "Feature selection", "items": ["Feature con ALTA varianza", "Threshold definido empíricamente", "Accuracy media por ejecución"]},
-          "right": {"kind": "bullets", "variant": "big-type", "title": "Selección de características", "items": ["Característica con alta varianza", "Umbral definido empíricamente", "Exactitud media por ejecución"]}
+          "wrong": {
+            "kind": "bullets",
+            "variant": "mixed-lang",
+            "title": "Feature selection",
+            "items": [
+              "Feature con ALTA varianza",
+              "Threshold definido empíricamente",
+              "Accuracy media por ejecución"
+            ]
+          },
+          "right": {
+            "kind": "bullets",
+            "variant": "big-type",
+            "title": "Selección de características",
+            "items": [
+              "Característica con alta varianza",
+              "Umbral definido empíricamente",
+              "Exactitud media por ejecución"
+            ]
+          }
         },
         {
           "id": "abreviacao-inconsistente",
           "title": "Abreviación inconsistente",
           "why": "Si un término aparece abreviado y otro del mismo nivel no, el público busca un significado en la diferencia. No lo hay, y la atención se pierde por el camino.",
           "fix": "O se abrevia todo, o no se abrevia nada. Vale también para color, alineación y tamaño de elementos equivalentes.",
-          "wrong": {"kind": "table", "variant": "inconsistent", "head": ["CLASIF.", "Precisión", "Recall"], "rows": [["Random Forest", "0,91", "0,88"], ["SVM", "0,87", "0,81"], ["Árbol de decisión", "0,79", "0,74"]]},
-          "right": {"kind": "table", "variant": "consistent", "head": ["Clasificador", "Precisión", "Exhaustividad"], "rows": [["Random Forest", "0,91", "0,88"], ["Máquina de vectores de soporte", "0,87", "0,81"], ["Árbol de decisión", "0,79", "0,74"]]}
+          "wrong": {
+            "kind": "table",
+            "variant": "inconsistent",
+            "head": [
+              "CLASIF.",
+              "Precisión",
+              "Recall"
+            ],
+            "rows": [
+              [
+                "Random Forest",
+                "0,91",
+                "0,88"
+              ],
+              [
+                "SVM",
+                "0,87",
+                "0,81"
+              ],
+              [
+                "Árbol de decisión",
+                "0,79",
+                "0,74"
+              ]
+            ]
+          },
+          "right": {
+            "kind": "table",
+            "variant": "consistent",
+            "head": [
+              "Clasificador",
+              "Precisión",
+              "Exhaustividad"
+            ],
+            "rows": [
+              [
+                "Random Forest",
+                "0,91",
+                "0,88"
+              ],
+              [
+                "Máquina de vectores de soporte",
+                "0,87",
+                "0,81"
+              ],
+              [
+                "Árbol de decisión",
+                "0,79",
+                "0,74"
+              ]
+            ]
+          }
         },
         {
           "id": "tabela-fonte-pequena",
           "title": "Tabla copiada del artículo",
           "why": "La tabla del artículo se hizo para leerse a 30 cm, en papel y con calma. En la diapositiva se convierte en una mancha gris de números ilegibles.",
           "fix": "Rehazla para la diapositiva: menos columnas, menos filas, letra grande, solo lo que sostiene el argumento.",
-          "wrong": {"kind": "table", "variant": "dense", "head": ["Modelo", "P", "R", "F1", "AUC", "Tiempo (s)", "Memoria (MB)", "Épocas"], "rows": [["Base", "0,74", "0,71", "0,72", "0,80", "412", "1280", "50"], ["Variante A", "0,79", "0,77", "0,78", "0,84", "455", "1310", "50"], ["Variante B", "0,83", "0,80", "0,81", "0,87", "498", "1422", "75"], ["Propuesta", "0,91", "0,88", "0,89", "0,94", "521", "1450", "75"]]},
-          "right": {"kind": "table", "variant": "consistent", "head": ["Modelo", "F1"], "rows": [["Base", "0,72"], ["Mejor variante", "0,81"], ["Propuesta", "0,89"]]}
+          "wrong": {
+            "kind": "table",
+            "variant": "dense",
+            "head": [
+              "Modelo",
+              "P",
+              "R",
+              "F1",
+              "AUC",
+              "Tiempo (s)",
+              "Memoria (MB)",
+              "Épocas"
+            ],
+            "rows": [
+              [
+                "Base",
+                "0,74",
+                "0,71",
+                "0,72",
+                "0,80",
+                "412",
+                "1280",
+                "50"
+              ],
+              [
+                "Variante A",
+                "0,79",
+                "0,77",
+                "0,78",
+                "0,84",
+                "455",
+                "1310",
+                "50"
+              ],
+              [
+                "Variante B",
+                "0,83",
+                "0,80",
+                "0,81",
+                "0,87",
+                "498",
+                "1422",
+                "75"
+              ],
+              [
+                "Propuesta",
+                "0,91",
+                "0,88",
+                "0,89",
+                "0,94",
+                "521",
+                "1450",
+                "75"
+              ]
+            ]
+          },
+          "right": {
+            "kind": "table",
+            "variant": "consistent",
+            "head": [
+              "Modelo",
+              "F1"
+            ],
+            "rows": [
+              [
+                "Base",
+                "0,72"
+              ],
+              [
+                "Mejor variante",
+                "0,81"
+              ],
+              [
+                "Propuesta",
+                "0,89"
+              ]
+            ]
+          }
         },
         {
           "id": "trabalhos-relacionados",
           "title": "Trabajos relacionados que solo enumeran",
           "why": "Una lista de trabajos no le dice nada al público. Lo que necesita ver es la brecha que tu trabajo llena.",
           "fix": "Elige las columnas desde tu propio foco y haz visible la brecha. Si la tabla va al principio, titúlala lo que ya existe y lo que falta.",
-          "wrong": {"kind": "table", "variant": "inconsistent", "head": ["Trabajo", "Año", "Área"], "rows": [["Silva et al.", "2021", "Detección"], ["Souza et al.", "2022", "Detección"], ["Lima et al.", "2023", "Clasificación"]]},
-          "right": {"kind": "table", "variant": "gap", "head": ["Trabajo", "Balanceo", "Datos binarios", "Brecha"], "rows": [["Silva et al.", "No evalúa", "No", "sin balanceo"], ["Souza et al.", "Solo SMOTE", "No", "una sola técnica"], ["Lima et al.", "SMOTE, ADASYN", "No", "no cubre binarios"], ["Este trabajo", "Seis técnicas", "Sí", ""]]}
+          "wrong": {
+            "kind": "table",
+            "variant": "inconsistent",
+            "head": [
+              "Trabajo",
+              "Año",
+              "Área"
+            ],
+            "rows": [
+              [
+                "Silva et al.",
+                "2021",
+                "Detección"
+              ],
+              [
+                "Souza et al.",
+                "2022",
+                "Detección"
+              ],
+              [
+                "Lima et al.",
+                "2023",
+                "Clasificación"
+              ]
+            ]
+          },
+          "right": {
+            "kind": "table",
+            "variant": "gap",
+            "head": [
+              "Trabajo",
+              "Balanceo",
+              "Datos binarios",
+              "Brecha"
+            ],
+            "rows": [
+              [
+                "Silva et al.",
+                "No evalúa",
+                "No",
+                "sin balanceo"
+              ],
+              [
+                "Souza et al.",
+                "Solo SMOTE",
+                "No",
+                "una sola técnica"
+              ],
+              [
+                "Lima et al.",
+                "SMOTE, ADASYN",
+                "No",
+                "no cubre binarios"
+              ],
+              [
+                "Este trabajo",
+                "Seis técnicas",
+                "Sí",
+                ""
+              ]
+            ]
+          }
         },
         {
           "id": "logomarca-pequena",
           "title": "Logotipos diminutos en la primera diapositiva",
           "why": "La primera diapositiva está en pantalla mientras te presentan, que es justo cuando las instituciones podrían reconocerse. Con el logotipo pequeño, nadie identifica nada.",
           "fix": "Agranda bastante los logotipos de la diapositiva de apertura.",
-          "wrong": {"kind": "title-logos", "variant": "tiny-logos", "title": "Título del trabajo", "authors": "Autores, institución"},
-          "right": {"kind": "title-logos", "variant": "big-logos", "title": "Título del trabajo", "authors": "Autores, institución"}
+          "wrong": {
+            "kind": "title-logos",
+            "variant": "tiny-logos",
+            "title": "Título del trabajo",
+            "authors": "Autores, institución"
+          },
+          "right": {
+            "kind": "title-logos",
+            "variant": "big-logos",
+            "title": "Título del trabajo",
+            "authors": "Autores, institución"
+          }
         }
       ]
     },
@@ -524,7 +871,8 @@
         "pdf": "PDF",
         "pptx": "PPTX",
         "latex": "LaTeX",
-        "external": "Online"
+        "external": "Online",
+        "md": "Markdown"
       }
     },
     "templates": {
@@ -537,12 +885,32 @@
       ],
       "items": [
         {
+          "name": "Skill Slides4All para modelos de lenguaje",
+          "text": "Toda la guía de este sitio en un único archivo Markdown, escrito para modelos de lenguaje avanzados: entrevista de insumos, plan de la presentación, redacción en formato de titular, generación en PPTX, LaTeX Beamer o HTML, auditoría automática del archivo generado y el checklist completo. Guárdalo como skill en Claude Code, o pégalo como instrucción en cualquier asistente.",
+          "files": [
+            {
+              "type": "md",
+              "url": "assets/skill/skill_slides4all.md"
+            }
+          ]
+        },
+        {
           "name": "Plantilla del SBSeg 2024",
           "text": "Plantilla oficial de diapositivas del evento, con portada, diapositivas de contenido y cierre. Sirve para cualquier presentación técnica, no solo para el SBSeg.",
           "files": [
-            {"type": "pdf", "url": "assets/slides/template-sbseg2024.pdf"},
-            {"type": "pptx", "url": "assets/slides/template-sbseg2024.pptx"},
-            {"type": "external", "label": "Google Drive", "url": "https://docs.google.com/presentation/d/1PvzQ3sBsGwQsKkTCbjP-egoiiKLnauqWFz26WDW6ykE/edit?usp=sharing"}
+            {
+              "type": "pdf",
+              "url": "assets/slides/template-sbseg2024.pdf"
+            },
+            {
+              "type": "pptx",
+              "url": "assets/slides/template-sbseg2024.pptx"
+            },
+            {
+              "type": "external",
+              "label": "Google Drive",
+              "url": "https://docs.google.com/presentation/d/1PvzQ3sBsGwQsKkTCbjP-egoiiKLnauqWFz26WDW6ykE/edit?usp=sharing"
+            }
           ],
           "thumb": "assets/thumbs/template-sbseg2024.png"
         },
@@ -550,14 +918,22 @@
           "name": "Plantilla LaTeX IFSCyan",
           "text": "Plantilla de presentación en LaTeX, de Émerson Mello, en la variante con color.",
           "files": [
-            {"type": "external", "label": "GitHub", "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifscyan"}
+            {
+              "type": "external",
+              "label": "GitHub",
+              "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifscyan"
+            }
           ]
         },
         {
           "name": "Plantilla LaTeX IFSClean",
           "text": "Plantilla de presentación en LaTeX, de Émerson Mello, en la variante limpia, con fondo blanco.",
           "files": [
-            {"type": "external", "label": "GitHub", "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifsclean"}
+            {
+              "type": "external",
+              "label": "GitHub",
+              "url": "https://github.com/emersonmello/modelos-latex/tree/master/apresentacao/ifsclean"
+            }
           ]
         }
       ]
@@ -568,6 +944,17 @@
         {
           "type": "lead",
           "text": "Este sitio nació de la página de sugerencias para presentaciones del SBSeg 2024 y creció con las notas de revisión escritas desde entonces."
+        },
+        {
+          "type": "links",
+          "heading": "Publicación y mantenimiento",
+          "text": "Este sitio es publicado y mantenido por AI Horizon Labs.",
+          "items": [
+            {
+              "label": "AI Horizon Labs",
+              "url": "https://ai-horizon-labs.github.io/"
+            }
+          ]
         },
         {
           "type": "people",
@@ -607,8 +994,14 @@
           "type": "links",
           "heading": "Origen",
           "items": [
-            {"label": "Sugerencias para presentaciones, SBSeg 2024", "url": "https://sbseg2024.ita.br/autores/sugestoes-para-apresentacoes/"},
-            {"label": "Galería de ejemplos del SBSeg 2024", "url": "https://sbseg24.github.io/slides/"}
+            {
+              "label": "Sugerencias para presentaciones, SBSeg 2024",
+              "url": "https://sbseg2024.ita.br/autores/sugestoes-para-apresentacoes/"
+            },
+            {
+              "label": "Galería de ejemplos del SBSeg 2024",
+              "url": "https://sbseg24.github.io/slides/"
+            }
           ]
         },
         {
@@ -624,6 +1017,8 @@
   },
   "footer": {
     "origin": "Material de libre uso, derivado de las sugerencias para presentaciones del SBSeg 2024.",
-    "creditsLink": "Créditos y autores"
+    "creditsLink": "Créditos y autores",
+    "maintainer": "Un proyecto de AI Horizon Labs",
+    "maintainerUrl": "https://ai-horizon-labs.github.io/"
   }
 }
